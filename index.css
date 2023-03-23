@@ -1,6 +1,9 @@
 body{
     margin:0px;
 }
+a{
+    text-decoration: none;
+}
 .header-id{
     font-family: 'Inter', sans-serif !important;
     font-weight: 400;
@@ -127,7 +130,7 @@ ul.HeaderNav {
 }
 li {
     display: list-item;
-    text-align: -webkit-match-parent;
+    
 }
 ul.HeaderNav li > a {
     display: block;
@@ -319,8 +322,40 @@ input{
     color: rgba(3, 2, 26, 0.6);
 }
 .main-div{
-    height: 1200px;
+    height: 1500px;
     padding:0px;
+}
+.main-div h2{
+    margin-left: 2%;
+}
+.first-mainDiv{
+    width:100%;
+    /* height:350px; */
+    margin-left: 2%;
+    display: flex;
+}
+.first-mainDiv-cards{
+    width:40%;
+}
+.first-mainDiv-cards img{
+    border-radius: 7px;
+}
+.last-card{
+    width: 5%;
+}
+.sec-mainDiv{
+    display: flex;
+    width:100%;
+    height:300px;
+    margin-left: 2%;
+}
+.sec-mainDiv-cards{
+    width:47%;
+    margin-right: 2%;
+}
+.sec-mainDiv-cards img{
+    width:100%;
+    height:300px;
 }
 .main-div-in2{
     display: block;
@@ -353,9 +388,10 @@ input{
     width:30%;
     margin-left: 2%;
     margin-top: 2%;
-    border: 2px solid black;
-    border-radius: 5px;
     float: left;
+}
+.cardContainer img{
+    border-radius: 5px;
 }
 .cardLink > img{
     height:200px;
@@ -387,7 +423,7 @@ input{
     position: absolute;
     right: 8px;
     border: 0;
-    cursor: pointer;
+    /* cursor: pointer; */
     z-index: 2;
 }
 .second-content{
@@ -443,7 +479,6 @@ input{
     line-height: 20px;
     padding: 0px 30px;
     text-align: center;
-    border: 2px solid white;
     float: left;
     margin-left: 7%;
 }
@@ -453,7 +488,6 @@ input{
     line-height: 20px;
     letter-spacing: -0.1px;
     margin-top: 10%;
-    border: 2px solid white;
 }
 .mob-icon{
     float: left;
@@ -499,19 +533,44 @@ input{
     display: block;
 }
 .footer2{
-    height:250px;
     background-color: #8c8d94;
     color: #fff;
-    /* padding: 45px 0px 30px 0px;
+    padding: 45px 0px 30px 0px;
     width: 100%;
-    display: -webkit-box;
+    /* display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;
+    display: -ms-flexbox; */
     display: flex;
-    -webkit-box-pack: center;
+    /* -webkit-box-pack: center;
     -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center; */
+    -ms-flex-pack: center; */
+    justify-content: center;
+}
+.inner-footer2{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+}
+.content-Div{
+    padding: 10px;
+    width: 20%;
+}
+.listHead{
+    margin-left: 15%;
+}
+.content-Div svg{
+    margin-bottom: 20px;
+    height: 37px;
+    width:72px;
+    margin-left: 15%;
+}
+.footer2-innerList{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0;
+    margin-bottom: 11px;
 }
 .footer3{
     width: 100%;
@@ -533,39 +592,78 @@ input{
     margin-right: auto;
 }
 .footer3-left{
-    background-color: #f3f3f3;
+    width:100%;
+    background-color: #fff;
     color: #3f3f51;
     margin-top: 9px;
+    margin-bottom: 9px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
-    -webkit-letter-spacing: 0;
-    -moz-letter-spacing: 0;
-    -ms-letter-spacing: 0;
-    letter-spacing: 0;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
 }
-.left1{
+.left-icon{
     display: flex;
-    line-height: 20px;
-    padding: 0 25px;
-    flex:1;
+    justify-content: space-between;
 }
-.left1 img{
+.leftContent{
+    margin-left: 3%;
+}
+.head{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    text-transform: uppercase;
+    margin: 0 15px 10px 15px;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.subHead{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0;
+    padding: 0 15px;
+}
+
+.left-icon img{
     max-width: 100%;
-    width: auto\9;
     height: auto;
     vertical-align: middle;
     border: 0;
+}
+.footer3-right{
+    background-color: #fff;
+    padding: 20px 0 0 10px;
+    margin-top: 9px;
+}
+.socialPara-Div{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: lowercase;
+}
+.list{
+    margin: 6px 0 0;
+    list-style: none;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.innerlist{
+    float: left;
+    margin: 0;
 }
 .footer4{
     height:100px;
