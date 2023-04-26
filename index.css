@@ -1,6 +1,25 @@
 body{
     margin:0px;
 }
+.docBody{
+    background-color: black;
+    color: white;
+}
+.darkMode{
+    font-size:20px;
+}
+#coupon{
+    background-image:url(https://images-static.nykaa.com/uploads/02b933cf-895a-495e-b88f-aacf47b34c03.jpg?tr=w-600,cm-pad_resize);
+    /* background-color: pink; */
+    height:300px;
+    width:600px;
+    z-index:20;
+    position:absolute;
+    margin-top: 1%;
+    margin-left: 60%;
+    border:2px solid red;
+    visibility: hidden;
+}
 a{
     text-decoration: none;
 }
@@ -138,7 +157,8 @@ ul.HeaderNav li > a {
     font-weight: 600;
     /* letter-spacing: 0.1px; */
     text-transform: capitalize;
-    color: #03021a;
+    /* color: #03021a; */
+    color: black;
     margin: 0 auto;
 }
 .arrBox_h {
@@ -153,7 +173,7 @@ ul.HeaderNav li > a {
 .search-icon{
     line-height: 62px;
     /* width: 25%; */
-    height: 40px;
+    height: 30px;
     display: inline-block;
 }
 .css-17yggf0 {
