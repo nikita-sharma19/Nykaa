@@ -7,7 +7,7 @@ function changeMode(){
 }
 function loadCoupon(){
     document.getElementById('coupon').style.visibility='visible';
-    document.getElementByclassName('main-div').style.opacity='0.2';
+    document.getElementByclassName('main-div').style.opacity='0.8';
 }
 function closeCoupon(){
     document.getElementById('coupon').style.visibility='hidden';

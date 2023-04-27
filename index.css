@@ -11,8 +11,8 @@ body{
 #coupon{
     background-image:url(https://images-static.nykaa.com/uploads/02b933cf-895a-495e-b88f-aacf47b34c03.jpg?tr=w-600,cm-pad_resize);
     /* background-color: pink; */
-    height:200px;
-    width:400px;
+    height:250px;
+    width:450px;
     z-index:20;
     position:absolute;
     margin-top: 1%;
