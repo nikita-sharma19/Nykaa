@@ -11,12 +11,12 @@ body{
 #coupon{
     background-image:url(https://images-static.nykaa.com/uploads/02b933cf-895a-495e-b88f-aacf47b34c03.jpg?tr=w-600,cm-pad_resize);
     /* background-color: pink; */
-    height:300px;
-    width:600px;
+    height:200px;
+    width:400px;
     z-index:20;
     position:absolute;
     margin-top: 1%;
-    margin-left: 60%;
+    margin-left: 50%;
     border:2px solid red;
     visibility: hidden;
 }
