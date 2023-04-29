@@ -8,6 +8,10 @@ body{
 .darkMode{
     font-size:20px;
 }
+.coupon_btn{
+    background-color: red;
+    color:white;
+}
 #coupon{
     background-image:url(https://images-static.nykaa.com/uploads/02b933cf-895a-495e-b88f-aacf47b34c03.jpg?tr=w-600,cm-pad_resize);
     /* background-color: pink; */
