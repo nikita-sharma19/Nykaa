@@ -1,6 +1,15 @@
 body{
     margin:0px;
 }
+#out{
+    width:10%;
+    height:auto;
+    color:black;
+    font-size: 12px;
+}
+#out h1{
+    color:#3f3f51;
+}
 .docBody{
     background-color: black;
     color: white;
@@ -10,6 +19,10 @@ body{
 }
 .coupon_btn{
     background-color: red;
+    color:white;
+}
+.closeWeather_btn{
+    background-color: #3f414d;
     color:white;
 }
 #coupon{
@@ -24,6 +37,20 @@ body{
     border:2px solid red;
     visibility: hidden;
 }
+/* #checkWeather{
+    background-color:skyblue;
+    color:black;
+    font-size: 15px;
+    width:30%;
+    height:250px;
+    margin-left: 1%;
+    margin-top: 2%;
+    border:1px solid white;
+    visibility: hidden;
+    z-index:20;
+    position:absolute;
+} */
+
 a{
     text-decoration: none;
 }
