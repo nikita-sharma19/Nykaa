@@ -343,34 +343,32 @@ input{
    
 }
 .nav>ul{
-    /* display: flex;
-    justify-content: space-between; */
-    margin-block-start: 1em;
+    display: flex;
+    /* justify-content: space-between; */
+    /* margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    padding-inline-start: 40px; */
     
 }
 .nav>ul>li{
     font-size: 17px;
     font-weight: 500;
     float: left;
-    letter-spacing: -0.1px;
-    color: rgba(3, 2, 26, 0.6);
-    text-transform: capitalize;
-    /* display: inline-block;
-    vertical-align: middle; */
+    color: black;
     border-bottom: 3px solid transparent;
-    text-transform: capitalize;
+    
 }
 .nav ul li a{
     display: block;
-    padding: 0 5px;
-    position: relative;
-    z-index: 10003;
+    padding: 0 7px;
+    font-size: 17px;
+    font-weight: bold;
+    /* position: relative;
+    z-index: 10003; */
     border-bottom: 3px solid transparent;
-    color: rgba(3, 2, 26, 0.6);
+    color: black;
 }
 .main-div{
     height: 1500px;

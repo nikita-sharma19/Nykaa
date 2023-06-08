@@ -1,0 +1,47 @@
+[{
+    "category_id": 1,
+    "category_name": "Nykaa Faishon",
+    "faishontype_id":7,
+    "faishontype_name":"men_Footwear",
+    "men_id": 2,
+    "men_footwears": [
+      {
+        
+        "product_name":"Casuals",
+        "Footwear_img": "https://ibb.co/YXM6NYH",
+        "average_rating": 4.2,
+        "rating_text": "Very Good",
+        "cost": 400
+      },
+      {
+       
+        "product_name":"Casuals",
+        "Footwear_img": "https://ibb.co/KwbwNwP",
+        "average_rating": 4.2,
+        "rating_text": "Very Good",
+        "cost": 440
+      },
+      {
+        
+      "product_name":"Formals",
+      "Footwear_img": "https://ibb.co/6tPR1cB",
+      "rating_text": "Very Good",
+      "cost": 700
+      },
+      {
+       
+      "product_name":"Formals",
+      "Footwear_img": "https://ibb.co/Pxjvmm0",
+      "rating_text": "Very Good",
+      "cost": 750
+      },
+      {
+        
+      "product_name":"Formals",
+      "Footwear_img": "https://ibb.co/GxM1F1y",
+      "rating_text": "Very Good",
+      "cost": 800
+      }
+    ]
+  }
+]

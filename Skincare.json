@@ -1,0 +1,88 @@
+[
+    {
+            "category_id": 3,
+            "category_name": "Skin Care",
+            "skincare_products": [
+                {
+                  
+                  "skincare_name":"Sunscreen",
+                  "brand":"Aqualogica",
+                  "foundation_img": "https://ibb.co/SKyPSGH",
+                  "average_rating": 4.2,
+                  "cost": 444
+                },
+                {
+                  
+                  "skincare_name":"Sunscreen",
+                  "brand":"Aqualogica",
+                  "foundation_img": "https://ibb.co/L0h4d3H",
+                  "average_rating": 4.2,
+                  "cost": 444
+                },
+                {
+                  
+                  "skincare_name":"Sunscreen",
+                  "brand":"Mamaearth",
+                  "foundation_img": "https://ibb.co/ZgbDrXJ",
+                  "average_rating": 4.2,
+                  "cost": 444
+                },
+                {
+                  
+                  "skincare_name":"Night cream",
+                  "brand":"Dot & Key",
+                  "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+                  "average_rating": 4.2,
+                  "cost": 444
+                },
+                {
+                  
+                  "skincare_name":"Toner",
+                  "brand":"Biotique",
+                  "foundation_img": "https://ibb.co/KLQ7XNw",
+                  "average_rating": 4.2,
+                  "cost": 444
+                },
+                {
+                  
+                  "skincare_name":"Toner",
+                  "brand":"Goodvibes",
+                  "foundation_img": "https://ibb.co/yB1xvBN",
+                  "average_rating": 4.2,
+                  "cost": 444
+                },
+                {
+                  
+                  "skincare_name":"Moisturizer",
+                  "brand":"Dot & Key",
+                  "foundation_img": "https://ibb.co/yVpJNtP",
+                  "average_rating": 4.2,
+                  "cost": 444
+                },
+                {
+                    
+                    "skincare_name":"Moisturizer",
+                    "brand":"Ponds Age Miracle",
+                    "foundation_img": "https://ibb.co/MGYBRqy",
+                    "average_rating": 4.2,
+                    "cost": 444
+                  },
+                  {
+                    
+                    "skincare_name":"vitamin c serum",
+                    "brand":"Lakme",
+                    "foundation_img": "https://ibb.co/3cw0y1x",
+                    "average_rating": 4.2,
+                    "cost": 444
+                  },
+                  {
+                    
+                    "skincare_name":"Lip Balm",
+                    "brand":"Nevia",
+                    "foundation_img": "https://ibb.co/7QCFXFD",
+                    "average_rating": 4.2,
+                    "cost": 444
+                  }
+              ]
+    }
+]

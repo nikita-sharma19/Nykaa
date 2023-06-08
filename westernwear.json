@@ -1,0 +1,74 @@
+[
+    {
+            "category_id": 1,
+            "category_name": "Nykaa Faishon",
+            "wom_id": 1,
+            "faishontype_id": 2,
+            "products":[
+          {
+            "Dresses": [
+
+              {
+              "dress_name":"Dresses",
+              "dress_img": "https://ibb.co/3sbfZ1p",
+              "average_rating": 4.2,
+              "cost": 444
+              },
+              {
+                "dress_name":"Dresses",
+                "dress_img": "https://ibb.co/PgrttWh",
+                "average_rating": 4.2,
+                "cost": 444
+              },
+              {
+                "dress_name":"Dresses",
+                "dress_img": "https://ibb.co/LhnGR9b",
+                "average_rating": 4.2,
+                "cost": 444
+              },
+              {
+                "dress_name":"Dresses",
+                "dress_img": "https://ibb.co/L0WLrYr",
+                "average_rating": 4.2,
+                "cost": 444
+              }
+            ],
+            "Tops": [
+                {
+                  "top_name":"Tops & Tees",
+                  "top_img": "https://ibb.co/gzH1r3y",
+                  "average_rating": 4.2,
+                   "cost": 444
+                },
+                {
+                  "top_name":"Tops & Tees",
+                  "top_img": "https://ibb.co/0XwG09S",
+                  "average_rating": 4.2,
+                  "cost": 444
+                } 
+              ],
+              "Jeans": [
+                {
+                  "jeans_name":"Jeans",
+                  "jeans_img": "https://ibb.co/z2P1kpb",
+                  "average_rating": 4.2,
+                  "cost": 700
+                },
+                {
+                  "jeans_name":"Jeans",
+                  "jeans_img": "https://ibb.co/B64Dhkz",
+                  "average_rating": 4.2,
+                   "cost": 700  
+                },
+                {
+                  "jeans_name":"Jeans",
+                  "jeans_img": "https://ibb.co/dttFcbv",
+                   "average_rating": 4.2,
+                   "cost": 700  
+                }
+              ]
+
+          }
+         ]
+       }
+]

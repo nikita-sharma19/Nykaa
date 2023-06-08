@@ -1,0 +1,84 @@
+[
+    {
+        "catgeoryId":1,
+        "category_name":"Nykaa Faishon",
+        "categ_option_id":1,
+        "name":"Women"
+    },
+    {
+        "catgeoryId":1,
+        "category_name":"Nykaa Faishon",
+        "categ_option_id":2,
+        "name":"Men"   
+    },
+
+     {
+        "catgeoryId":2,
+        "category_name":"Brands",
+        "categ_option_id":1,
+        "brand":"Maybelline New York"
+    },
+    {
+        "catgeoryId":2,
+        "category_name":"Brands",
+        "categ_option_id":2,
+        "brand":"Lakme"
+    },
+    {
+        "catgeoryId":2,
+        "category_name":"Brands",
+        "categ_option_id":3,
+        "brand":"L'oreal Paris"
+    },
+
+    {
+        "catgeoryId":3,
+        "category_name":"Skin",
+        "categ_option_id":1,
+        "brand":"Nykaa"
+    },
+    {
+        "catgeoryId":3,
+        "category_name":"Skin",
+        "categ_option_id":2,
+        "brand":"Dot & Key"
+    },
+    {
+        "catgeoryId":3,
+        "category_name":"Skin",
+        "categ_option_id":3,
+        "brand":"Cetaphil"
+    },
+
+    {
+        "catgeoryId":4,
+        "category_name":"Makeup",
+        "categ_option_id":1,
+        "name":"Face"
+    },
+    {
+        "catgeoryId":4,
+        "category_name":"Makeup",
+        "categ_option_id":2,
+        "name":"Eyes"
+    },
+    {
+        "catgeoryId":4,
+        "category_name":"Makeup",
+        "categ_option_id":3,
+        "name":"Lips"
+    },
+
+    {
+        "catgeoryId":5,
+        "category_name":"Fragrance",
+        "categ_option_id":1,
+        "name":"Women"
+    },
+    {
+        "catgeoryId":5,
+        "category_name":"Fragrance",
+        "categ_option_id":2,
+        "name":"Men"
+    }
+]

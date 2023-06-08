@@ -1,0 +1,47 @@
+[
+    {
+        "category_id": 1,
+      "category_name": "Nykaa Faishon",
+      "men_id": 2,
+      "faishontype_id": 5,
+      "faishontype":"Topwear",
+      "products":[
+        {
+          "t-shirt_name":"Plane T-shirt",
+          "tshirt_img": "https://ibb.co/QJRNvFB",
+          "average_rating": 4.2,
+          "cost": 330
+          },
+          {
+           "t-shirt_name":"T-shirt stripped",
+           "tshirt_img": "https://ibb.co/9vcMCF5",
+           "average_rating": 4.2,
+           "cost": 300
+          },
+          {
+           "t-shirt_name":"Grey sweatshirt long sleeve",
+           "tshirt_img": "https://ibb.co/0QrjkJH",
+           "average_rating": 4.2,
+           "cost": 360
+          },
+          {
+           "shirt_name":"Shirt with black strips",
+           "shirt_img": "https://ibb.co/fvqkT83",
+           "average_rating": 4.2,
+           "cost": 500
+          },
+          {
+           "shirt_name":"shirt in grey",
+           "shirt_img": " https://ibb.co/tMfKLZ5",
+           "average_rating": 4.2,
+           "cost": 600
+          },
+          {
+           "shirt_name":"shirt in Red check",
+           "shirt_img": "https://ibb.co/VMPMtwv",
+           "average_rating": 4.2,
+           "cost": 550
+          }
+      ]
+    }
+]

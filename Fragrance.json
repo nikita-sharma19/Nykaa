@@ -1,0 +1,61 @@
+[
+    {
+        "category_id": 5,
+      "category_name": "Fragrance",
+      "fragrance": [
+        {
+          
+          "prod_name":"Perfume",
+          "brand":"La'France",
+          "perfume_img": "https://ibb.co/swgyyQ5",
+          "average_rating": 4.2,
+          "cost": 250
+        },
+        {
+         
+          "prod_name":"Perfume",
+          "brand":"Lavender flora",
+          "perfume_img": "https://ibb.co/sP701kM",
+          "average_rating": 4.2,
+          "cost": 260
+        },
+        {
+          
+          "prod_name":"Perfume",
+          "brand":"Watta girl",
+          "rollon_img": "https://ibb.co/80Sx0jm",
+          "average_rating": 4.2,
+          "cost": 250
+        },
+        {
+          
+          "prod_name":"Roll on",
+          "brand":"Nivea",
+          "rollon_img": "https://ibb.co/ry0Vp09",
+          "average_rating": 4.2,
+          "cost": 220
+        },
+        {
+         
+          "prod_name":"Deo",
+          "brand":"Dove",
+          "deo_img": "https://ibb.co/mc0fWHj",
+          "cost": 200
+        },
+        {
+         
+          "prod_name":"Deo",
+          "brand":"Park Evenue",
+          "deo_img": "https://ibb.co/2PNm91Y",
+          "cost": 220
+        },
+        {
+          
+          "prod_name":"Deo",
+          "brand":"Wildstone",
+          "deo_img": "https://ibb.co/4dqQDxP",
+          "cost": 230
+        }   
+      ]
+    }
+]

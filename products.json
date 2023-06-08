@@ -1,0 +1,686 @@
+[
+    {
+      "category_id": 1,
+      "category_name": "Nykaa Faishon",
+      "wom_id": 1,
+      "faishontype_id": 1,
+      
+      "Sarees": [
+        {
+          "saree_id":1,
+        "saree_name":"kanjivaram pure silk saree",
+        "saree_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 500
+        },
+        {
+          "saree_id":1,
+        "saree_name":"kanjivaram pure silk saree",
+        "saree_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 500
+        },
+        {
+          "saree_id":3,
+        "saree_name":"Cotton saree, Best summer choice",
+        "saree_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 500
+        }
+      ],
+      "Lahengas": [
+        {
+          "lehanga_id":4,
+          "lahenga_name":"Lahengas",
+          "lehanga_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 444
+        },
+        {
+          "lehanga_id":5,
+          "lahenga_name":"Lahengas",
+          "lehanga_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 444
+         
+        }
+      ],
+      "kurtis": [
+        {
+          "kurti_id":6,
+          "kurti_name":"Kurtis",
+          "kurti_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "rating_text": "Very Good",
+      "cost": 444
+        },
+        {
+          "kurti_id":7,
+          "kurti_name":"Kurtis",
+          "kurti_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "rating_text": "Very Good",
+      "cost": 444
+        },
+        {
+          "kurti_id":8,
+          "kurti_name":"Kurtis",
+          "kurti_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "rating_text": "Very Good",
+      "cost": 444
+        },
+        {
+          "kurti_id":9,
+          "kurti_name":"Kurtis",
+          "kurti_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "rating_text": "Very Good",
+      "cost": 444
+        }
+      ]
+    },
+
+    {
+      "category_id": 1,
+      "category_name": "Nykaa Faishon",
+      "wom_id": 1,
+      "faishontype_id": 2,
+    
+      "Dresses": [
+        {
+          "dress_id":10,
+        "dress_name":"Dresses",
+        "dress_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+        "average_rating": 4.2,
+        "cost": 444
+        },
+        {
+          "dress_id":11,
+          "dress_name":"Dresses",
+          "dress_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "dress_id":12,
+          "dress_name":"Dresses",
+          "dress_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "dress_id":13,
+          "dress_name":"Dresses",
+          "dress_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        }
+      ],
+      "Tops": [
+        {
+          "top_id":14,
+          "top_name":"Tops & Tees",
+          "top_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 444
+        },
+        {
+          "top_id":15,
+          "top_name":"Tops & Tees",
+          "top_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 444
+        } 
+      ],
+
+      "Jeans": [
+        {
+          "jeans_id":19,
+          "jeans_name":"Jeans",
+          "jeans_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 700
+        },
+        {
+          "jeans_id":20,
+          "jeans_name":"Jeans",
+          "jeans_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 700  
+        },
+        {
+          "jeans_id":20,
+          "jeans_name":"Jeans",
+          "jeans_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 700  
+        }
+      ]
+    },
+
+    {
+      "category_id": 1,
+      "category_name": "Nykaa Faishon",
+      "wom_id": 1,
+      "faishontype_id": 3,
+      "heels":[
+        {
+          "heels_id":21,
+          "heels_name":"Jeans",
+          "heels_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 700  
+        },
+        {
+          "heels_id":22,
+          "heels_name":"high heels",
+          "heels_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 700  
+        }
+      ],
+      "flats":[
+        {
+          "flats_id":23,
+          "heels_name":"pencil heels",
+          "heels_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 700  
+        },
+        {
+          "flats_id":24,
+          "heels_name":"platform heels",
+          "heels_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "cost": 700  
+        }
+      ],
+      "shoes":[
+        {
+          "shoe_id":25,
+          "shoe_name":"Jeans",
+          "shoe_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+           "cost": 700  
+        },
+        {
+          "shoe_id":26,
+          "shoe_name":"Jeans",
+          "shoe_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "cost": 700  
+        }
+      ]
+    },
+
+    {
+      "category_id": 1,
+      "category_name": "Nykaa Faishon",
+      "wom_id": 1,
+      "faishontype_id": 4,
+  
+      "jwellery": [
+        {
+          "earring_id":27,
+         "product_name":"Earrings",
+        "earring_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+        "average_rating": 4.2,
+        "cost": 44
+        },
+        {
+          "earring_id":28,
+          "product_name":"Earrings",
+         "earring_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+         "average_rating": 4.2,
+         "cost": 44
+        },
+        {
+          "earring_id":29,
+          "product_name":"Earrings",
+         "earring_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+         "average_rating": 4.2,
+         "cost": 44
+        },
+        {
+          "necklace_id":30,
+          "product_name":"Earrings",
+         "earring_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+         "average_rating": 4.2,
+         "cost": 44
+        },
+        {
+          "necklace_id":31,
+          "product_name":"Earrings",
+         "earring_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+         "average_rating": 4.2,
+         "cost": 44
+        },
+        {
+          "necklace_id":32,
+          "product_name":"Earrings",
+         "earring_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+         "average_rating": 4.2,
+         "cost": 44
+        },
+        {
+          "ring_id":33,
+          "product_name":"Earrings",
+         "earring_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+         "average_rating": 4.2,
+         "cost": 44
+        },
+        {
+          "ring_id":34,
+          "product_name":"Earrings",
+         "earring_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+         "average_rating": 4.2,
+         "cost": 44
+        }
+      ]
+    },
+
+    {
+      "category_id": 1,
+      "category_name": "Nykaa Faishon",
+      "men_id": 2,
+      "faishontype_id": 5,
+      "faishontype":"Topwear",
+      
+      "T-shirts": [
+        {
+          "t-shirt_id":35,
+        "t-shirt_name":"T-shirts",
+        "tshirt_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 444
+        },
+        {
+          "t-shirt_id":36,
+        "t-shirt_name":"T-shirts",
+        "tshirt_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 444
+        },
+        {
+          "t-shirt_id":37,
+        "t-shirt_name":"T-shirts",
+        "tshirt_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 444
+        }
+      ],
+      "shirts": [
+        {
+          "shirt_id":38,
+          "shirt_name":"shirts",
+          "shirt_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 200
+        },
+        {
+          "shirt_id":39,
+          "shirt_name":"shirts",
+          "shirt_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 200
+        },
+        {
+          "shirt_id":40,
+          "shirt_name":"shirts",
+          "shirt_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+      "average_rating": 4.2,
+      "cost": 200
+        }
+      ]
+    },
+
+    {
+      "category_id": 1,
+      "category_name": "Nykaa Faishon",
+      "men_id": 2,
+      "faishontype_id":6,
+      "faishontype_name":"Ethnic Wear",
+     
+      "kurta sets": [
+        {
+          "kurta_id":41,
+        "kurta_name":"Kurta Sets",
+        "kurta_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+        "average_rating": 4.2,
+        "cost": 444
+        },
+        {
+          "kurta_id":42,
+        "kurta_name":"Kurta Sets",
+        "kurta_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+        "average_rating": 4.2,
+        "cost": 444
+        },
+        {
+          "kurta_id":43,
+        "kurta_name":"Kurta Sets",
+        "kurta_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+        "average_rating": 4.2,
+        "cost": 444
+        }
+      ],
+      "nehrujacket": [
+        {
+          "nehrujacket_id":44,
+          "nehrujacket_name":"Nehru Jackets",
+          "nehrujacket_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "nehrujacket_id":45,
+          "nehrujacket_name":"Nehru Jackets",
+          "nehrujacket_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "nehrujacket_id":46,
+          "nehrujacket_name":"Nehru Jackets",
+          "nehrujacket_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        }
+      ],
+      "sherwanis": [
+        {
+          "sherwani_id":47,
+          "sherwani_name":"sherwanis",
+          "sherwani_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "sherwani_id":48,
+          "sherwani_name":"sherwanis",
+          "sherwani_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "sherwani_id":49,
+          "sherwani_name":"sherwanis",
+          "sherwani_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        }
+      ]
+    },
+ 
+    {
+      "category_id": 1,
+      "category_name": "Nykaa Faishon",
+      "men_id": 2,
+      "faishontype_id":3,
+      "faishontype_name":"Footwear",
+      "casuals": [
+        {
+          "casual_id":50,
+          "product_name":"Casuals",
+          "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "rating_text": "Very Good",
+          "cost": 444
+        },
+        {
+          "casual_id":51,
+          "product_name":"Casuals",
+          "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "rating_text": "Very Good",
+          "cost": 444
+        },
+        {
+          "casual_id":52,
+          "product_name":"Casuals",
+          "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "rating_text": "Very Good",
+          "cost": 444
+        }
+      ],
+      "formals": [
+        {
+          "formals_id":53,
+        "product_name":"Formals",
+        "formals_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+        "rating_text": "Very Good",
+        "cost": 444
+        },
+        {
+          "formals_id":54,
+        "product_name":"Formals",
+        "formals_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+        "rating_text": "Very Good",
+        "cost": 444
+        },
+        {
+          "formals_id":55,
+        "product_name":"Formals",
+        "formals_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+        "rating_text": "Very Good",
+        "cost": 444
+        }
+      ]
+    },
+
+    
+    {
+      "category_id": 2,
+      "category_name": "Hair Care",
+      "hairCare": [
+        {
+          "shampoo_id":56,
+          "shampoo_name":"shampoos",
+          "shampoo_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "shampoo_id":57,
+          "shampoo_name":"shampoos",
+          "shampoo_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "shampoo_id":58,
+          "shampoo_name":"Tresseme",
+          "shampoo_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "hairoil_id":59,
+          "hairoil_name":"keo karpin",
+          "shampoo_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "hairoil_id":60,
+          "hairoil_name":"Amla",
+          "shampoo_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        }
+      ]
+    },
+    
+    {
+      "category_id": 3,
+      "category_name": "Skin Care",
+      "skincare": [
+        {
+          "skincare_id":61,
+          "skincare_name":"Sunscreen",
+          "brand":"Maybellene",
+          "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "skincare_id":62,
+          "skincare_name":"Sunscreen",
+          "brand":"Lakme",
+          "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "skincare_id":63,
+          "skincare_name":"Moisturizer",
+          "brand":"Mamaearth",
+          "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "skincare_id":64,
+          "skincare_name":"Night cream",
+          "brand":"Dot & Key",
+          "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "skincare_id":65,
+          "skincare_name":"Toner",
+          "brand":"Aqualogica",
+          "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "skincare_id":65,
+          "skincare_name":"Toner",
+          "brand":"Aqualogica",
+          "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        }
+      ]
+    },
+
+    {
+      "category_id": 4,
+      "category_name": "Makeup",
+      "makeup": [
+        {
+          "makeup_id":66,
+          "prod_name":"Foundation",
+          "brand":"Maybellene",
+          "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "makeup_id":67,
+          "prod_name":"Foundation",
+          "brand":"Maybellene",
+          "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "makeup_id":68,
+          "prod_name":"Foundation",
+          "brand":"Maybellene",
+          "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "makeup_id":69,
+          "prod_name":"Concieler",
+          "brand":"Lakme",
+          "concieler_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "makeup_id":70,
+          "prod_name":"Concieler",
+          "brand":"Lakme",
+          "concieler_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "makeup_id":71,
+          "prod_name":"Primer",
+          "brand":"Lakme",
+          "Primer_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "makeup_id":72,
+          "prod_name":"Lipstick",
+          "brand":"Lakme",
+          "Primer_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        }
+
+      ]
+    },
+
+    
+    {
+      "category_id": 5,
+      "category_name": "Fragrance",
+      "fragrance": [
+        {
+          "fragrance_id":73,
+          "prod_name":"Perfume",
+          "perfume_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "fragrance_id":74,
+          "prod_name":"Perfume",
+          "perfume_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "fragrance_id":75,
+          "prod_name":"Roll on",
+          "rollon_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "fragrance_id":76,
+          "prod_name":"Roll on",
+          "rollon_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "average_rating": 4.2,
+          "cost": 444
+        },
+        {
+          "fragrance_id":77,
+          "prod_name":"Deo",
+          "deo_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "cost": 444
+        },
+        {
+          "fragrance_id":78,
+          "prod_name":"Deo",
+          "deo_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "cost": 444
+        },
+        {
+          "fragrance_id":79,
+          "prod_name":"Deo",
+          "deo_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
+          "cost": 444
+        }   
+      ]
+    } 
+
+]

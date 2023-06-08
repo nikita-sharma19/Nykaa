@@ -1,0 +1,74 @@
+[
+    {
+        "category_id": 1,
+      "category_name": "Nykaa Faishon",
+      "men_id": 2,
+      "faishontype_id":6,
+      "faishontype_name":"Ethnic Wear",
+      "products":[
+        {
+            
+          "kurta_name":"Shine brown",
+          "kurta_img": "https://ibb.co/dKGjNLc",
+          "average_rating": 4.2,
+          "cost": 800
+          },
+          {
+            
+          "kurta_name":"Blinky Pink",
+          "kurta_img": "https://ibb.co/6WZCdKF",
+          "average_rating": 4.2,
+          "cost": 800
+          },
+          {
+           
+          "kurta_name":"Royal Blue Silk Kurta",
+          "kurta_img": "https://ibb.co/wWRfxvx",
+          "average_rating": 4.2,
+          "cost": 880
+          },
+          {
+            
+            "nehrujacket_name":"Printed Floral ",
+            "nehrujacket_img": "https://ibb.co/828brbp",
+            "average_rating": 4.2,
+            "cost": 700
+          },
+          {
+            
+            "nehrujacket_name":"Peach Plane Silk",
+            "nehrujacket_img": "https://ibb.co/Lk7D7jF",
+            "average_rating": 4.2,
+            "cost": 700
+          },
+          {
+            
+            "nehrujacket_name":"Brown Silk shine",
+            "nehrujacket_img": "https://ibb.co/sKHyMT1",
+            "average_rating": 4.2,
+            "cost": 770
+          },
+          {
+            
+            "sherwani_name":"Floral print sherwani in brown",
+            "sherwani_img": "https://ibb.co/Fm9ysJ1",
+            "average_rating": 4.2,
+            "cost": 3000
+          },
+          {
+            
+            "sherwani_name":"Embroidered Royal Sherwani",
+            "sherwani_img": " https://ibb.co/mvfkM3g",
+            "average_rating": 4.2,
+            "cost": 3000
+          },
+          {
+            
+            "sherwani_name":"Plane With green dupatta",
+            "sherwani_img": "https://ibb.co/2tfSSDj",
+            "average_rating": 4.2,
+            "cost": 3300
+          }
+      ]
+    }
+]

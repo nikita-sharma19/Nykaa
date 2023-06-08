@@ -1,0 +1,81 @@
+[
+    {
+        
+      "category_id": 4,
+      "category_name": "Makeup",
+      "makeup_products": [
+        {
+          "prod_name":"Foundation",
+          "brand":"Maybellene",
+          "foundation_img": "https://ibb.co/CQTYQNq",
+          "average_rating": 4.2,
+          "cost": 300
+        },
+        {
+          "prod_name":"Foundation",
+          "brand":"Maybellene",
+          "foundation_img": "https://ibb.co/VW6JcCc",
+          "average_rating": 4.2,
+          "cost": 300
+        },
+        {
+          "prod_name":"Mascarra",
+          "brand":"Lakme",
+          "foundation_img": "https://ibb.co/hKtPhYR",
+          "average_rating": 4.2,
+          "cost": 270
+        },
+        {
+          "prod_name":"Eyeliner",
+          "brand":"Lakme",
+          "lipstick_img": "https://ibb.co/bz0j04w",
+          "average_rating": 4.2,
+          "cost": 250
+        },
+        {
+          "prod_name":"Concieler",
+          "brand":"NYX",
+          "concieler_img": "https://ibb.co/4Tkkmgn",
+          "average_rating": 4.2,
+          "cost": 300
+        },
+        {
+          "prod_name":"Concieler",
+          "brand":"Maybellene",
+          "concieler_img": "https://ibb.co/tCL2M7d",
+          "average_rating": 4.2,
+          "cost": 350
+        },
+        {
+          "prod_name":"Compact",
+          "brand":"NYX",
+          "concieler_img": "https://ibb.co/PDhHdjH",
+          "average_rating": 4.2,
+          "cost": 300
+        },
+        {
+          "prod_name":"Compact",
+          "brand":"NYX",
+          "Primer_img": "https://ibb.co/9VVCT9M",
+          "average_rating": 4.2,
+          "cost": 300
+        },
+        {
+          "prod_name":"Lipstick Matte",
+          "brand":"Maybellene",
+          "lipstick_img": "https://ibb.co/rb54D0M",
+          "average_rating": 4.2,
+          "cost": 400
+        },
+        {
+            "prod_name":"Lipstick Matte",
+            "brand":"Lakme",
+            "lipstick_img": "https://ibb.co/Hh3fxFC",
+            "average_rating": 4.2,
+            "cost": 445
+          }
+         
+
+      ]
+    }
+]

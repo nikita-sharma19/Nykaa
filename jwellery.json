@@ -1,0 +1,93 @@
+[{
+    "category_id": 1,
+    "category_name": "Nykaa Faishon",
+    "wom_id": 1,
+    "faishontype_id": 4,
+    "jwellery": [  
+      {
+       "product_name":"Earring1",
+      "earring_img": "https://ibb.co/WKdQh9m",
+      "average_rating": 4.2,
+      "cost": 70
+      },
+      {
+        "product_name":"Earring2",
+       "earring_img": "https://ibb.co/85v0WQW",
+       "average_rating": 4.2,
+       "cost": 70
+      },
+      {
+        "product_name":"Earring3",
+       "earring_img": "https://ibb.co/2FwvgQt",
+       "average_rating": 4.2,
+       "cost": 75
+      },
+      {
+        "product_name":"Earring4",
+       "earring_img": "https://ibb.co/BgQRSdz",
+       "average_rating": 4.2,
+       "cost": 80
+      },
+      {
+        "product_name":"Necklace1",
+       "earring_img": "https://ibb.co/gmmTXtH",
+       "average_rating": 4.2,
+       "cost": 200
+      },
+      {
+        "product_name":"Necklace2",
+       "earring_img": "https://ibb.co/DCd3xp1",
+       "average_rating": 4.2,
+       "cost": 200
+      },
+      {
+        "product_name":"Necklace3",
+       "earring_img": "https://ibb.co/xH8Dyyh",
+       "average_rating": 4.2,
+       "cost": 250
+      },
+      {
+        "product_name":"Necklace4",
+       "earring_img": "https://ibb.co/ZYSbkHw",
+       "average_rating": 4.2,
+       "cost": 300
+      },
+      {
+        "product_name":"Ring1",
+       "earring_img": "https://ibb.co/Fg29L8C",
+       "average_rating": 4.2,
+       "cost": 450
+      },
+      {
+        "product_name":"Ring2",
+       "earring_img": "https://ibb.co/M55YgrL",
+       "average_rating": 4.2,
+       "cost": 300
+      },
+      {
+        "product_name":"Ring3",
+       "earring_img": "https://ibb.co/30NzD2x",
+       "average_rating": 4.2,
+       "cost": 300
+      },
+      {
+        "product_name":"Bracellet1",
+       "earring_img": "https://ibb.co/Lnc4wv6",
+       "average_rating": 4.2,
+       "cost":500
+      },
+      {
+        "product_name":"Bracellet2",
+       "earring_img": "https://ibb.co/zZ1FHt0",
+       "average_rating": 4.2,
+       "cost": 550
+      },
+      {
+        "product_name":"Bracellet3",
+       "earring_img": "https://ibb.co/8xgsxD9",
+       "average_rating": 4.2,
+       "cost": 550
+      }
+    ]
+  }
+]

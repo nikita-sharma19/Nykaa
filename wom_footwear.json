@@ -1,0 +1,45 @@
+
+[
+    {
+        "category_id": 1,
+        "category_name": "Nykaa Faishon",
+        "wom_id": 1,
+        "faishontype_id": 3,
+        "products":[
+                {
+                 "heels_name":"pencil heels",
+                 "heels_img": "https://ibb.co/5nwh9Xr",       
+                 "cost": 500  
+                },
+                {
+                 "heels_name":"high heels",
+                 "heels_img": "https://ibb.co/Yj7CJLD",
+                 "cost": 400  
+                },
+                {
+                  "flats_name":"platform comfy",
+                  "heels_img": "https://ibb.co/kJ71zzj",
+                "average_rating": 4.2,
+                "cost": 500  
+                  },
+                  {
+                    "flats_name":"Valley in black",
+                    "heels_img": "https://ibb.co/YTQ6xsK",
+                    "cost": 700  
+                  },
+                  {
+                    "shoe_name":"White & Pink casuals",
+                    "shoe_img": "https://ibb.co/L5VBL1B",
+                     "cost": 700  
+                  },
+                  {
+                    "shoe_name":"Bold Pink shoes",
+                    "shoe_img": " https://ibb.co/5v8sPZ6",
+                    "cost": 700  
+                  }
+            
+           
+        ]
+        
+    }
+]

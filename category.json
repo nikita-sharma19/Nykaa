@@ -1,0 +1,22 @@
+[
+    {
+        "category_id":1,
+        "category_name":"Nykaa Faishon"
+    },
+    {
+        "category_id":2,
+        "category_name":"Hair care"
+    },
+    {
+        "category_id":3,
+        "category_name":"Skin care"
+    },
+    {
+        "category_id":4,
+        "category_name":"Makeup"
+    },
+    {
+        "category_id":5,
+        "category_name":"Fragrance"
+    }
+]

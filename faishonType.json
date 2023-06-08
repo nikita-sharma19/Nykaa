@@ -1,0 +1,46 @@
+ [
+    {
+        
+        "faishontype_id":1,
+        "faishontype_name":"Indian Wear",
+        "wom_id": 1,
+        "category_id":1
+       
+    },
+    {
+        "category_id":1,
+        "faishontype_id":2,
+        "wom_id": 1,
+        "faishontype_name":"Western Wear"
+    },
+    {
+        "category_id":1,
+        "faishontype_id":3,
+        "wom_id": 1,
+        "faishontype_name":"wom_Footwear"
+    },
+    {   "category_id":1,
+        "faishontype_id":4,
+        "wom_id": 1,
+        "faishontype_name":"Jwellery"
+    },
+    {
+        "category_id":1,
+        "faishontype_id":5,
+        "men_id": 2,
+        "faishontype_name":"Topwear"
+    },
+    {
+        "category_id":1,
+        "faishontype_id":6,
+        "men_id": 2,
+        "faishontype_name":"Ethnic Wear"
+    },
+    {
+        "category_id":1,
+        "faishontype_id":7,
+        "men_id": 2,
+        "faishontype_name":"men_Footwear"
+    }
+
+]

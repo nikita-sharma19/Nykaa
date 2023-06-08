@@ -1,0 +1,58 @@
+[
+    {
+        
+      "category_id": 2,
+      "category_name": "Hair Care",
+      "haircare_products":[
+        {
+            
+            "shampoo_name":"Mama Earth Onion shampoo",
+            "shampoo_img": "https://ibb.co/nc3YpSc",
+            "average_rating": 4.2,
+            "cost": 300
+          },
+          {
+            
+            "shampoo_name":"Panteen Pro-V",
+            "shampoo_img": "https://ibb.co/cgp6kTm",
+            "average_rating": 4.2,
+            "cost": 200
+          },
+          {
+           
+            "shampoo_name":"Tresseme",
+            "shampoo_img": "https://ibb.co/p32mjvW",
+            "average_rating": 4.2,
+            "cost": 300
+          },
+          {
+            
+            "hairoil_name":"Mama Earth onion Hairoil",
+            "shampoo_img": "https://ibb.co/7r4D6Sh",
+            "average_rating": 4.2,
+            "cost": 200
+          },
+          {
+            
+            "hairoil_name":"Amla",
+            "shampoo_img": "https://ibb.co/ZggV7TJ",
+            "average_rating": 4.2,
+            "cost": 150
+          },
+          {
+            
+            "serum_name":"Maybeau",
+            "serum_img": "https://ibb.co/9pTFXnG",
+            "average_rating": 4.2,
+            "cost": 300
+          },
+          {
+            
+            "serum_name":"hair Perfect",
+            "serum_img": "https://ibb.co/LRmx5Jt",
+            "average_rating": 4.2,
+            "cost": 300
+          }
+      ]
+    }
+]

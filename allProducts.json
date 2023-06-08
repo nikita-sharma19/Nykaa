@@ -1,0 +1,120 @@
+[
+    {
+        "product_id":1,
+        "product_name":"Saree",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":2,
+        "product_name":"Lehengas",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":3,
+        "product_name":"Kurtis",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":4,
+        "product_name":"Dresses",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":5,
+        "product_name":"Tops & Tees",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":6,
+        "product_name":"Jeans & Jeggings",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":7,
+        "product_name":"Jackets & Coats",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":8,
+        "product_name":"Heels",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":9,
+        "product_name":"Flats",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":10,
+        "product_name":"Sneakers",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":11,
+        "product_name":"Earrings",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":12,
+        "product_name":"Necklace",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":13,
+        "product_name":"Rings & Bracelletes",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":14,
+        "product_name":"Men T-shirts",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":15,
+        "product_name":"Sweat Shirts",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":16,
+        "product_name":"Shirts",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":17,
+        "product_name":"Jackets",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":18,
+        "product_name":"Kurta Sets",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":19,
+        "product_name":"Nehru Jacket",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":20,
+        "product_name":"Sherwanis",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":21,
+        "product_name":"Casuals",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "product_id":22,
+        "product_name":"Formals",
+        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
+    },
+    {
+        "haircaretype_id":23,
+        "haircaretype_name":"Shampoos"
+    },
+    {
+        "haircaretype_id":24,
+        "haircaretype_name":"Hair oils"
+    }
+]
