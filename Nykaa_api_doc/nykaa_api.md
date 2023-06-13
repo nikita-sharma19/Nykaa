@@ -63,6 +63,12 @@
             
       5- Fragrance
           * All products
+
+  //Page 2
+    Order Summary and price total
+
+  //Page 3
+    Place order and payment
   
 
 

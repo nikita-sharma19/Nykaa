@@ -1,6 +1,7 @@
  [
+    
+    
     {
-        
         "faishontype_id":1,
         "faishontype_name":"Indian Wear",
         "wom_id": 1,
@@ -42,5 +43,5 @@
         "men_id": 2,
         "faishontype_name":"men_Footwear"
     }
-
 ]
+

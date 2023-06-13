@@ -1,0 +1,41 @@
+[
+    {
+      
+      "name": "Ananya",
+      "email": "ananya@gmail.com",
+      "address": "Hno 23,Sector 1",
+      "phone": 76876800,
+      "cost": 787,
+      "faishontype_id": [
+        1
+      ],
+      "status": "Delivered"
+    },
+    {
+      
+      "details": [
+            {
+              "kurti_name":"Frock kurti",
+              "kurti_img": "https://ibb.co/z2yGzF7",
+              "size":"small & Medium",
+              "average_rating": 4.2,
+              "rating_text": "Very Good",
+              "cost": 444
+            },
+            {
+              "kurti_name":"Yellow long kurti",
+              "kurti_img": "https://ibb.co/ZcLFzTJ",
+              "size":"Medium & Large",
+              "average_rating": 4.2,
+              "rating_text": "Very Good",
+              "cost": 550
+            }
+      ],
+      "tPrice": 994,
+      "name": "",
+      "phone": "",
+      "email": "",
+      "address": "",
+      "status": "Pending"
+    }
+  ]

@@ -1,15 +1,4 @@
-[
-    {
-        "category_id":1,
-        "category_name":"Nykaa Faishon",
-        "wom_id":1
-    },
-    {
-        "category_id":1,
-        "category_name":"Nykaa Faishon",
-        "men_id": 2
-    }
-]
+
 
 [{
     "wom_id":1,

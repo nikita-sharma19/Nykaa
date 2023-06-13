@@ -34,16 +34,17 @@
 let mongo = require('mongodb');
 let {MongoClient} = require('mongodb');
 // let mongoUrl = "mongodb://127.0.0.1:27017";
-let mongoUrl = "mongodb+srv://nikitasharma0414:<zckzCLwCXoyYhyJZ>@firstcluster.xdmtwby.mongodb.net/?retryWrites=true&w=majority"
+let databaseUrl = "mongodb+srv://nikita_0414:FJt1CSXbmQAYQLir@firstcluster.xdmtwby.mongodb.net/?retryWrites=true&w=majority"
 
-let client = new MongoClient(mongoUrl)
+
+let client = new MongoClient(databaseUrl)
 
 async function dbConnect(){
     await client.connect()
 }
 
-let db = client.db('Nykaa');
-
+let db = client.db('nykaa');
+//Function to get the data
 async function getData(colName,query){
     let output = [];
     try{
@@ -57,9 +58,21 @@ async function getData(colName,query){
     }
     return output
 }
-
-module.exports = {
-    dbConnect,
-    db,
-    getData
+//Function to Post data
+async function postData(colName,data){
+    let output;
+    try{
+        await db.collection(colName).insert(data);
+        output = {"response":"Item added"};
+        }
+    catch(err){
+        output = {"response":"Error in postData"};
+    }
+    return output;
 }
+
+ module.exports = {
+    dbConnect , 
+    getData,
+    postData
+ }
