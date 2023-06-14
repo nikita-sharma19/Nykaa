@@ -233,27 +233,27 @@ app.get('/details/:id',async(req,res)=>{
 
 
 //get selected product details
-// app.post('/productDetails',async(req,res) => {
-//     if(Array.isArray(req.body.id)){
-//         let query = {faishontype_id:{$in:req.body.id}};
-//         let collection = 'products';
-//         let output = await getData(collection,query);
-//         res.send(output)
-//     }else{
-//         res.send('Your data is not in the form of array!')
-//     }
-// })
+app.post('/productDetails',async(req,res) => {
+    if(Array.isArray(req.body.id)){
+        let query = {faishontype_id:{$in:req.body.id}};
+        let collection = 'products';
+        let output = await getData(collection,query);
+        res.send(output)
+    }else{
+        res.send('Your data is not in the form of array!')
+    }
+})
 
-// app.post('/productDetails',async(req,res) => {
-//     if(Array.isArray(req.body.id)){
-//         let query = {category_id:{$in:req.body.id}};
-//         let collection = 'products';
-//         let output = await getData(collection,query);
-//         res.send(output)
-//     }else{
-//         res.send('Your data is not in the form of array!')
-//     }
-// })
+app.post('/productDetails',async(req,res) => {
+    if(Array.isArray(req.body.id)){
+        let query = {category_id:{$in:req.body.id}};
+        let collection = 'products';
+        let output = await getData(collection,query);
+        res.send(output)
+    }else{
+        res.send('Your data is not in the form of array!')
+    }
+})
 
 app.post('/productDetails',async(req,res) => {
     if(Array.isArray(req.body.id)){
