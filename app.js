@@ -156,12 +156,27 @@ app.get('/products',async (req,res)=>{
     res.send(output)
 })
 
+app.get('/allProducts',async (req,res)=>{
+    let query = {};
+    let collection = "allProducts"
+    let output = await getData(collection,query)
+    res.send(output)
+})
+
 app.get('/details',async (req,res)=>{
     let query = {};
     let collection = "details"
     let output = await getData(collection,query)
     res.send(output)
 })
+
+// app.get('/details/:id', async(req,res) => {
+//     let id = new Mongo.ObjectId(req.params.id)
+//     let query = {_id:id}
+//     let collection = "products";
+//     let output = await getData(collection,query);
+//     res.send(output)
+// })
 
 //get orders
 // app.get('/orders',async (req,res)=>{
@@ -201,18 +216,49 @@ app.post('/placeOrder',async(req,res) => {
     let response = await postData(collection,data)
     res.send(response)
 })
-// app.get('/details/id',async(req,res)=>{
+// app.get('/details/:id',async(req,res)=>{
 //     let id = Number(req.params.id);
-//     let query = {product_id:id}
+//     let query = {faishontype_id:id}
 //     let collection = "indianwear"
 //     let output = await getData(collection,query)
 //     res.send(output);
 // })
+app.get('/details/:id',async(req,res)=>{
+    let id = Number(req.params.id);
+    let query = {category_id:id}
+    let collection = "products"
+    let output = await getData(collection,query)
+    res.send(output);
+})
+
+
 //get selected product details
+// app.post('/productDetails',async(req,res) => {
+//     if(Array.isArray(req.body.id)){
+//         let query = {faishontype_id:{$in:req.body.id}};
+//         let collection = 'products';
+//         let output = await getData(collection,query);
+//         res.send(output)
+//     }else{
+//         res.send('Your data is not in the form of array!')
+//     }
+// })
+
+// app.post('/productDetails',async(req,res) => {
+//     if(Array.isArray(req.body.id)){
+//         let query = {category_id:{$in:req.body.id}};
+//         let collection = 'products';
+//         let output = await getData(collection,query);
+//         res.send(output)
+//     }else{
+//         res.send('Your data is not in the form of array!')
+//     }
+// })
+
 app.post('/productDetails',async(req,res) => {
     if(Array.isArray(req.body.id)){
-        let query = {product_id:{$in:req.body.id}};
-        let collection = 'products';
+        let query = {prod_id:{$in:req.body.id}};
+        let collection = 'allProducts';
         let output = await getData(collection,query);
         res.send(output)
     }else{

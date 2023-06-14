@@ -30,18 +30,24 @@
       4- MAKEUP -  http://localhost:9120/makeup
             
       5- FRAGRANCE - http://localhost:9120/fragrance
+
+    > Products on the basis of category_id(1 to 5) - http://localhost:9120/details/5
+    >Product Details on basis of category(category_id: 1 to 5) - http://localhost:9120/productDetails
+    >Product Details on basis of faishontype(faishontype_id: 1 to 7) - http://localhost:9120/productDetails
           
 
   //Page 2
-    *Order Summary (details)and price total
+    *Order Summary (details):
+    Product details on basis of prod_id - http://localhost:9120/productDetails
+  
 
     *update order - http://localhost:9120/updateOrder
 
     *delete order - http://localhost:9120/deleteOrder
 
   //Page 3
-    Place order and payment
-    http://localhost:9120/orders
+    Place order - http://localhost:9120/orders
+   
   
 
 
