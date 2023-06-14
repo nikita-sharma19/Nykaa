@@ -1,38 +1,35 @@
 
 //Page1
- > Categories: Nykaa Faishon , Hair Care, Skin Care , Makeup, Fragrance
+ > Main 5 Categories: Nykaa Faishon , Hair Care, Skin Care , Makeup, Fragrance
 
-    1-NYKAA FAISHON
+    1-NYKAA FAISHON - http://localhost:9120/nykaaFaishon
     >Sub-Category
       (i) Women
-    >faishonType
-      * Indian Wear
+    >faishonType - http://localhost:9120/faishontype
+
+      * Indian Wear - http://localhost:9120/indianwear
         
-      *Western wear
+      *Western wear - http://localhost:9120/westernwear
       
-      *Women Footwear
+      *Women Footwear - http://localhost:9120/womenfootwear
         
-      *Jwellery
+      *Jwellery - http://localhost:9120/jwellery
         
       (ii)- Men
     >faishonType
-      * Topwear
+      * Topwear - http://localhost:9120/topwear
        
-      *Ethnic Wear
+      *Ethnic Wear - http://localhost:9120/ethnicwear
         
-      *Men Footwear
+      *Men Footwear - http://localhost:9120/menfootwear
         
+      2- HAIR CARE - http://localhost:9120/haircare
+      
+      3- SKIN CARE -  http://localhost:9120/skincare
 
-      2- HAIR CARE
-        
-
-      3- SKIN CARE
-        
-
-      4- MAKEUP
-        
+      4- MAKEUP -  http://localhost:9120/makeup
             
-      5- FRAGRANCE
+      5- FRAGRANCE - http://localhost:9120/fragrance
           
 
   //Page 2
