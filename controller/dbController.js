@@ -59,20 +59,54 @@ async function getData(colName,query){
     return output
 }
 //Function to Post data
+// async function postData(colName,data){
+//     let output;
+//     try{
+//         await db.collection(colName).insertOne(data);
+//         output = {"response":"Item added"};
+//         }
+//     catch(err){
+//         output = {"response":"Error in postData"};
+//     }
+//     return output;
+// }
 async function postData(colName,data){
     let output;
     try{
-        await db.collection(colName).insert(data);
-        output = {"response":"Item added"};
-        }
-    catch(err){
-        output = {"response":"Error in postData"};
+        output = await db.collection(colName).insertOne(data)
     }
-    return output;
+    catch(err){
+        output = {"response":"Error in postData"}
+    }
+    return output
+}
+
+// update
+async function updateOrder(colName,condition,data){
+    let output;
+    try{
+        output = await db.collection(colName).updateOne(condition,data)
+    } catch(err){
+        output = {"response":"Error in update data"}
+    }
+    return output
+}
+
+// delete
+async function deleteOrder(colName,condition){
+    let output;
+    try{
+        output = await db.collection(colName).deleteOne(condition)
+    } catch(err){
+        output = {"response":"Error in delete data"}
+    }
+    return output
 }
 
  module.exports = {
     dbConnect , 
     getData,
-    postData
+    postData,
+    updateOrder,
+    deleteOrder
  }
