@@ -1,0 +1,45 @@
+
+
+[
+        {   
+            "faishontype_id":1,
+            "faishontype_name":"Indian Wear",
+            "faishontype_img":"https://i.ibb.co/q780s4r/saree2.jpg"
+        },
+        {
+            "category_id":1,
+            "faishontype_id":2,
+            "faishontype_name":"Western Wear",
+            "faishontype_img":"https://i.ibb.co/n0y3Jr7/dress1.jpg"
+        },
+        {
+            "category_id":1,
+            "faishontype_id":3,
+            "faishontype_name":"Women Footwear",
+            "faishontype_img":"https://i.ibb.co/LJHdPDx/heel2.jpg"
+        },
+        {
+            "category_id":1,
+            "faishontype_id":4,
+            "faishontype_name":"Jwellery",
+            "faishontype_img":"https://i.ibb.co/0mmMWY8/necklace1.jpg"
+        },
+        {
+            "category_id":1,
+            "faishontype_id":5,
+            "faishontype_name":"Topwear",
+            "faishontype_img":"https://i.ibb.co/DbzqSx2/Tshirt2.jpg"
+        },
+        {
+            "category_id":1,
+             "faishontype_id":6,
+             "faishontype_name":"Ethnic Wear",
+             "faishontype_img":"https://i.ibb.co/HF8L8wS/nehrujacket2.jpg"
+        },
+        {
+            "category_id":1,
+            "faishontype_id":7,
+            "faishontype_name":"Men Footwear",
+            "faishontype_img":"https://i.ibb.co/WzyWPNt/formals1.jpg"
+        }
+]

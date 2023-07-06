@@ -1,0 +1,223 @@
+.header-id{
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 400;
+}
+#top{
+    height:40px;
+    background-size: cover !important;
+    background-color: #fc2779;
+    background-image: url(https://adn-static1.nykaa.com/media/wysiwyg/2021/common-strip.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.left-div{
+    vertical-align: middle;
+    /* border: 2px solid black; */
+    float: left;
+    width: 45%;
+    height: 40px;
+    margin-left: 5%;
+    margin-bottom: 0 !important;
+    overflow: hidden;
+    position: relative;
+}
+#search{
+    height:80px;
+    border-bottom: solid 1px #e6dede;
+    width: 100%;
+}
+.search-div{
+    padding-top: 4px;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 83.25em;
+    margin: 0 auto;
+}
+.search-left{
+    width:85%;
+}
+
+.nykaa-logo{
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    line-height: 50px;
+    width: 9.5%;
+    background-size: cover;
+}
+.search-icon{
+    line-height: 62px;
+    /* width: 25%; */
+    height: 30px;
+    display: inline-block;
+}
+.inside-search-icon {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    height: 60px;
+}
+.inside-search-icon2{
+    /* border: 1px solid rgba(151,151,151,0.1); */
+    width: 100%;
+    padding: 0 2%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background: rgba(151,151,151,0.1);
+    transition: width 0.5s ease-in-out;
+    position: relative;
+    z-index: 10;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+}
+.search-btn{
+    position: absolute;
+    border: none;
+    background: transparent;
+    top: 7px;
+    
+}
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.search {
+    padding: 0 18px 0 35px;
+    align-items: center;
+    width: 100%;
+}
+.search-box {
+    border: none;
+    background: #f4f4f4;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+}
+input{
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    word-spacing: normal;
+}
+.search-right{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: 10px;
+}
+#signin{
+    position: relative;
+    display: flex;
+    margin-right: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.signin-btn{
+    min-width: 95px;
+}
+.btn{
+    position: relative;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    overflow: hidden;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    border-radius: 8px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    background-color: #fc2779;
+    color: #ffffff;
+}
+
+.bag-btn{
+    border: none;
+    position: relative;
+    margin-left: 10px;
+    background: rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+
+#navbar{
+    width: 100%;
+    
+}
+.nav{
+    text-align: center;
+    background: #fff;
+    height: 50px;
+    line-height: 47px;
+    position: relative;
+    margin-left: 40px;
+   
+}
+.nav>ul{
+    display: flex;
+    list-style: none;
+    /* justify-content: space-between; */
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px; */
+    
+}
+.nav>ul>li{
+    font-size: 17px;
+    font-weight: 500;
+    float: left;
+    color: black;
+    border-bottom: 3px solid transparent;
+    
+}
+.nav ul li a{
+    display: block;
+    padding: 0 7px;
+    font-size: 17px;
+    font-weight: bold;
+    /* position: relative;
+    z-index: 10003; */
+    border-bottom: 3px solid transparent;
+    color: black;
+}
+.search-btn svg{
+    width:24px;
+    height:24px;
+}
+#bag-btn svg{
+    width:24px;
+    height:24px;
+}

@@ -8,37 +8,43 @@
       "products":[
         {
           "t-shirt_name":"Plane T-shirt",
-          "tshirt_img": "https://ibb.co/QJRNvFB",
+          "color":"orange",
+          "tshirt_img":"https://i.ibb.co/9pLTH9X/Tshirt1.jpg",
           "average_rating": 4.2,
           "cost": 330
           },
           {
            "t-shirt_name":"T-shirt stripped",
-           "tshirt_img": "https://ibb.co/9vcMCF5",
+           "color":"Black and Orange",
+           "tshirt_img":"https://i.ibb.co/DbzqSx2/Tshirt2.jpg",
            "average_rating": 4.2,
            "cost": 300
           },
           {
-           "t-shirt_name":"Grey sweatshirt long sleeve",
-           "tshirt_img": "https://ibb.co/0QrjkJH",
+           "t-shirt_name":"sweatshirt long sleeve",
+           "color":"Grey",
+           "tshirt_img":"https://i.ibb.co/CWQ5q0R/Tshirt3.jpg",
            "average_rating": 4.2,
            "cost": 360
           },
           {
            "shirt_name":"Shirt with black strips",
-           "shirt_img": "https://ibb.co/fvqkT83",
+           "color":"Black check",
+           "shirt_img": "https://i.ibb.co/RQVQ9jC/shirt4.jpg",
            "average_rating": 4.2,
            "cost": 500
           },
           {
            "shirt_name":"shirt in grey",
-           "shirt_img": " https://ibb.co/tMfKLZ5",
+           "color":"Grey",
+           "shirt_img": " https://i.ibb.co/Sr5tZQk/shirt2.jpg",
            "average_rating": 4.2,
            "cost": 600
           },
           {
            "shirt_name":"shirt in Red check",
-           "shirt_img": "https://ibb.co/VMPMtwv",
+           "color":"Red check",
+           "shirt_img": "https://i.ibb.co/MDTSB8L/shirt3.jpg",
            "average_rating": 4.2,
            "cost": 550
           }

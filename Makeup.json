@@ -1,76 +1,77 @@
 [
-    {
-        
+    {       
       "category_id": 4,
       "category_name": "Makeup",
-      "makeup_products": [
+      "products": [
         {
-          "prod_name":"Foundation",
+          "product_name":"Foundation shade Light",
           "brand":"Maybellene",
-          "foundation_img": "https://ibb.co/CQTYQNq",
+          "product_img": "https://i.ibb.co/0rd6r8k/Fitme-Foundation1.jpg",
           "average_rating": 4.2,
           "cost": 300
         },
         {
-          "prod_name":"Foundation",
+          "product_name":"Foundation shade Dark",
           "brand":"Maybellene",
-          "foundation_img": "https://ibb.co/VW6JcCc",
+          "product_img": "https://i.ibb.co/Gvmn4M4/Fitme-Foundation2.jpg",
           "average_rating": 4.2,
           "cost": 300
         },
         {
-          "prod_name":"Mascarra",
+          "product_name":"Mascarra",
           "brand":"Lakme",
-          "foundation_img": "https://ibb.co/hKtPhYR",
+          "product_img": "https://i.ibb.co/WcYbqVW/Lakme-Eyeconic-Mascarra2.jpg",
           "average_rating": 4.2,
           "cost": 270
         },
         {
-          "prod_name":"Eyeliner",
+          "product_name":"Eyeliner",
           "brand":"Lakme",
-          "lipstick_img": "https://ibb.co/bz0j04w",
+          "product_img": "https://i.ibb.co/jgN9NC0/Lakme-Eyeliner1.jpg",
           "average_rating": 4.2,
           "cost": 250
         },
         {
-          "prod_name":"Concieler",
+          "product_name":"Concieler",
           "brand":"NYX",
-          "concieler_img": "https://ibb.co/4Tkkmgn",
+          "product_img": "https://i.ibb.co/BZkkzK5/Nyx-Concealer2.jpg",
           "average_rating": 4.2,
           "cost": 300
         },
         {
-          "prod_name":"Concieler",
+          "product_name":"Concieler",
           "brand":"Maybellene",
-          "concieler_img": "https://ibb.co/tCL2M7d",
+          "product_img": "https://i.ibb.co/s3W1v0B/Maybellene-Concealer1.jpg",
           "average_rating": 4.2,
           "cost": 350
         },
         {
-          "prod_name":"Compact",
+          "product_name":"Compact",
           "brand":"NYX",
-          "concieler_img": "https://ibb.co/PDhHdjH",
+          "product_img": "https://i.ibb.co/5K8HP4H/Nyx-Compact1.jpg",
           "average_rating": 4.2,
           "cost": 300
         },
         {
-          "prod_name":"Compact",
+          "product_name":"Concieler",
           "brand":"NYX",
-          "Primer_img": "https://ibb.co/9VVCT9M",
+          "product_img": "https://i.ibb.co/hZZtWRq/Nyx-Compact2.jpg",
           "average_rating": 4.2,
           "cost": 300
         },
         {
-          "prod_name":"Lipstick Matte",
+          "product_name":"Lipstick Matte",
           "brand":"Maybellene",
-          "lipstick_img": "https://ibb.co/rb54D0M",
+          "color":"Light chocolate",
+          "product_img": "https://i.ibb.co/GsCczpk/Maybellene-Lipstick1.jpg",
           "average_rating": 4.2,
           "cost": 400
         },
         {
-            "prod_name":"Lipstick Matte",
+            "product_name":"Lipstick Matte",
             "brand":"Lakme",
-            "lipstick_img": "https://ibb.co/Hh3fxFC",
+            "color":"Rose red",
+            "product_img": "https://i.ibb.co/KKSpL0D/Lakme-Lipstick2.jpg",
             "average_rating": 4.2,
             "cost": 445
           }

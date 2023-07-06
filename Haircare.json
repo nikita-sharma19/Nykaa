@@ -1,55 +1,50 @@
 [
-    {
-        
+    {       
       "category_id": 2,
       "category_name": "Hair Care",
-      "haircare_products":[
+      "category_img": "https://i.ibb.co/7WgZhFW/Onion-Shampoo1.jpg",
+      "category_content": "Best deals waiting for you!",
+      "products":[
         {
             
-            "shampoo_name":"Mama Earth Onion shampoo",
-            "shampoo_img": "https://ibb.co/nc3YpSc",
+            "product_name":"Mama Earth Onion shampoo",
+            "product_img": "https://i.ibb.co/7WgZhFW/Onion-Shampoo1.jpg",
             "average_rating": 4.2,
             "cost": 300
           },
-          {
-            
-            "shampoo_name":"Panteen Pro-V",
-            "shampoo_img": "https://ibb.co/cgp6kTm",
+          {           
+            "product_name":"Panteen Pro-V",
+            "product_img": "https://i.ibb.co/p0sfbXm/Panteen-Shampoo3.jpg",
             "average_rating": 4.2,
             "cost": 200
           },
-          {
-           
-            "shampoo_name":"Tresseme",
-            "shampoo_img": "https://ibb.co/p32mjvW",
+          {           
+            "product_name":"Tresseme",
+            "product_img": "https://i.ibb.co/P5xSGZT/Tresseme-Shampoo2.jpg",
             "average_rating": 4.2,
             "cost": 300
           },
-          {
-            
-            "hairoil_name":"Mama Earth onion Hairoil",
-            "shampoo_img": "https://ibb.co/7r4D6Sh",
+          {           
+            "product_name":"Mama Earth onion Hairoil",
+            "product_img": "https://i.ibb.co/8PcwSmk/Aromine-Hairoil1.jpg",
             "average_rating": 4.2,
             "cost": 200
           },
-          {
-            
-            "hairoil_name":"Amla",
-            "shampoo_img": "https://ibb.co/ZggV7TJ",
+          {            
+            "product_name":"Amla",
+            "product_img": "https://i.ibb.co/c881VTv/Amla-Hairoil2.jpg",
             "average_rating": 4.2,
             "cost": 150
           },
           {
-            
-            "serum_name":"Maybeau",
-            "serum_img": "https://ibb.co/9pTFXnG",
+           "product_name":"Maybeau",
+            "product_img": "https://i.ibb.co/qDstGBx/serum1.jpg",
             "average_rating": 4.2,
             "cost": 300
           },
-          {
-            
-            "serum_name":"hair Perfect",
-            "serum_img": "https://ibb.co/LRmx5Jt",
+          {   
+            "product_name":"hair Perfect",
+            "product_img": "https://i.ibb.co/yPt6SYy/serum2.jpg",
             "average_rating": 4.2,
             "cost": 300
           }

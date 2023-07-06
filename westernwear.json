@@ -7,64 +7,78 @@
             "products":[
           {
             "Dresses": [
-
               {
-              "dress_name":"Dresses",
-              "dress_img": "https://ibb.co/3sbfZ1p",
+              "dress_name":"Floral knee length dress",
+              "size":"small",
+              "dress_img":"https://i.ibb.co/n0y3Jr7/dress1.jpg",
               "average_rating": 4.2,
               "cost": 444
               },
               {
-                "dress_name":"Dresses",
-                "dress_img": "https://ibb.co/PgrttWh",
+                "dress_name":"White Basic",
+                "dress_img":"https://i.ibb.co/Rcg7760/dress2.jpg",
+                "size":"small",
                 "average_rating": 4.2,
-                "cost": 444
+                "cost": 750
               },
               {
-                "dress_name":"Dresses",
-                "dress_img": "https://ibb.co/LhnGR9b",
+                "dress_name":"black and white ambroidered",
+                "size":"medium",
+                "dress_img":"https://i.ibb.co/qFkZjmX/dress3.jpg",
                 "average_rating": 4.2,
-                "cost": 444
+                "cost": 700
               },
               {
-                "dress_name":"Dresses",
-                "dress_img": "https://ibb.co/L0WLrYr",
+                "dress_name":"Plane georgette",
+                "dress_img":"https://i.ibb.co/hgjPcLc/dress4.jpg",
+                "color":"sea Green",
+                "size":"medium",
                 "average_rating": 4.2,
-                "cost": 444
+                "cost": 560
               }
             ],
             "Tops": [
                 {
                   "top_name":"Tops & Tees",
-                  "top_img": "https://ibb.co/gzH1r3y",
+                  "color":"Biege",
+                  "top_img":"https://i.ibb.co/RzZng92/top1.jpg",
+                  "size":"small",
                   "average_rating": 4.2,
-                   "cost": 444
+                   "cost": 400
                 },
                 {
-                  "top_name":"Tops & Tees",
-                  "top_img": "https://ibb.co/0XwG09S",
+                  "top_name":"Long Plane",
+                  "color":"Purple",
+                  "top_img":"https://i.ibb.co/RS5DX6m/top2.jpg",
+                  "size":"medium",
                   "average_rating": 4.2,
-                  "cost": 444
+                  "cost": 500
                 } 
               ],
               "Jeans": [
                 {
-                  "jeans_name":"Jeans",
-                  "jeans_img": "https://ibb.co/z2P1kpb",
+                  "jeans_name":"Damaged faishonable Jeans",
+                  "color":"Greyish Blue",
+                  "jeans_img":"https://i.ibb.co/1XR3S1K/jeans1.jpg",
+                  "size":"medium",
                   "average_rating": 4.2,
                   "cost": 700
                 },
                 {
-                  "jeans_name":"Jeans",
-                  "jeans_img": "https://ibb.co/B64Dhkz",
+                  "jeans_name":"Straight A-Cut Jeans",
+                  "color":"Blue",
+                  "jeans_img":"https://i.ibb.co/688zZvS/jeans3.jpg",
+                  "size":"medium",
                   "average_rating": 4.2,
-                   "cost": 700  
+                   "cost": 550 
                 },
                 {
-                  "jeans_name":"Jeans",
-                  "jeans_img": "https://ibb.co/dttFcbv",
+                  "jeans_name":"Plain Jeans",
+                  "color":"Black",
+                  "jeans_img":"https://i.ibb.co/4Ssybkm/jeans2.jpg",
+                  "size":"medium",
                    "average_rating": 4.2,
-                   "cost": 700  
+                   "cost": 650  
                 }
               ]
 

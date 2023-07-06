@@ -6,87 +6,87 @@
     "jwellery": [  
       {
        "product_name":"Earring1",
-      "earring_img": "https://ibb.co/WKdQh9m",
+      "earring_img": "https://i.ibb.co/88RJC31/earring1.jpg",
       "average_rating": 4.2,
-      "cost": 70
+      "cost": 100
       },
       {
         "product_name":"Earring2",
-       "earring_img": "https://ibb.co/85v0WQW",
+       "earring_img": "https://i.ibb.co/Wy86bRb/earring2.jpg",
        "average_rating": 4.2,
-       "cost": 70
+       "cost": 600
       },
       {
         "product_name":"Earring3",
-       "earring_img": "https://ibb.co/2FwvgQt",
+       "earring_img": "https://i.ibb.co/VLdg2ZS/earring3.jpg",
        "average_rating": 4.2,
-       "cost": 75
+       "cost": 500
       },
       {
         "product_name":"Earring4",
-       "earring_img": "https://ibb.co/BgQRSdz",
+       "earring_img": "https://i.ibb.co/wKP1x30/earring4.jpg",
        "average_rating": 4.2,
-       "cost": 80
+       "cost": 300
       },
       {
         "product_name":"Necklace1",
-       "earring_img": "https://ibb.co/gmmTXtH",
+       "necklace_img": "https://i.ibb.co/0mmMWY8/necklace1.jpg",
        "average_rating": 4.2,
-       "cost": 200
+       "cost": 1000
       },
       {
         "product_name":"Necklace2",
-       "earring_img": "https://ibb.co/DCd3xp1",
+       "necklace_img": "https://i.ibb.co/GT30XX7/necklace2.jpg",
        "average_rating": 4.2,
-       "cost": 200
+       "cost": 980
       },
       {
         "product_name":"Necklace3",
-       "earring_img": "https://ibb.co/xH8Dyyh",
+       "necklace_img": "https://i.ibb.co/F0Xdjsf/necklace3.jpg",
        "average_rating": 4.2,
-       "cost": 250
+       "cost": 1100
       },
       {
         "product_name":"Necklace4",
-       "earring_img": "https://ibb.co/ZYSbkHw",
+       "necklace_img": "https://i.ibb.co/T8yzVLw/necklace4.jpg",
        "average_rating": 4.2,
-       "cost": 300
+       "cost": 1200
       },
       {
         "product_name":"Ring1",
-       "earring_img": "https://ibb.co/Fg29L8C",
+       "ring_img": "https://i.ibb.co/xJWytzd/ring1.jpg",
        "average_rating": 4.2,
-       "cost": 450
+       "cost": 660
       },
       {
         "product_name":"Ring2",
-       "earring_img": "https://ibb.co/M55YgrL",
+       "ring_img": "https://i.ibb.co/844WmqV/ring2.jpg",
        "average_rating": 4.2,
-       "cost": 300
+       "cost": 600
       },
       {
         "product_name":"Ring3",
-       "earring_img": "https://ibb.co/30NzD2x",
+       "ring_img": "https://i.ibb.co/rZ6sCYB/ring3.jpg",
        "average_rating": 4.2,
-       "cost": 300
+       "cost": 1200
       },
       {
         "product_name":"Bracellet1",
-       "earring_img": "https://ibb.co/Lnc4wv6",
+       "bracellet_img": "https://i.ibb.co/6gT6hNb/bracelet1.jpg",
        "average_rating": 4.2,
-       "cost":500
+       "cost":890
       },
       {
         "product_name":"Bracellet2",
-       "earring_img": "https://ibb.co/zZ1FHt0",
+       "bracellet_img": "https://i.ibb.co/VTdxpkP/bracelet2.jpg",
        "average_rating": 4.2,
-       "cost": 550
+       "cost": 900
       },
       {
         "product_name":"Bracellet3",
-       "earring_img": "https://ibb.co/8xgsxD9",
+       "bracellet_img": "https://i.ibb.co/dp4Mp0D/bracelet3.jpg",
        "average_rating": 4.2,
-       "cost": 550
+       "cost": 1000
       }
     ]
   }

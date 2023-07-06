@@ -10,19 +10,19 @@
                     {
                       "prod_id":50,
                       "saree_name":"Purple with stone work",
-                      "saree_img": "https://ibb.co/HdQQc3t",
+                      "saree_img":"https://i.ibb.co/fSFDh3W/Saree1.jpg",
                       "cost": 2000
                       },
                       {
-                        "prod_id":51,
+                      "prod_id":51,
                       "saree_name":"kanjivaram pure silk saree",
-                      "saree_img": "https://ibb.co/5G3Y8zR",
+                      "saree_img": "https://i.ibb.co/q780s4r/saree2.jpg",
                       "cost": 2500
                       },
                       {
-                        "prod_id":52,
+                      "prod_id":52,
                       "saree_name":"Ambroidered in yellow",
-                      "saree_img": "https://ibb.co/H24hWcy",
+                      "saree_img": "https://i.ibb.co/cLddWV6/saree3.jpg",
                       "average_rating": 4.2,
                       "cost": 1500
                       }
@@ -31,14 +31,14 @@
                     {
                       "prod_id":53,
                       "lahenga_name":"Pink Ambroidered",
-                      "lehanga_img": "https://ibb.co/s2Kw0TY",
+                      "lehanga_img": "https://i.ibb.co/rpMszqq/lehanga1.jpg",
                       "average_rating": 4.2,
                       "cost": 3000
                     },
                     {
                       "prod_id":54,
                       "lahenga_name":"Grey & pink with Rajasthani print",
-                      "lehanga_img": "https://ibb.co/T0RL7JJ",
+                      "lehanga_img": "https://i.ibb.co/ZVB8nQD/lehanga2.jpg",
                       "average_rating": 4.2,
                       "cost": 4400
                     }
@@ -47,7 +47,7 @@
                     {
                       "prod_id":55,
                       "kurti_name":"Frock kurti",
-                      "kurti_img": "https://ibb.co/z2yGzF7",
+                      "kurti_img":"https://i.ibb.co/gW5zxdP/kurti1.jpg",
                       "size":"small & Medium",
                       "average_rating": 4.2,
                       "rating_text": "Very Good",
@@ -56,7 +56,7 @@
                     {
                       "prod_id":56,
                       "kurti_name":"Yellow long kurti",
-                      "kurti_img": "https://ibb.co/ZcLFzTJ",
+                      "kurti_img":"https://i.ibb.co/MP2tkNh/kurti2.jpg",
                       "size":"Medium & Large",
                       "average_rating": 4.2,
                       "rating_text": "Very Good",
@@ -65,7 +65,7 @@
                     {
                       "prod_id":57,
                       "kurti_name":"Printed kurti",
-                      "kurti_img": "https://ibb.co/dKk6fGC",
+                      "kurti_img":"https://i.ibb.co/f0rtX46/kurti3.jpg",
                       "size":"small",
                       "average_rating": 4.2,
                       "rating_text": "Very Good",
@@ -74,7 +74,7 @@
                     {
                       "prod_id":58,
                       "kurti_name":"Ambroidered A-cut kurti",
-                      "kurti_img": "https://ibb.co/Z2vBT7V", 
+                      "kurti_img":"https://i.ibb.co/xFw15dD/kurti4.jpg", 
                       "size":"small & Large",
                       "average_rating": 4.2,
                       "rating_text": "Very Good",

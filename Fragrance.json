@@ -5,55 +5,55 @@
       "fragrance": [
         {
           
-          "prod_name":"Perfume",
+          "product_name":"Perfume",
           "brand":"La'France",
-          "perfume_img": "https://ibb.co/swgyyQ5",
+          "product_img": "https://i.ibb.co/J7c552x/Perfume1.jpg",
           "average_rating": 4.2,
           "cost": 250
         },
         {
          
-          "prod_name":"Perfume",
+          "product_name":"Perfume",
           "brand":"Lavender flora",
-          "perfume_img": "https://ibb.co/sP701kM",
+          "product_img": "https://i.ibb.co/W3CbzqY/Perfume2.jpg",
           "average_rating": 4.2,
           "cost": 260
         },
         {
           
-          "prod_name":"Perfume",
+          "product_name":"Perfume",
           "brand":"Watta girl",
-          "rollon_img": "https://ibb.co/80Sx0jm",
+          "product_img": "https://i.ibb.co/9NC4Nqp/perfume4.jpg",
           "average_rating": 4.2,
           "cost": 250
         },
         {
           
-          "prod_name":"Roll on",
+          "product_name":"Roll on",
           "brand":"Nivea",
-          "rollon_img": "https://ibb.co/ry0Vp09",
+          "product_img": "https://i.ibb.co/vzqSdq9/Rollon1.jpg",
           "average_rating": 4.2,
           "cost": 220
         },
         {
          
-          "prod_name":"Deo",
+          "product_name":"Deo",
           "brand":"Dove",
-          "deo_img": "https://ibb.co/mc0fWHj",
+          "product_img": "https://i.ibb.co/HHC58rS/Deo1.jpg",
           "cost": 200
         },
         {
          
-          "prod_name":"Deo",
+          "product_name":"Deo",
           "brand":"Park Evenue",
-          "deo_img": "https://ibb.co/2PNm91Y",
+          "product_img": "https://i.ibb.co/ftvBgzG/Deo2.jpg",
           "cost": 220
         },
         {
           
-          "prod_name":"Deo",
+          "product_name":"Deo",
           "brand":"Wildstone",
-          "deo_img": "https://ibb.co/4dqQDxP",
+          "product_img": "https://i.ibb.co/SrjL1pR/Deo3.jpg",
           "cost": 230
         }   
       ]

@@ -4,43 +4,38 @@
     "faishontype_id":7,
     "faishontype_name":"men_Footwear",
     "men_id": 2,
-    "men_footwears": [
+    "footwears": [
       {
-        
         "product_name":"Casuals",
-        "Footwear_img": "https://ibb.co/YXM6NYH",
+        "Footwear_img":"https://i.ibb.co/w7XTd35/casual1.jpg",
         "average_rating": 4.2,
         "rating_text": "Very Good",
         "cost": 400
       },
-      {
-       
+      {      
         "product_name":"Casuals",
-        "Footwear_img": "https://ibb.co/KwbwNwP",
+        "Footwear_img":"https://i.ibb.co/NStS1Sv/casual2.jpg",
         "average_rating": 4.2,
         "rating_text": "Very Good",
         "cost": 440
       },
-      {
-        
+      {        
       "product_name":"Formals",
-      "Footwear_img": "https://ibb.co/6tPR1cB",
+      "Footwear_img":"https://i.ibb.co/WzyWPNt/formals1.jpg",
       "rating_text": "Very Good",
-      "cost": 700
+      "cost": 1000
       },
-      {
-       
+      {      
       "product_name":"Formals",
-      "Footwear_img": "https://ibb.co/Pxjvmm0",
+      "Footwear_img":"https://i.ibb.co/K6hp00S/formals2.jpg",
       "rating_text": "Very Good",
-      "cost": 750
+      "cost": 1500
       },
-      {
-        
+     {       
       "product_name":"Formals",
-      "Footwear_img": "https://ibb.co/GxM1F1y",
+      "Footwear_img":"https://i.ibb.co/qyg4x4K/formals3.jpg",
       "rating_text": "Very Good",
-      "cost": 800
+      "cost": 900
       }
     ]
   }

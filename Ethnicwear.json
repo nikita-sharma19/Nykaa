@@ -9,63 +9,63 @@
         {
             
           "kurta_name":"Shine brown",
-          "kurta_img": "https://ibb.co/dKGjNLc",
+          "kurta_img":"https://i.ibb.co/nkz6Xn0/kurta1.jpg",
           "average_rating": 4.2,
           "cost": 800
           },
           {
             
           "kurta_name":"Blinky Pink",
-          "kurta_img": "https://ibb.co/6WZCdKF",
+          "kurta_img":"https://i.ibb.co/TgT3CQt/kurta2.jpg",
           "average_rating": 4.2,
           "cost": 800
           },
           {
            
           "kurta_name":"Royal Blue Silk Kurta",
-          "kurta_img": "https://ibb.co/wWRfxvx",
+          "kurta_img":"https://i.ibb.co/7WXq696/kurta3.jpg",
           "average_rating": 4.2,
           "cost": 880
           },
           {
             
             "nehrujacket_name":"Printed Floral ",
-            "nehrujacket_img": "https://ibb.co/828brbp",
+            "nehrujacket_img":"https://i.ibb.co/3Whvpvq/nehrujacket1.jpg",
             "average_rating": 4.2,
             "cost": 700
           },
           {
             
             "nehrujacket_name":"Peach Plane Silk",
-            "nehrujacket_img": "https://ibb.co/Lk7D7jF",
+            "nehrujacket_img":"https://i.ibb.co/HF8L8wS/nehrujacket2.jpg",
             "average_rating": 4.2,
             "cost": 700
           },
           {
             
             "nehrujacket_name":"Brown Silk shine",
-            "nehrujacket_img": "https://ibb.co/sKHyMT1",
+            "nehrujacket_img":"https://i.ibb.co/pfyJ9HK/nehrujacket3.jpg",
             "average_rating": 4.2,
             "cost": 770
           },
           {
             
             "sherwani_name":"Floral print sherwani in brown",
-            "sherwani_img": "https://ibb.co/Fm9ysJ1",
+            "sherwani_img":"https://i.ibb.co/ZG3FHKr/sherwani1.jpg",
             "average_rating": 4.2,
             "cost": 3000
           },
           {
             
             "sherwani_name":"Embroidered Royal Sherwani",
-            "sherwani_img": " https://ibb.co/mvfkM3g",
+            "sherwani_img":"https://i.ibb.co/f8jfPsL/sherwani2.jpg",
             "average_rating": 4.2,
             "cost": 3000
           },
           {
             
             "sherwani_name":"Plane With green dupatta",
-            "sherwani_img": "https://ibb.co/2tfSSDj",
+            "sherwani_img":"https://i.ibb.co/FwjXXSB/sherwani3.jpg",
             "average_rating": 4.2,
             "cost": 3300
           }

@@ -1,0 +1,76 @@
+.filter{
+    width:15%;
+    height:500px;
+    border:2px solid black;
+    margin-left: 2%;
+}
+.heading{
+    text-align: center;
+    color: #BB2C27;
+}
+.subHeading{
+    margin-left: 5%;
+}
+.cuisines{
+    display: block;
+}
+.cuisines div{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.main-div{
+    width:80%;
+    /* height:500px; */
+    border:2px solid black;
+    margin-left: 2%;
+}
+.listingDiv{
+    display:flex;
+    margin-top: 2%;
+    border: 2px solid red;
+}
+
+.filter-container{
+    /* background-color: #BB2C27; */
+    width:100%;
+    height:400px;
+    display:flex;
+}
+.card{
+    width:20%;
+    height:300px;
+    margin-left: 3%;
+    margin-top: 4px; 
+}
+.imageDiv{
+    width:100%;
+    height:300px;
+    border-radius: 2%;
+    /* border:2px solid black; */
+}
+.imageDiv img{
+    width:100%;
+    height:300px;
+    border-radius: 2%;
+}
+.cardContent{
+    margin-top: 7px;
+    background-color: whitesmoke;
+    font-weight: bold;
+    
+}
+.detailsDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    background-color: whitesmoke;
+}
+.detail h3{
+    color:blueviolet;
+    font-size: medium;
+}
+.cost h3{
+    color:green;
+    font-size: medium;
+}

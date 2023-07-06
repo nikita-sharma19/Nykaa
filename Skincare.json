@@ -2,86 +2,79 @@
     {
             "category_id": 3,
             "category_name": "Skin Care",
-            "skincare_products": [
+            "category_content": "Summer Deals on the products",
+            "products":[
                 {
                   
-                  "skincare_name":"Sunscreen",
+                  "product_name":" Watermelon Sunscreen",
                   "brand":"Aqualogica",
-                  "foundation_img": "https://ibb.co/SKyPSGH",
+                  "product_img": "https://i.ibb.co/Wc56Cj7/aqualogica-Sunscreen.jpg",
                   "average_rating": 4.2,
-                  "cost": 444
+                  "cost": 400
                 },
                 {
                   
-                  "skincare_name":"Sunscreen",
+                  "product_name":"Cucumber Sunscreen",
                   "brand":"Aqualogica",
-                  "foundation_img": "https://ibb.co/L0h4d3H",
+                  "product_img": "https://i.ibb.co/CwsxKfD/aqualogica-Sunscreen2.jpg",
                   "average_rating": 4.2,
-                  "cost": 444
+                  "cost": 400
                 },
                 {
                   
-                  "skincare_name":"Sunscreen",
+                  "product_name":"Sunscreen",
                   "brand":"Mamaearth",
-                  "foundation_img": "https://ibb.co/ZgbDrXJ",
+                  "product_img": "https://i.ibb.co/xgrTbLs/Mamaearth-Sunscreen.jpg",
                   "average_rating": 4.2,
-                  "cost": 444
+                  "cost": 250
                 },
                 {
                   
-                  "skincare_name":"Night cream",
-                  "brand":"Dot & Key",
-                  "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-                  "average_rating": 4.2,
-                  "cost": 444
-                },
-                {
-                  
-                  "skincare_name":"Toner",
+                  "product_name":"Toner",
                   "brand":"Biotique",
-                  "foundation_img": "https://ibb.co/KLQ7XNw",
+                  "product_img": "https://i.ibb.co/fnKt28v/Biotique-Toner1.jpg",
                   "average_rating": 4.2,
-                  "cost": 444
+                  "cost": 200
                 },
                 {
                   
-                  "skincare_name":"Toner",
+                  "product_name":"Toner",
                   "brand":"Goodvibes",
-                  "foundation_img": "https://ibb.co/yB1xvBN",
+                  "product_img": "https://i.ibb.co/XkgG0kW/Goodvibes-Toner2.jpg",
                   "average_rating": 4.2,
-                  "cost": 444
+                  "cost": 260
                 },
                 {
                   
-                  "skincare_name":"Moisturizer",
+                  "product_name":"Moisturizer",
                   "brand":"Dot & Key",
-                  "foundation_img": "https://ibb.co/yVpJNtP",
+                  "product_img": "https://i.ibb.co/HXCQK64/Dot-key-Moisturizer.jpg",
                   "average_rating": 4.2,
-                  "cost": 444
+                  "cost": 350
                 },
                 {
                     
-                    "skincare_name":"Moisturizer",
+                    "product_name":"Moisturizer",
                     "brand":"Ponds Age Miracle",
-                    "foundation_img": "https://ibb.co/MGYBRqy",
+                    "product_img": "https://i.ibb.co/pRth3C6/Ponds-Cream.jpg",
                     "average_rating": 4.2,
-                    "cost": 444
+                    "cost": 300
                   },
                   {
                     
-                    "skincare_name":"vitamin c serum",
+                    "product_name":"vitamin c serum",
                     "brand":"Lakme",
-                    "foundation_img": "https://ibb.co/3cw0y1x",
+                    "product_img": "https://i.ibb.co/w4TKNyn/Lakme-Serum1.jpg",
                     "average_rating": 4.2,
-                    "cost": 444
+                    "cost": 499
                   },
                   {
                     
-                    "skincare_name":"Lip Balm",
+                    "product_name":"Lip Balm",
                     "brand":"Nevia",
-                    "foundation_img": "https://ibb.co/7QCFXFD",
+                    "product_img": "https://i.ibb.co/3vdH7Hb/Nevia-Lipbalm.jpg",
                     "average_rating": 4.2,
-                    "cost": 444
+                    "cost": 150
                   }
               ]
     }

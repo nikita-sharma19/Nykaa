@@ -1,120 +1,131 @@
 [
     {
-        "product_id":1,
-        "product_name":"Saree",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":2,
-        "product_name":"Lehengas",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":3,
-        "product_name":"Kurtis",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":4,
-        "product_name":"Dresses",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":5,
-        "product_name":"Tops & Tees",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":6,
-        "product_name":"Jeans & Jeggings",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":7,
-        "product_name":"Jackets & Coats",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":8,
-        "product_name":"Heels",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":9,
-        "product_name":"Flats",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":10,
-        "product_name":"Sneakers",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":11,
-        "product_name":"Earrings",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":12,
-        "product_name":"Necklace",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":13,
-        "product_name":"Rings & Bracelletes",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":14,
-        "product_name":"Men T-shirts",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":15,
-        "product_name":"Sweat Shirts",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":16,
-        "product_name":"Shirts",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":17,
-        "product_name":"Jackets",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":18,
-        "product_name":"Kurta Sets",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":19,
-        "product_name":"Nehru Jacket",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":20,
-        "product_name":"Sherwanis",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":21,
-        "product_name":"Casuals",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "product_id":22,
-        "product_name":"Formals",
-        "prod_image": "https://i.ibb.co/FVhSTWK/breakfast.jpg"
-    },
-    {
-        "haircaretype_id":23,
-        "haircaretype_name":"Shampoos"
-    },
-    {
-        "haircaretype_id":24,
-        "haircaretype_name":"Hair oils"
-    }
+        "category_id":1,
+        "faishontype_id":1,
+        "faishontype_name":"Indian Wear",
+        "prod_id":50,
+        "product_name":"Purple with stone work",
+        "product_img":"https://i.ibb.co/fSFDh3W/Saree1.jpg",
+        "cost": 2000
+        },
+        {
+        "category_id":1,
+        "faishontype_id":1,
+        "faishontype_name":"Indian Wear",
+        "prod_id":51,
+        "product_name":"kanjivaram pure silk saree",
+        "product_img": "https://i.ibb.co/q780s4r/saree2.jpg",
+        "cost": 2500
+        },
+        {
+        "category_id":1,
+        "faishontype_id":1,
+        "faishontype_name":"Indian Wear",
+        "prod_id":52,
+        "product_name":"Ambroidered in yellow",
+        "product_img": "https://i.ibb.co/cLddWV6/saree3.jpg",
+        "average_rating": 4.2,
+        "cost": 1500
+        },
+        {
+            "category_id":1,
+            "faishontype_id":1,
+            "faishontype_name":"Indian Wear",
+            "prod_id":53,
+            "product_name":"Pink Ambroidered",
+            "product_img": "https://i.ibb.co/rpMszqq/lehanga1.jpg",
+            "average_rating": 4.2,
+            "cost": 3000
+          },
+          {
+            "category_id":1,
+            "faishontype_id":1,
+            "faishontype_name":"Indian Wear",
+            "prod_id":54,
+            "product_name":"Grey & pink with Rajasthani print",
+            "product_img": "https://i.ibb.co/ZVB8nQD/lehanga2.jpg",
+            "average_rating": 4.2,
+            "cost": 4400
+          },
+          {
+            "category_id":1,
+            "faishontype_id":1,
+            "faishontype_name":"Indian Wear",
+            "prod_id":55,
+            "product_name":"Frock kurti",
+            "product_img":"https://i.ibb.co/gW5zxdP/kurti1.jpg",
+            "size":"small & Medium",
+            "average_rating": 4.2,
+            "rating_text": "Very Good",
+            "cost": 444
+          },
+          {
+            "category_id":1,
+            "faishontype_id":1,
+            "faishontype_name":"Indian Wear",
+            "prod_id":56,
+            "product_name":"Yellow long kurti",
+            "product_img":"https://i.ibb.co/MP2tkNh/kurti2.jpg",
+            "size":"Medium & Large",
+            "average_rating": 4.2,
+            "rating_text": "Very Good",
+            "cost": 550
+          },
+          {
+            "category_id":1,
+            "faishontype_id":1,
+            "faishontype_name":"Indian Wear",
+            "prod_id":57,
+            "product_name":"Printed kurti",
+            "product_img":"https://i.ibb.co/f0rtX46/kurti3.jpg",
+            "size":"small",
+            "average_rating": 4.2,
+            "rating_text": "Very Good",
+            "cost": 500
+          },
+          {
+            "category_id":1,
+            "faishontype_id":1,
+            "faishontype_name":"Indian Wear",
+            "prod_id":58,
+            "product_name":"Ambroidered A-cut kurti",
+            "product_img":"https://i.ibb.co/xFw15dD/kurti4.jpg", 
+            "size":"small & Large",
+            "average_rating": 4.2,
+            "rating_text": "Very Good",
+            "cost": 600
+          },
+          {
+            "category_id":1,
+            "faishontype_id":2,
+            "faishontype_name":"Western Wear",
+            "product_name":"Floral knee length dress",
+            "size":"small",
+            "product_img":"https://i.ibb.co/n0y3Jr7/dress1.jpg",
+            "average_rating": 4.2,
+            "cost": 444
+          },
+          {
+            "product_name":"White Basic",
+            "product_img":"https://i.ibb.co/Rcg7760/dress2.jpg",
+            "size":"small",
+            "average_rating": 4.2,
+            "cost": 750
+          },
+          {
+            "product_name":"black and white ambroidered",
+            "size":"medium",
+            "dress_img":"https://i.ibb.co/qFkZjmX/dress3.jpg",
+            "average_rating": 4.2,
+            "cost": 700
+          },
+          {
+            "product_name":"Plane georgette",
+            "product_img":"https://i.ibb.co/hgjPcLc/dress4.jpg",
+            "color":"sea Green",
+            "size":"medium",
+            "average_rating": 4.2,
+            "cost": 560
+          }            
 ]
+    

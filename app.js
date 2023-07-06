@@ -43,6 +43,14 @@ app.get('/categories',async (req,res)=>{
     res.send(output)
 })
 
+//just to check something
+app.get('/try',async (req,res)=>{
+    let query = {};
+    let collection = "try"
+    let output = await getData(collection,query)
+    res.send(output)
+})
+
 app.get('/nykaaFaishon',async (req,res)=>{
     let query = {};
     if(req.query.category_id){
@@ -57,8 +65,8 @@ app.get('/nykaaFaishon',async (req,res)=>{
 
 app.get('/faishontype',async (req,res)=>{
     let query = {};
-    if(req.query.category_id){
-        query = {faishontype_id:Number(req.query.category_id)}
+    if(req.query.faishontypeId){
+        query = {faishontype_id: Number(req.query.faishontypeId)}
     }else{
         query={}
     }
@@ -69,11 +77,11 @@ app.get('/faishontype',async (req,res)=>{
 
 app.get('/indianwear',async (req,res)=>{
     let query = {};
-    if(req.query.category_id){
-        query = {faishontype_id:Number(req.query.category_id)}
-    }else{
-        query={}
-    }
+    // if(req.query.productId){
+    //     query = {"products.sarees":Number(req.query.productId)}
+    // }else{
+    //     query={}
+    // }
     let collection = "indianwear"
     let output = await getData(collection,query)
     res.send(output)
@@ -121,12 +129,12 @@ app.get('/menfootwear',async (req,res)=>{
     res.send(output)
 })
 
-app.get('/haircare',async (req,res)=>{
-    let query = {};
-    let collection = "haircare"
-    let output = await getData(collection,query)
-    res.send(output)
-})
+// app.get('/haircare',async (req,res)=>{
+//     let query = {};
+//     let collection = "haircare"
+//     let output = await getData(collection,query)
+//     res.send(output)
+// })
 
 app.get('/skincare',async (req,res)=>{
     let query = {};
@@ -150,7 +158,7 @@ app.get('/fragrance',async (req,res)=>{
 })
 
 app.get('/products',async (req,res)=>{
-    let query = {};
+    let query = {faishontype_id: 2};
     let collection = "products"
     let output = await getData(collection,query)
     res.send(output)
@@ -232,7 +240,7 @@ app.get('/details/:id',async(req,res)=>{
 })
 
 
-//get selected product details
+//get selected product details on basis of faishontype_id
 app.post('/productDetails',async(req,res) => {
     if(Array.isArray(req.body.id)){
         let query = {faishontype_id:{$in:req.body.id}};
@@ -243,7 +251,7 @@ app.post('/productDetails',async(req,res) => {
         res.send('Your data is not in the form of array!')
     }
 })
-
+//get selected product details on basis of category_id
 app.post('/productDetails',async(req,res) => {
     if(Array.isArray(req.body.id)){
         let query = {category_id:{$in:req.body.id}};
@@ -254,7 +262,7 @@ app.post('/productDetails',async(req,res) => {
         res.send('Your data is not in the form of array!')
     }
 })
-
+//get selected items details
 app.post('/productDetails',async(req,res) => {
     if(Array.isArray(req.body.id)){
         let query = {prod_id:{$in:req.body.id}};

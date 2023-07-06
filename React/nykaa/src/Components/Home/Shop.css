@@ -1,0 +1,66 @@
+.home-div{
+    width:100%;
+    display:inline-block;
+    padding:0px;
+    /* background-color: #f6ecec; */
+}
+.main-div h2{
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+.first-mainDiv{
+    width:100%;
+    height:350px;
+    margin-left: 2%;
+    display: flex;
+}
+.first-mainDiv-cards{
+    width:30%;
+    height:350px;
+    margin-right: 3%;
+    
+}
+.first-mainDiv-cards img{
+    border-radius: 7px;
+    height:350px;
+    width:100%;
+    background-size: cover;
+}
+
+
+.nykaa-faishon{
+    height:320px;
+    width:100%;
+    display: flex;
+    background-color: #f4f4f4;
+}
+.mainheading{
+    color:black;
+}
+.content{
+    height:320px;
+    width:100%;
+    display: flex;
+}
+.faishontype{
+    border: 1px grey;
+    background-color: white;
+    height:320px;
+    width:90%;
+    margin-left:2%;
+}
+.faishontype img{
+    width:100%;
+    height:260px;
+    background-size: cover;
+    
+}
+.faishon-heading{
+    font-size: medium;
+    color:black;
+    text-align: center;
+}
+
+
+
+
