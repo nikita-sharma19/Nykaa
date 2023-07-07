@@ -6,6 +6,7 @@ import Footer from './Footer';
 import Home from './Home/Home';
 import Main from './Main';
 import Listing from './Listing/listingLogic';
+import DetailDisplay from "./Details/detailsLogic";
 
 const Routing = ()=>{
     return(
@@ -17,7 +18,8 @@ const Routing = ()=>{
                 <Route path='/' element={<Main/>}>
                     <Route index element ={<Home/>}/>
                     <Route path='home' element={<Home/>}/>
-                    <Route path='listing/:faishontype_id' element={<Listing/>}/>
+                    <Route path='listing/:faishontypeId' element={<Listing/>}/>
+                    <Route path='details' element={<DetailDisplay/>}/>
                 </Route>
             </Routes>
             <Footer/>

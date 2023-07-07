@@ -1,686 +1,424 @@
-[
-    {
-      "category_id": 1,
-      "category_name": "Nykaa Faishon",
-      "wom_id": 1,
-      "faishontype_id": 1,
-      
-      "Sarees": [
-        {
-          "saree_id":1,
-        "saree_name":"kanjivaram pure silk saree",
-        "saree_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 500
-        },
-        {
-          "saree_id":1,
-        "saree_name":"kanjivaram pure silk saree",
-        "saree_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 500
-        },
-        {
-          "saree_id":3,
-        "saree_name":"Cotton saree, Best summer choice",
-        "saree_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 500
-        }
-      ],
-      "Lahengas": [
-        {
-          "lehanga_id":4,
-          "lahenga_name":"Lahengas",
-          "lehanga_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 444
-        },
-        {
-          "lehanga_id":5,
-          "lahenga_name":"Lahengas",
-          "lehanga_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 444
-         
-        }
-      ],
-      "kurtis": [
-        {
-          "kurti_id":6,
-          "kurti_name":"Kurtis",
-          "kurti_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "rating_text": "Very Good",
-      "cost": 444
-        },
-        {
-          "kurti_id":7,
-          "kurti_name":"Kurtis",
-          "kurti_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "rating_text": "Very Good",
-      "cost": 444
-        },
-        {
-          "kurti_id":8,
-          "kurti_name":"Kurtis",
-          "kurti_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "rating_text": "Very Good",
-      "cost": 444
-        },
-        {
-          "kurti_id":9,
-          "kurti_name":"Kurtis",
-          "kurti_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "rating_text": "Very Good",
-      "cost": 444
-        }
-      ]
-    },
+[ 
+            {
+                "product_id":1,
+                "faishontype_id":1,
+                "product_img":"https://i.ibb.co/fSFDh3W/Saree1.jpg",
+                "product_name":"Purple with stone work",
+                "content":"",
+                "cost":"1000"
+            },
+            {
+                "product_id":2,
+                "faishontype_id":1,
+                "product_img":"https://i.ibb.co/q780s4r/saree2.jpg",
+                "product_name":"kanjivaram pure silk saree",
+                "content":"",
+                "cost":"1500"
+            },
+            {
+                "product_id":3,
+                "faishontype_id":1,
+                "product_img":"https://i.ibb.co/cLddWV6/saree3.jpg",
+                "product_name":"Ambroidered in yellow",
+                "content":"",
+                "cost":"900"
+            },
+            {
+                "product_id":4,
+                "faishontype_id":1,
+                "product_img":"https://i.ibb.co/rpMszqq/lehanga1.jpg",
+                "product_name":"Pink Ambroidered Lehanga",
+                "content":"",
+                "cost":"1500"
+            },
+            {
+                "product_id":5,
+                "faishontype_id":1,
+                "product_img":"https://i.ibb.co/ZVB8nQD/lehanga2.jpg",
+                "product_name":"Grey & pink with Rajasthani print",
+                "content":"",
+                "cost":"3000"
+            },
+            {
+                "product_id":6,
+                "faishontype_id":1,
+                "product_img":"https://i.ibb.co/gW5zxdP/kurti1.jpg",
+                "product_name":"Frock kurti",
+                "content":"",
+                "cost":"300"
+            } ,
+            {
+               "product_id":7,
+                "prod_id":56,
+                "product_name":"Yellow long kurti",
+                "product_img":"https://i.ibb.co/MP2tkNh/kurti2.jpg",
+                "cost": 550
+              },
+            {
+                "product_id":8,
+                "faishontype_id":1,
+                "product_name":"Printed Gorgeous kurti",
+                "product_img":"https://i.ibb.co/f0rtX46/kurti3.jpg",
+                "cost": 500
+              },
+              {
+                "product_id":9,
+                "faishontype_id":1,
+                "product_name":"Ambroidered A-cut kurti",
+                "product_img":"https://i.ibb.co/xFw15dD/kurti4.jpg", 
+                "cost": 600
+              },
+            {
+                "product_id":11,
+                "faishontype_id":2,
+                "product_img":"https://i.ibb.co/n0y3Jr7/dress1.jpg",
+                "product_name":"Floral knee length dress",
+                "cost":500
+            },
+            {
+                "product_id":12,
+                "faishontype_id":2,
+                "product_img":"https://i.ibb.co/Rcg7760/dress2.jpg",
+                "product_name":"White Basic",
+                "cost":550
+            },
+            {
+                "product_id":13,
+                "faishontype_id":2,
+                "product_img":"https://i.ibb.co/qFkZjmX/dress3.jpg",
+                "product_name":"black and white ambroidered",
+                "cost":700
+            },
+            {
+                "product_id":14,
+                "faishontype_id":2,
+                "product_img":"https://i.ibb.co/hgjPcLc/dress4.jpg",
+                "product_name":"Plane georgette",
+                "cost":700
+            },
+            {
+                "product_id":15,
+                "faishontype_id":2,
+                "product_img":"https://i.ibb.co/RzZng92/top1.jpg",
+                "product_name":"Tops & Tees",
+                "content":"",
+                "cost":800
+            },
+            {
+                "product_id":16,
+                "faishontype_id":2,
+                "product_img":"https://i.ibb.co/RS5DX6m/top2.jpg",
+                "product_name":"Long Basic",
+                "content":"",
+                "cost":500
+            },
+            {
+                "product_id":17,
+                "faishontype_id":2,
+                "product_img":"https://i.ibb.co/1XR3S1K/jeans1.jpg",
+                "product_name":"Damaged faishonable Jeans",
+                "content":"",
+                "cost":1000
+            },
+            {
+               "product_id":18,
+                "faishontype_id":2,
+                "product_img":"https://i.ibb.co/4Ssybkm/jeans2.jpg",
+                "product_name":"Plain Jeans",
+                "content":"",
+                "cost":1000
+            },
+            {
+                "product_id":19,
+                "faishontype_id":2,
+                "product_name":"Straight A-Cut Jeans",
+                "product_img":"https://i.ibb.co/688zZvS/jeans3.jpg",
+                 "cost": 2000 
+              },
+            {
+                "product_id":20,
+                "faishontype_id":3,
+                "product_img":"https://i.ibb.co/LJHdPDx/heel2.jpg",
+                "product_name":"High Heels",
+                "content":"",
+                "cost":1000
+            },
+            {
+                "product_id":21,
+                "faishontype_id":3,
+                "product_img":"https://i.ibb.co/JkR18sx/heel3.jpg",
+                "product_name":"Sharp High Heels",
+                "content":"",
+                "cost":1500
+            },
+            {
+                "product_id":22,
+                "faishontype_id":3,
+                "product_img":"https://i.ibb.co/G96TGGy/flat1.jpg",
+                "product_name":"Platform Comfy",
+                "content":"",
+                "cost":550
+            },
+            {
+                "product_id":23,
+                "faishontype_id":3,
+                "product_img":"https://i.ibb.co/1JQ3kWp/flat2.jpg",
+                "product_name":"Valley in black",
+                "content":"",
+                "cost":557
+            },
+            {
+                "product_id":24,
+                "faishontype_id":3,
+                "product_name":"White & Pink casuals",
+                "product_img":"https://i.ibb.co/X8c6ht6/shoe1.jpg",
+                 "cost": 700  
+              },
+              {
+                "product_id":25,
+                "faishontype_id":3,
+                "product_name":"Bold Pink shoes",
+                "product_img":"https://i.ibb.co/sQwsZ72/shoe2.jpg",
+                "cost": 750  
+              },
 
-    {
-      "category_id": 1,
-      "category_name": "Nykaa Faishon",
-      "wom_id": 1,
-      "faishontype_id": 2,
-    
-      "Dresses": [
-        {
-          "dress_id":10,
-        "dress_name":"Dresses",
-        "dress_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-        "average_rating": 4.2,
-        "cost": 444
-        },
-        {
-          "dress_id":11,
-          "dress_name":"Dresses",
-          "dress_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "dress_id":12,
-          "dress_name":"Dresses",
-          "dress_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "dress_id":13,
-          "dress_name":"Dresses",
-          "dress_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        }
-      ],
-      "Tops": [
-        {
-          "top_id":14,
-          "top_name":"Tops & Tees",
-          "top_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 444
-        },
-        {
-          "top_id":15,
-          "top_name":"Tops & Tees",
-          "top_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 444
-        } 
-      ],
+            {
+                "product_id":26,
+                "faishontype_id":4,
+                "product_img":"https://i.ibb.co/88RJC31/earring1.jpg",
+                "product_name":"Gold shine Earring",
+                "content":"",
+                "cost":500
+            },
+            {
+                "product_id":27,
+                "faishontype_id":4,
+                "product_img":"https://i.ibb.co/Wy86bRb/earring2.jpg",
+                "product_name":"Unique shine Pearl Earring",
+                "content":"",
+                "cost":400
+            },
+            {
+                "product_id":28,
+                "faishontype_id":4,
+                "product_img":"https://i.ibb.co/VLdg2ZS/earring3.jpg",
+                "product_name":"Pearly shine Earring",
+                "content":"",
+                "cost":300
+            },
+            {
+               "product_id":29,
+                "faishontype_id":4,
+                "product_img":"https://i.ibb.co/wKP1x30/earring4.jpg",
+                "product_name":"Blue Butterfly Earring",
+                "content":"",
+                "cost":500
+            },
+            {
+                "product_id":30,
+                "faishontype_id":4,
+                "product_img":"https://i.ibb.co/0mmMWY8/necklace1.jpg",
+                "product_name":"Hearshaped Necklace",
+                "content":"",
+                "cost":2000
+            },
+            {
+                "product_id":31,
+                "faishontype_id":4,
+                "product_img":"https://i.ibb.co/GT30XX7/necklace2.jpg",
+                "product_name":"Pearl White Shine Necklace",
+                "content":"",
+                "cost":2500
+            },
+            {
+                "product_id":32,
+                "faishontype_id":4,
+                "product_img":"https://i.ibb.co/xJWytzd/ring1.jpg",
+                "product_name":"Blue Sharp Cut Ring",
+                "content":"",
+                "cost":3000
+            },
+            {
+                "product_id":33,
+                "faishontype_id":4,
+                "product_img":"https://i.ibb.co/844WmqV/ring2.jpg",
+                "product_name":"White Huge Stone Ring",
+                "content":"",
+                "cost":4000
+            },
+            {
+                "product_id":34,
+                "faishontype_id":4,
+                "product_img":"https://i.ibb.co/6gT6hNb/bracelet1.jpg",
+                "product_name":"Infinity Symbol Bracelet",
+                "content":"",
+                "cost":5000
+            },
+            {
+                "product_id":35,
+                "faishontype_id":4,
+                "product_img":"https://i.ibb.co/VTdxpkP/bracelet2.jpg",
+                "product_name":"Beautiful Light Heart Bracelet",
+                "content":"",
+                "cost":7000
+            },
+            {
+                "product_id":36,
+                "faishontype_id":5,
+                "product_name":"Plane T-shirt",
+                "product_img":"https://i.ibb.co/9pLTH9X/Tshirt1.jpg",
+                "cost": 330
+                },
+            {
+                "product_id":37,
+                "faishontype_id":5,
+                "product_img":"https://i.ibb.co/DbzqSx2/Tshirt2.jpg",
+                "product_name":"T-shirt stripped",
+                "content":"",
+                "cost":400
+            },
+            {
+                "product_id":38,
+                "faishontype_id":5,
+                "product_img":"https://i.ibb.co/CWQ5q0R/Tshirt3.jpg",
+                "product_name":"sweatshirt long sleeve",
+                "content":"",
+                "cost":480
+            },
+            {
+                "product_id":39,
+                "faishontype_id":6,
+                "product_name":"shirt in grey",
+                "product_img": "https://i.ibb.co/Sr5tZQk/shirt2.jpg",
+                "cost": 500
+            },
+            {
+                "product_id":40,
+                "faishontype_id":6,
+                "product_name":"shirt in Red check",
+                "product_img": "https://i.ibb.co/MDTSB8L/shirt3.jpg",
+                "cost": 600
+            },
+            {
+                "product_id":41,
+                "faishontype_id":6,
+                "product_name":"Shirt with black strips",
+                "product_img":"https://i.ibb.co/RQVQ9jC/shirt4.jpg",
+                "cost": 780
+            },
 
-      "Jeans": [
-        {
-          "jeans_id":19,
-          "jeans_name":"Jeans",
-          "jeans_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 700
-        },
-        {
-          "jeans_id":20,
-          "jeans_name":"Jeans",
-          "jeans_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 700  
-        },
-        {
-          "jeans_id":20,
-          "jeans_name":"Jeans",
-          "jeans_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 700  
-        }
-      ]
-    },
 
-    {
-      "category_id": 1,
-      "category_name": "Nykaa Faishon",
-      "wom_id": 1,
-      "faishontype_id": 3,
-      "heels":[
-        {
-          "heels_id":21,
-          "heels_name":"Jeans",
-          "heels_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 700  
-        },
-        {
-          "heels_id":22,
-          "heels_name":"high heels",
-          "heels_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 700  
-        }
-      ],
-      "flats":[
-        {
-          "flats_id":23,
-          "heels_name":"pencil heels",
-          "heels_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 700  
-        },
-        {
-          "flats_id":24,
-          "heels_name":"platform heels",
-          "heels_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "cost": 700  
-        }
-      ],
-      "shoes":[
-        {
-          "shoe_id":25,
-          "shoe_name":"Jeans",
-          "shoe_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-           "cost": 700  
-        },
-        {
-          "shoe_id":26,
-          "shoe_name":"Jeans",
-          "shoe_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "cost": 700  
-        }
-      ]
-    },
-
-    {
-      "category_id": 1,
-      "category_name": "Nykaa Faishon",
-      "wom_id": 1,
-      "faishontype_id": 4,
-  
-      "jwellery": [
-        {
-          "earring_id":27,
-         "product_name":"Earrings",
-        "earring_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-        "average_rating": 4.2,
-        "cost": 44
-        },
-        {
-          "earring_id":28,
-          "product_name":"Earrings",
-         "earring_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-         "average_rating": 4.2,
-         "cost": 44
-        },
-        {
-          "earring_id":29,
-          "product_name":"Earrings",
-         "earring_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-         "average_rating": 4.2,
-         "cost": 44
-        },
-        {
-          "necklace_id":30,
-          "product_name":"Earrings",
-         "earring_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-         "average_rating": 4.2,
-         "cost": 44
-        },
-        {
-          "necklace_id":31,
-          "product_name":"Earrings",
-         "earring_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-         "average_rating": 4.2,
-         "cost": 44
-        },
-        {
-          "necklace_id":32,
-          "product_name":"Earrings",
-         "earring_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-         "average_rating": 4.2,
-         "cost": 44
-        },
-        {
-          "ring_id":33,
-          "product_name":"Earrings",
-         "earring_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-         "average_rating": 4.2,
-         "cost": 44
-        },
-        {
-          "ring_id":34,
-          "product_name":"Earrings",
-         "earring_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-         "average_rating": 4.2,
-         "cost": 44
-        }
-      ]
-    },
-
-    {
-      "category_id": 1,
-      "category_name": "Nykaa Faishon",
-      "men_id": 2,
-      "faishontype_id": 5,
-      "faishontype":"Topwear",
-      
-      "T-shirts": [
-        {
-          "t-shirt_id":35,
-        "t-shirt_name":"T-shirts",
-        "tshirt_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 444
-        },
-        {
-          "t-shirt_id":36,
-        "t-shirt_name":"T-shirts",
-        "tshirt_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 444
-        },
-        {
-          "t-shirt_id":37,
-        "t-shirt_name":"T-shirts",
-        "tshirt_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 444
-        }
-      ],
-      "shirts": [
-        {
-          "shirt_id":38,
-          "shirt_name":"shirts",
-          "shirt_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 200
-        },
-        {
-          "shirt_id":39,
-          "shirt_name":"shirts",
-          "shirt_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 200
-        },
-        {
-          "shirt_id":40,
-          "shirt_name":"shirts",
-          "shirt_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-      "average_rating": 4.2,
-      "cost": 200
-        }
-      ]
-    },
-
-    {
-      "category_id": 1,
-      "category_name": "Nykaa Faishon",
-      "men_id": 2,
-      "faishontype_id":6,
-      "faishontype_name":"Ethnic Wear",
-     
-      "kurta sets": [
-        {
-          "kurta_id":41,
-        "kurta_name":"Kurta Sets",
-        "kurta_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-        "average_rating": 4.2,
-        "cost": 444
-        },
-        {
-          "kurta_id":42,
-        "kurta_name":"Kurta Sets",
-        "kurta_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-        "average_rating": 4.2,
-        "cost": 444
-        },
-        {
-          "kurta_id":43,
-        "kurta_name":"Kurta Sets",
-        "kurta_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-        "average_rating": 4.2,
-        "cost": 444
-        }
-      ],
-      "nehrujacket": [
-        {
-          "nehrujacket_id":44,
-          "nehrujacket_name":"Nehru Jackets",
-          "nehrujacket_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "nehrujacket_id":45,
-          "nehrujacket_name":"Nehru Jackets",
-          "nehrujacket_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "nehrujacket_id":46,
-          "nehrujacket_name":"Nehru Jackets",
-          "nehrujacket_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        }
-      ],
-      "sherwanis": [
-        {
-          "sherwani_id":47,
-          "sherwani_name":"sherwanis",
-          "sherwani_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "sherwani_id":48,
-          "sherwani_name":"sherwanis",
-          "sherwani_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "sherwani_id":49,
-          "sherwani_name":"sherwanis",
-          "sherwani_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        }
-      ]
-    },
- 
-    {
-      "category_id": 1,
-      "category_name": "Nykaa Faishon",
-      "men_id": 2,
-      "faishontype_id":3,
-      "faishontype_name":"Footwear",
-      "casuals": [
-        {
-          "casual_id":50,
-          "product_name":"Casuals",
-          "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "rating_text": "Very Good",
-          "cost": 444
-        },
-        {
-          "casual_id":51,
-          "product_name":"Casuals",
-          "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "rating_text": "Very Good",
-          "cost": 444
-        },
-        {
-          "casual_id":52,
-          "product_name":"Casuals",
-          "restaurant_thumb": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "rating_text": "Very Good",
-          "cost": 444
-        }
-      ],
-      "formals": [
-        {
-          "formals_id":53,
-        "product_name":"Formals",
-        "formals_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-        "rating_text": "Very Good",
-        "cost": 444
-        },
-        {
-          "formals_id":54,
-        "product_name":"Formals",
-        "formals_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-        "rating_text": "Very Good",
-        "cost": 444
-        },
-        {
-          "formals_id":55,
-        "product_name":"Formals",
-        "formals_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-        "rating_text": "Very Good",
-        "cost": 444
-        }
-      ]
-    },
-
-    
-    {
-      "category_id": 2,
-      "category_name": "Hair Care",
-      "hairCare": [
-        {
-          "shampoo_id":56,
-          "shampoo_name":"shampoos",
-          "shampoo_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "shampoo_id":57,
-          "shampoo_name":"shampoos",
-          "shampoo_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "shampoo_id":58,
-          "shampoo_name":"Tresseme",
-          "shampoo_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "hairoil_id":59,
-          "hairoil_name":"keo karpin",
-          "shampoo_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "hairoil_id":60,
-          "hairoil_name":"Amla",
-          "shampoo_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        }
-      ]
-    },
-    
-    {
-      "category_id": 3,
-      "category_name": "Skin Care",
-      "skincare": [
-        {
-          "skincare_id":61,
-          "skincare_name":"Sunscreen",
-          "brand":"Maybellene",
-          "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "skincare_id":62,
-          "skincare_name":"Sunscreen",
-          "brand":"Lakme",
-          "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "skincare_id":63,
-          "skincare_name":"Moisturizer",
-          "brand":"Mamaearth",
-          "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "skincare_id":64,
-          "skincare_name":"Night cream",
-          "brand":"Dot & Key",
-          "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "skincare_id":65,
-          "skincare_name":"Toner",
-          "brand":"Aqualogica",
-          "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "skincare_id":65,
-          "skincare_name":"Toner",
-          "brand":"Aqualogica",
-          "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        }
-      ]
-    },
-
-    {
-      "category_id": 4,
-      "category_name": "Makeup",
-      "makeup": [
-        {
-          "makeup_id":66,
-          "prod_name":"Foundation",
-          "brand":"Maybellene",
-          "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "makeup_id":67,
-          "prod_name":"Foundation",
-          "brand":"Maybellene",
-          "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "makeup_id":68,
-          "prod_name":"Foundation",
-          "brand":"Maybellene",
-          "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "makeup_id":69,
-          "prod_name":"Concieler",
-          "brand":"Lakme",
-          "concieler_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "makeup_id":70,
-          "prod_name":"Concieler",
-          "brand":"Lakme",
-          "concieler_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "makeup_id":71,
-          "prod_name":"Primer",
-          "brand":"Lakme",
-          "Primer_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "makeup_id":72,
-          "prod_name":"Lipstick",
-          "brand":"Lakme",
-          "Primer_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        }
-
-      ]
-    },
-
-    
-    {
-      "category_id": 5,
-      "category_name": "Fragrance",
-      "fragrance": [
-        {
-          "fragrance_id":73,
-          "prod_name":"Perfume",
-          "perfume_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "fragrance_id":74,
-          "prod_name":"Perfume",
-          "perfume_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "fragrance_id":75,
-          "prod_name":"Roll on",
-          "rollon_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "fragrance_id":76,
-          "prod_name":"Roll on",
-          "rollon_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "average_rating": 4.2,
-          "cost": 444
-        },
-        {
-          "fragrance_id":77,
-          "prod_name":"Deo",
-          "deo_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "cost": 444
-        },
-        {
-          "fragrance_id":78,
-          "prod_name":"Deo",
-          "deo_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "cost": 444
-        },
-        {
-          "fragrance_id":79,
-          "prod_name":"Deo",
-          "deo_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
-          "cost": 444
-        }   
-      ]
-    } 
-
-]
+            {
+                "product_id":42,
+                "faishontype_id":6,
+                "product_img":"https://i.ibb.co/nkz6Xn0/kurta1.jpg",
+                "product_name":"Shine brown",
+                "content":"",
+                "cost":1200
+            },
+            {
+                "product_id":43,
+                "faishontype_id":6,
+                "product_img":"https://i.ibb.co/TgT3CQt/kurta2.jpg",
+                "product_name":"Blinky Pink",
+                "content":"",
+                "cost":1500
+            },
+            {
+                "product_id":44,
+                "faishontype_id":6,
+                "product_img":"https://i.ibb.co/7WXq696/kurta3.jpg",
+                "product_name":"Royal Blue Silk Kurta",
+                "content":"",
+                "cost":1700
+            },
+            {
+                "product_id":45,
+                "faishontype_id":6,
+                "product_img":"https://i.ibb.co/3Whvpvq/nehrujacket1.jpg",
+                "product_name":"Printed Floral Nehru Jacket",
+                "content":"",
+                "cost":2000
+            },
+            {
+                "product_id":46,
+                "faishontype_id":6,
+                "product_img":"https://i.ibb.co/HF8L8wS/nehrujacket2.jpg",
+                "product_name":"Peach Plane Silk Nehru Jacket",
+                "content":"",
+                "cost":2300
+            },
+            {
+                "product_id":47,
+                "faishontype_id":6,
+                "product_img":"https://i.ibb.co/pfyJ9HK/nehrujacket3.jpg",
+                "product_name":"Brown Silk shine Nehru Jacket",
+                "content":"",
+                "cost":2500
+            },
+            {
+                "product_id":48,
+                "faishontype_id":6,
+                "product_img":"https://i.ibb.co/ZG3FHKr/sherwani1.jpg",
+                "product_name":"Floral print sherwani in brown",
+                "content":"",
+                "cost":5000
+            },
+            {
+                "product_id":49,
+                "faishontype_id":6,
+                "product_img":"https://i.ibb.co/f8jfPsL/sherwani2.jpg",
+                "product_name":"Embroidered Royal Sherwani",
+                "content":"",
+                "cost":5500
+            },
+            {
+                "product_id":50,
+                "faishontype_id":6,
+                "product_img":"https://i.ibb.co/FwjXXSB/sherwani3.jpg",
+                "product_name":"Plane Sherwani With green dupatta",
+                "content":"",
+                "cost":700
+            },
+            {
+                "product_id":51,
+                "faishontype_id":7,
+                "product_img":"https://i.ibb.co/w7XTd35/casual1.jpg",
+                "product_name":"Casuals",
+                "content":"",
+                "cost":890
+            },
+            {
+                "product_id":52,
+                "faishontype_id":7,
+                "product_img":"https://i.ibb.co/NStS1Sv/casual2.jpg",
+                "product_name":"Casuals",
+                "content":"",
+                "cost":880
+            },
+            {
+                "product_id":53,
+                "faishontype_id":7,
+                "product_img":"https://i.ibb.co/WzyWPNt/formals1.jpg",
+                "product_name":"Formals",
+                "content":"",
+                "cost":1500
+            },
+            {
+                "product_id":54,
+                "faishontype_id":7,
+                "product_img":"https://i.ibb.co/K6hp00S/formals2.jpg",
+                "product_name":"Formals",
+                "content":"",
+                "cost":1800
+            },
+            {
+                "product_id":55,
+                "faishontype_id":7,
+                "product_img":"https://i.ibb.co/qyg4x4K/formals3.jpg",
+                "product_name":"Formals",
+                "content":"",
+                "cost":2000
+            }
+            
+        ]

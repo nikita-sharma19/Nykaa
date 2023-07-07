@@ -8,13 +8,11 @@ const base_url ="https://nykaa-api-jfl3.onrender.com"
 
 const Listing =()=>{
     let params = useParams();
-    
-
     const [faishonList,setFaishonList] = useState();
 
     useEffect(()=>{
         let faishonid = params.faishontypeId;
-        axios.get(`${base_url}/faishonType?faishontype_id=${faishonid}`)
+        axios.get(`${base_url}/faishontype?faishontypeId=${faishonid}`)
         .then((res)=>{
         setFaishonList(res.data)
         })

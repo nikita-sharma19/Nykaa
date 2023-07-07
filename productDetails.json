@@ -8,19 +8,19 @@
             {
                 "sarees":[
                     {
-                        "product_id": 50,
+                        "product_id": 1,
                       "saree_name":"Purple with stone work",
                       "saree_img": "https://ibb.co/HdQQc3t",
                       "cost": 2000
                       },
                       {
-                        "product_id": 51,
+                        "product_id": 2,
                       "saree_name":"kanjivaram pure silk saree",
                       "saree_img": "https://ibb.co/5G3Y8zR",
                       "cost": 2500
                       },
                       {
-                        "product_id": 52,
+                        "product_id": 3,
                       "saree_name":"Ambroidered in yellow",
                       "saree_img": "https://ibb.co/H24hWcy",
                       "average_rating": 4.2,
@@ -29,7 +29,7 @@
                 ],
                 "Lahengas": [
                     {
-                        "product_id": 53,
+                        "product_id": 4,
                       "lahenga_name":"Pink Ambroidered",
                       "lehanga_img": "https://ibb.co/s2Kw0TY",
                       "average_rating": 4.2,
@@ -44,7 +44,7 @@
                   ],
                   "kurtis": [
                     {
-                        "product_id": 54,
+                        "product_id": 5,
                       "kurti_name":"Frock kurti",
                       "kurti_img": "https://ibb.co/z2yGzF7",
                       "size":"small & Medium",
@@ -53,7 +53,7 @@
                       "cost": 444
                     },
                     {
-                        "product_id": 55,
+                        "product_id": 6,
                       "kurti_name":"Yellow long kurti",
                       "kurti_img": "https://ibb.co/ZcLFzTJ",
                       "size":"Medium & Large",
@@ -62,6 +62,7 @@
                       "cost": 550
                     },
                     {
+                      "product_id": 7,
                       "kurti_name":"Printed kurti",
                       "kurti_img": "https://ibb.co/dKk6fGC",
                       "size":"small",
@@ -70,6 +71,7 @@
                       "cost": 500
                     },
                     {
+                      "product_id": 8,
                       "kurti_name":"Ambroidered A-cut kurti",
                       "kurti_img": "https://ibb.co/Z2vBT7V", 
                       "size":"small & Large",
@@ -91,25 +93,28 @@
         "Dresses": [
 
           {
-            "product_id": 56,
+            "product_id": 9,
           "dress_name":"Dresses",
           "dress_img": "https://ibb.co/3sbfZ1p",
           "average_rating": 4.2,
           "cost": 444
           },
           {
+            "product_id": 10,
             "dress_name":"Dresses",
             "dress_img": "https://ibb.co/PgrttWh",
             "average_rating": 4.2,
             "cost": 444
           },
           {
+            "product_id": 11,
             "dress_name":"Dresses",
             "dress_img": "https://ibb.co/LhnGR9b",
             "average_rating": 4.2,
             "cost": 444
           },
           {
+            "product_id": 12,
             "dress_name":"Dresses",
             "dress_img": "https://ibb.co/L0WLrYr",
             "average_rating": 4.2,
@@ -118,13 +123,14 @@
         ],
         "Tops": [
             {
-                "product_id": 57,
+                "product_id": 13,
               "top_name":"Tops & Tees",
               "top_img": "https://ibb.co/gzH1r3y",
               "average_rating": 4.2,
                "cost": 444
             },
             {
+              "product_id": 14,
               "top_name":"Tops & Tees",
               "top_img": "https://ibb.co/0XwG09S",
               "average_rating": 4.2,
@@ -133,19 +139,21 @@
           ],
           "Jeans": [
             {
-                "product_id": 58,
+                "product_id": 15,
               "jeans_name":"Jeans",
               "jeans_img": "https://ibb.co/z2P1kpb",
               "average_rating": 4.2,
               "cost": 700
             },
             {
+              "product_id": 16,
               "jeans_name":"Jeans",
               "jeans_img": "https://ibb.co/B64Dhkz",
               "average_rating": 4.2,
                "cost": 700  
             },
             {
+              "product_id": 17,
               "jeans_name":"Jeans",
               "jeans_img": "https://ibb.co/dttFcbv",
                "average_rating": 4.2,
@@ -163,87 +171,98 @@
     "faishontype_id": 4,
     "jwellery": [  
       {
-        "product_id": 60,
+        "product_id": 18,
        "product_name":"Earring1",
       "earring_img": "https://ibb.co/WKdQh9m",
       "average_rating": 4.2,
       "cost": 70
       },
       {
+        "product_id": 19,
         "product_name":"Earring2",
        "earring_img": "https://ibb.co/85v0WQW",
        "average_rating": 4.2,
        "cost": 70
       },
       {
+        "product_id": 20,
         "product_name":"Earring3",
        "earring_img": "https://ibb.co/2FwvgQt",
        "average_rating": 4.2,
        "cost": 75
       },
       {
+        "product_id": 21,
         "product_name":"Earring4",
        "earring_img": "https://ibb.co/BgQRSdz",
        "average_rating": 4.2,
        "cost": 80
       },
       {
-        "product_id": 61,
+        "product_id": 22,
         "product_name":"Necklace1",
        "earring_img": "https://ibb.co/gmmTXtH",
        "average_rating": 4.2,
        "cost": 200
       },
       {
-        "product_id": 62,
+        "product_id": 23,
         "product_name":"Necklace2",
        "earring_img": "https://ibb.co/DCd3xp1",
        "average_rating": 4.2,
        "cost": 200
       },
       {
+        "product_id": 24,
         "product_name":"Necklace3",
        "earring_img": "https://ibb.co/xH8Dyyh",
        "average_rating": 4.2,
        "cost": 250
       },
       {
+        "product_id": 25,
         "product_name":"Necklace4",
        "earring_img": "https://ibb.co/ZYSbkHw",
        "average_rating": 4.2,
        "cost": 300
       },
       {
+        "product_id": 26,
         "product_name":"Ring1",
        "earring_img": "https://ibb.co/Fg29L8C",
        "average_rating": 4.2,
        "cost": 450
       },
       {
+        "product_id": 27,
         "product_name":"Ring2",
        "earring_img": "https://ibb.co/M55YgrL",
        "average_rating": 4.2,
        "cost": 300
       },
       {
+        "product_id": 28,
         "product_name":"Ring3",
        "earring_img": "https://ibb.co/30NzD2x",
        "average_rating": 4.2,
        "cost": 300
       },
       {
+        "product_id": 29,
         "product_name":"Bracellet1",
        "earring_img": "https://ibb.co/Lnc4wv6",
        "average_rating": 4.2,
        "cost":500
       },
       {
+        "product_id": 30,
         "product_name":"Bracellet2",
        "earring_img": "https://ibb.co/zZ1FHt0",
        "average_rating": 4.2,
        "cost": 550
       },
       {
+        "product_id": 31,
         "product_name":"Bracellet3",
        "earring_img": "https://ibb.co/8xgsxD9",
        "average_rating": 4.2,
@@ -258,32 +277,38 @@
     "faishontype_id": 3,
     "products":[
             {
+              "product_id": 32,
              "heels_name":"pencil heels",
              "heels_img": "https://ibb.co/5nwh9Xr",       
              "cost": 500  
             },
             {
+              "product_id": 33,
              "heels_name":"high heels",
              "heels_img": "https://ibb.co/Yj7CJLD",
              "cost": 400  
             },
             {
+              "product_id": 33,
               "flats_name":"platform comfy",
               "heels_img": "https://ibb.co/kJ71zzj",
             "average_rating": 4.2,
             "cost": 500  
               },
               {
+                "product_id": 34,
                 "flats_name":"Valley in black",
                 "heels_img": "https://ibb.co/YTQ6xsK",
                 "cost": 700  
               },
               {
+                "product_id": 35,
                 "shoe_name":"White & Pink casuals",
                 "shoe_img": "https://ibb.co/L5VBL1B",
                  "cost": 700  
               },
               {
+                "product_id": 36,
                 "shoe_name":"Bold Pink shoes",
                 "shoe_img": " https://ibb.co/5v8sPZ6",
                 "cost": 700  
@@ -298,39 +323,42 @@
   "faishontype":"Topwear",
   "products":[
     {
-        "product_id": 70,
+        "product_id": 37,
       "t-shirt_name":"Plane T-shirt",
       "tshirt_img": "https://ibb.co/QJRNvFB",
       "average_rating": 4.2,
       "cost": 330
       },
       {
-        "product_id": 71,
+        "product_id": 38,
        "t-shirt_name":"T-shirt stripped",
        "tshirt_img": "https://ibb.co/9vcMCF5",
        "average_rating": 4.2,
        "cost": 300
       },
       {
+        "product_id": 39,
        "t-shirt_name":"Grey sweatshirt long sleeve",
        "tshirt_img": "https://ibb.co/0QrjkJH",
        "average_rating": 4.2,
        "cost": 360
       },
       {
-        "product_id": 72,
+        "product_id": 40,
        "shirt_name":"Shirt with black strips",
        "shirt_img": "https://ibb.co/fvqkT83",
        "average_rating": 4.2,
        "cost": 500
       },
       {
+        "product_id": 41,
        "shirt_name":"shirt in grey",
        "shirt_img": " https://ibb.co/tMfKLZ5",
        "average_rating": 4.2,
        "cost": 600
       },
       {
+        "product_id": 42,
        "shirt_name":"shirt in Red check",
        "shirt_img": "https://ibb.co/VMPMtwv",
        "average_rating": 4.2,
@@ -346,7 +374,7 @@
     "men_id": 2,
     "men_footwears": [
       {
-        "product_id": 74,
+        "product_id": 43,
         "product_name":"Casuals",
         "Footwear_img": "https://ibb.co/YXM6NYH",
         "average_rating": 4.2,
@@ -354,7 +382,7 @@
         "cost": 400
       },
       {
-        "product_id": 75,
+        "product_id": 44,
         "product_name":"Casuals",
         "Footwear_img": "https://ibb.co/KwbwNwP",
         "average_rating": 4.2,
@@ -362,21 +390,21 @@
         "cost": 440
       },
       {
-        
+        "product_id": 45,
       "product_name":"Formals",
       "Footwear_img": "https://ibb.co/6tPR1cB",
       "rating_text": "Very Good",
       "cost": 700
       },
       {
-       
+        "product_id": 46,
       "product_name":"Formals",
       "Footwear_img": "https://ibb.co/Pxjvmm0",
       "rating_text": "Very Good",
       "cost": 750
       },
       {
-        "footwear_id": 76,
+        "product_id": 47,
       "product_name":"Formals",
       "Footwear_img": "https://ibb.co/GxM1F1y",
       "rating_text": "Very Good",
@@ -392,63 +420,63 @@
   "faishontype_name":"Ethnic Wear",
   "products":[
     {
-        "kurta_id": 79,
+      "product_id": 48,
       "kurta_name":"Shine brown",
       "kurta_img": "https://ibb.co/dKGjNLc",
       "average_rating": 4.2,
       "cost": 800
       },
       {
-        "kurta_id": 80,
+      "product_id": 49,
       "kurta_name":"Blinky Pink",
       "kurta_img": "https://ibb.co/6WZCdKF",
       "average_rating": 4.2,
       "cost": 800
       },
       {
-       
+      "product_id": 50,
       "kurta_name":"Royal Blue Silk Kurta",
       "kurta_img": "https://ibb.co/wWRfxvx",
       "average_rating": 4.2,
       "cost": 880
       },
       {
-        
+        "product_id": 51,
         "nehrujacket_name":"Printed Floral ",
         "nehrujacket_img": "https://ibb.co/828brbp",
         "average_rating": 4.2,
         "cost": 700
       },
       {
-        
+        "product_id": 52,
         "nehrujacket_name":"Peach Plane Silk",
         "nehrujacket_img": "https://ibb.co/Lk7D7jF",
         "average_rating": 4.2,
         "cost": 700
       },
       {
-        
+        "product_id": 53,
         "nehrujacket_name":"Brown Silk shine",
         "nehrujacket_img": "https://ibb.co/sKHyMT1",
         "average_rating": 4.2,
         "cost": 770
       },
       {
-        
+        "product_id": 54,
         "sherwani_name":"Floral print sherwani in brown",
         "sherwani_img": "https://ibb.co/Fm9ysJ1",
         "average_rating": 4.2,
         "cost": 3000
       },
       {
-        
+        "product_id": 55,
         "sherwani_name":"Embroidered Royal Sherwani",
         "sherwani_img": " https://ibb.co/mvfkM3g",
         "average_rating": 4.2,
         "cost": 3000
       },
       {
-        
+        "product_id": 56,
         "sherwani_name":"Plane With green dupatta",
         "sherwani_img": "https://ibb.co/2tfSSDj",
         "average_rating": 4.2,
@@ -462,49 +490,49 @@
     "category_name": "Hair Care",
     "haircare_products":[
       {
-          
+        "product_id": 57,
           "shampoo_name":"Mama Earth Onion shampoo",
           "shampoo_img": "https://ibb.co/nc3YpSc",
           "average_rating": 4.2,
           "cost": 300
         },
         {
-          
+          "product_id": 58,
           "shampoo_name":"Panteen Pro-V",
           "shampoo_img": "https://ibb.co/cgp6kTm",
           "average_rating": 4.2,
           "cost": 200
         },
         {
-         
+          "product_id": 59,
           "shampoo_name":"Tresseme",
           "shampoo_img": "https://ibb.co/p32mjvW",
           "average_rating": 4.2,
           "cost": 300
         },
         {
-          
+          "product_id": 60,
           "hairoil_name":"Mama Earth onion Hairoil",
           "shampoo_img": "https://ibb.co/7r4D6Sh",
           "average_rating": 4.2,
           "cost": 200
         },
         {
-          
+          "product_id": 61,
           "hairoil_name":"Amla",
           "shampoo_img": "https://ibb.co/ZggV7TJ",
           "average_rating": 4.2,
           "cost": 150
         },
         {
-          
+          "product_id": 62,
           "serum_name":"Maybeau",
           "serum_img": "https://ibb.co/9pTFXnG",
           "average_rating": 4.2,
           "cost": 300
         },
         {
-          
+          "product_id": 63,
           "serum_name":"hair Perfect",
           "serum_img": "https://ibb.co/LRmx5Jt",
           "average_rating": 4.2,
@@ -517,7 +545,7 @@
     "category_name": "Skin Care",
     "skincare_products": [
         {
-          
+          "product_id": 64,
           "skincare_name":"Sunscreen",
           "brand":"Aqualogica",
           "foundation_img": "https://ibb.co/SKyPSGH",
@@ -525,7 +553,7 @@
           "cost": 444
         },
         {
-          
+          "product_id": 65,
           "skincare_name":"Sunscreen",
           "brand":"Aqualogica",
           "foundation_img": "https://ibb.co/L0h4d3H",
@@ -533,7 +561,7 @@
           "cost": 444
         },
         {
-          
+          "product_id": 66,
           "skincare_name":"Sunscreen",
           "brand":"Mamaearth",
           "foundation_img": "https://ibb.co/ZgbDrXJ",
@@ -541,7 +569,7 @@
           "cost": 444
         },
         {
-          
+          "product_id": 67,
           "skincare_name":"Night cream",
           "brand":"Dot & Key",
           "foundation_img": "https://b.zmtcdn.com/data/pictures/chains/3/143/c77dfea619f2d7786a7d054afab5cd88_featured_v2.jpg",
@@ -549,7 +577,7 @@
           "cost": 444
         },
         {
-          
+          "product_id": 68,
           "skincare_name":"Toner",
           "brand":"Biotique",
           "foundation_img": "https://ibb.co/KLQ7XNw",
@@ -557,7 +585,7 @@
           "cost": 444
         },
         {
-          
+          "product_id": 69,
           "skincare_name":"Toner",
           "brand":"Goodvibes",
           "foundation_img": "https://ibb.co/yB1xvBN",
@@ -565,7 +593,7 @@
           "cost": 444
         },
         {
-          
+          "product_id": 70,
           "skincare_name":"Moisturizer",
           "brand":"Dot & Key",
           "foundation_img": "https://ibb.co/yVpJNtP",
@@ -573,7 +601,7 @@
           "cost": 444
         },
         {
-            
+          "product_id": 71,
             "skincare_name":"Moisturizer",
             "brand":"Ponds Age Miracle",
             "foundation_img": "https://ibb.co/MGYBRqy",
@@ -581,7 +609,7 @@
             "cost": 444
           },
           {
-            
+            "product_id": 72,
             "skincare_name":"vitamin c serum",
             "brand":"Lakme",
             "foundation_img": "https://ibb.co/3cw0y1x",
@@ -589,7 +617,7 @@
             "cost": 444
           },
           {
-            
+            "product_id": 73,
             "skincare_name":"Lip Balm",
             "brand":"Nevia",
             "foundation_img": "https://ibb.co/7QCFXFD",
@@ -604,6 +632,7 @@
     "category_name": "Makeup",
     "makeup_products": [
       {
+        "product_id": 74,
         "prod_name":"Foundation",
         "brand":"Maybellene",
         "foundation_img": "https://ibb.co/CQTYQNq",
@@ -611,6 +640,7 @@
         "cost": 300
       },
       {
+        "product_id": 74,
         "prod_name":"Foundation",
         "brand":"Maybellene",
         "foundation_img": "https://ibb.co/VW6JcCc",
@@ -618,6 +648,7 @@
         "cost": 300
       },
       {
+        "product_id": 75,
         "prod_name":"Mascarra",
         "brand":"Lakme",
         "foundation_img": "https://ibb.co/hKtPhYR",
@@ -625,6 +656,7 @@
         "cost": 270
       },
       {
+        "product_id": 76,
         "prod_name":"Eyeliner",
         "brand":"Lakme",
         "lipstick_img": "https://ibb.co/bz0j04w",
@@ -632,6 +664,7 @@
         "cost": 250
       },
       {
+        "product_id": 77,
         "prod_name":"Concieler",
         "brand":"NYX",
         "concieler_img": "https://ibb.co/4Tkkmgn",
@@ -639,6 +672,7 @@
         "cost": 300
       },
       {
+        "product_id": 78,
         "prod_name":"Concieler",
         "brand":"Maybellene",
         "concieler_img": "https://ibb.co/tCL2M7d",
@@ -646,6 +680,7 @@
         "cost": 350
       },
       {
+        "product_id": 79,
         "prod_name":"Compact",
         "brand":"NYX",
         "concieler_img": "https://ibb.co/PDhHdjH",
@@ -653,6 +688,7 @@
         "cost": 300
       },
       {
+        "product_id": 80,
         "prod_name":"Compact",
         "brand":"NYX",
         "Primer_img": "https://ibb.co/9VVCT9M",
@@ -660,6 +696,7 @@
         "cost": 300
       },
       {
+        "product_id": 81,
         "prod_name":"Lipstick Matte",
         "brand":"Maybellene",
         "lipstick_img": "https://ibb.co/rb54D0M",
@@ -667,6 +704,7 @@
         "cost": 400
       },
       {
+        "product_id": 82,
           "prod_name":"Lipstick Matte",
           "brand":"Lakme",
           "lipstick_img": "https://ibb.co/Hh3fxFC",
@@ -680,7 +718,7 @@
   "category_name": "Fragrance",
   "fragrance": [
     {
-      
+      "product_id": 83,
       "prod_name":"Perfume",
       "brand":"La'France",
       "perfume_img": "https://ibb.co/swgyyQ5",
@@ -688,7 +726,7 @@
       "cost": 250
     },
     {
-     
+      "product_id": 84,
       "prod_name":"Perfume",
       "brand":"Lavender flora",
       "perfume_img": "https://ibb.co/sP701kM",
@@ -696,7 +734,7 @@
       "cost": 260
     },
     {
-      
+      "product_id": 85,
       "prod_name":"Perfume",
       "brand":"Watta girl",
       "rollon_img": "https://ibb.co/80Sx0jm",
@@ -704,7 +742,7 @@
       "cost": 250
     },
     {
-      
+      "product_id": 86,
       "prod_name":"Roll on",
       "brand":"Nivea",
       "rollon_img": "https://ibb.co/ry0Vp09",
@@ -712,21 +750,21 @@
       "cost": 220
     },
     {
-     
+      "product_id": 87,
       "prod_name":"Deo",
       "brand":"Dove",
       "deo_img": "https://ibb.co/mc0fWHj",
       "cost": 200
     },
     {
-     
+      "product_id": 88,
       "prod_name":"Deo",
       "brand":"Park Evenue",
       "deo_img": "https://ibb.co/2PNm91Y",
       "cost": 220
     },
     {
-      
+      "product_id": 89,
       "prod_name":"Deo",
       "brand":"Wildstone",
       "deo_img": "https://ibb.co/4dqQDxP",

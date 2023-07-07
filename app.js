@@ -129,12 +129,12 @@ app.get('/menfootwear',async (req,res)=>{
     res.send(output)
 })
 
-// app.get('/haircare',async (req,res)=>{
-//     let query = {};
-//     let collection = "haircare"
-//     let output = await getData(collection,query)
-//     res.send(output)
-// })
+app.get('/haircare',async (req,res)=>{
+    let query = {};
+    let collection = "haircare"
+    let output = await getData(collection,query)
+    res.send(output)
+})
 
 app.get('/skincare',async (req,res)=>{
     let query = {};
@@ -233,7 +233,7 @@ app.post('/placeOrder',async(req,res) => {
 // })
 app.get('/details/:id',async(req,res)=>{
     let id = Number(req.params.id);
-    let query = {category_id:id}
+    let query = {product_id:id}
     let collection = "products"
     let output = await getData(collection,query)
     res.send(output);
