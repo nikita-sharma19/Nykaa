@@ -75,6 +75,28 @@ app.get('/faishontype',async (req,res)=>{
     res.send(output)
 })
 
+app.get('/details/:id',async(req,res)=>{
+    let id = Number(req.params.id);
+    let query = {product_id:id}
+    let collection = "products"
+    let output = await getData(collection,query)
+    res.send(output);
+})
+
+// app.get('/details',async(req,res)=>{
+//     let query = {};
+//     if(req.query.productId){
+//         query = {product_id: Number(req.query.productId)}
+//     }else{
+//         query={}
+//     }
+//     let collection = "products"
+//     let output = await getData(collection,query)
+//     res.send(output);
+// })
+
+
+
 app.get('/indianwear',async (req,res)=>{
     let query = {};
     // if(req.query.productId){
@@ -158,7 +180,7 @@ app.get('/fragrance',async (req,res)=>{
 })
 
 app.get('/products',async (req,res)=>{
-    let query = {faishontype_id: 2};
+    let query = {};
     let collection = "products"
     let output = await getData(collection,query)
     res.send(output)
@@ -231,13 +253,7 @@ app.post('/placeOrder',async(req,res) => {
 //     let output = await getData(collection,query)
 //     res.send(output);
 // })
-app.get('/details/:id',async(req,res)=>{
-    let id = Number(req.params.id);
-    let query = {product_id:id}
-    let collection = "products"
-    let output = await getData(collection,query)
-    res.send(output);
-})
+
 
 
 //get selected product details on basis of faishontype_id

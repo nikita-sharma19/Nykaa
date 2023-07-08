@@ -48,8 +48,8 @@
                 "cost":"300"
             } ,
             {
+              "faishontype_id":1,
                "product_id":7,
-                "prod_id":56,
                 "product_name":"Yellow long kurti",
                 "product_img":"https://i.ibb.co/MP2tkNh/kurti2.jpg",
                 "cost": 550

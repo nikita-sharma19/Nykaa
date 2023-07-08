@@ -9,16 +9,16 @@ const renderData=({listData})=>{
                 listData.map((item)=>{
                     return(
                         <div class="filter-container">
-                            <div class="card" key={item._id}>                      
+                            <div class="card" key={item._id}> 
+                            <Link to={`/details?prodId=${item.product_id}`}>                     
                                  <div class="imageDiv">
                                      <img src={item.product_img} alt={item.product_name}/>
                                 </div>
-                                <div class="detailsDiv">
-                                    <Link to='/'>                   
-                                    <div class="detail" title="North Indian, Thalis, Snacks"><h3>{item.product_name}</h3></div>
+                                <div class="detailsDiv">                        
+                                    <div class="detail" title={item.product_name}><h3>{item.product_name}</h3></div>
                                     <div class="cost"><h3>Cost:{item.cost}</h3></div>
-                                    </Link>
                                 </div>
+                            </Link>
                             </div>
                         </div>
                     )
