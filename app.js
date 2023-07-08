@@ -180,7 +180,13 @@ app.get('/fragrance',async (req,res)=>{
 })
 
 app.get('/products',async (req,res)=>{
+
     let query = {};
+    if(req.query.prodId){
+        query = {product_id: Number(req.query.prodId)}
+    }else{
+        query={}
+    }
     let collection = "products"
     let output = await getData(collection,query)
     res.send(output)
