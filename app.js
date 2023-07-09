@@ -83,6 +83,20 @@ app.get('/details/:id',async(req,res)=>{
     res.send(output);
 })
 
+app.get('/products',async (req,res)=>{
+
+    let query = {};
+    if(req.query.prodId){
+        query = {product_id: Number(req.query.prodId)}
+    }else{
+        query={}
+    }
+    let collection = "products"
+    let output = await getData(collection,query)
+    res.send(output)
+})
+
+
 // app.get('/details',async(req,res)=>{
 //     let query = {};
 //     if(req.query.productId){
@@ -179,18 +193,7 @@ app.get('/fragrance',async (req,res)=>{
     res.send(output)
 })
 
-app.get('/products',async (req,res)=>{
 
-    let query = {};
-    if(req.query.prodId){
-        query = {product_id: Number(req.query.prodId)}
-    }else{
-        query={}
-    }
-    let collection = "products"
-    let output = await getData(collection,query)
-    res.send(output)
-})
 
 app.get('/allProducts',async (req,res)=>{
     let query = {};

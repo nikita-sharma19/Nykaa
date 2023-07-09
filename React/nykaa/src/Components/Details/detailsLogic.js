@@ -1,16 +1,18 @@
 import React,{useState, useEffect}from "react";
 import './details.css';
 import axios from 'axios';
-import { useSearchParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 const base_url ="https://nykaa-api-jfl3.onrender.com"
+
 const DetailDisplay = ()=>{
 
-    let [searchParams] = useSearchParams()
+    let param = useParams();
     let [productDetails, setProductDetails] = useState()
-    let prodId = searchParams.getAll('prodId')
+
+    let productid = param.faishontypeId;
     const productDetail = async()=>{
-        const prodata = await axios.get(`${base_url}/details/${prodId}`)
+        const prodata = await axios.get(`${base_url}/faishontype?faishontypeId=${productid}`)
         setProductDetails(prodata.data)
     }
 

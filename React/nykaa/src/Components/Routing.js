@@ -19,7 +19,7 @@ const Routing = ()=>{
                     <Route index element ={<Home/>}/>
                     <Route path='home' element={<Home/>}/>
                     <Route path='listing/:faishontypeId' element={<Listing/>}/>
-                    <Route path='details' element={<DetailDisplay/>}/>
+                    <Route path='details/:faishontypeId' element={<DetailDisplay/>}/>
                 </Route>
             </Routes>
             <Footer/>
