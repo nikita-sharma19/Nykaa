@@ -10,15 +10,16 @@ const renderData=({listData})=>{
                     return(
                         <div class="filter-container">
                             <div class="card" key={item._id}> 
-                            <Link to={`/details/?id=${item.product_id}`}>                     
+                            <Link to={`/details?productId=${item._id}`}>                     
                                  <div class="imageDiv">
                                      <img src={item.product_img} alt={item.product_name}/>
                                 </div>
+                            </Link>
                                 <div class="detailsDiv">                        
                                     <div class="detail" title={item.product_name}><h3>{item.product_name}</h3></div>
                                     <div class="cost"><h3>Cost:{item.cost}</h3></div>
                                 </div>
-                            </Link>
+                            
                             </div>
                         </div>
                     )

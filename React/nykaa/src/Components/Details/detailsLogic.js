@@ -8,27 +8,36 @@ const base_url ="https://nykaa-api-jfl3.onrender.com"
 const DetailDisplay = ()=>{
 
    let [searchParams] = useSearchParams();
-    let [productDetails, setProductDetails] = useState()
+   let [productDetails, setProductDetails] = useState()
+   let productid = searchParams.getAll('productId')
+    const productDetail = async()=>{
+        const prodata = await axios.get(`${base_url}/details/${productid}`)
+        setProductDetails(prodata.data)
+    }
+    useEffect(()=>{
+        productDetail()
+    },[])
 
-    // let p = param.id;
-    // const productDetail = async()=>{
-    //     const prodata = await axios.get(`${base_url}/details/:id=${p}`)
-    //     setProductDetails(prodata.data)
-    // }
-
-    // useEffect(()=>{
-    //     productDetail()
-    // },[])
-
-    return(
-        <>
-        <div className="main-detail-div">
-            <div className="detail-img-div">
-                <img src='' alt=''/>
+    const renderDetails = ()=>{
+        if(productDetails){
+           return(
+            <>
+             <div className="detail-img-div">
+                <img src={productDetails.product_img} alt=''/>
             </div>
             <div className="details">
 
             </div>
+            </>
+           )
+
+        }
+    }
+
+    return(
+        <>
+        <div className="main-detail-div">
+            {renderDetails()}
         </div>
         
         </>
