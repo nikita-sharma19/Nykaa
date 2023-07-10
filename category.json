@@ -1,21 +1,21 @@
 [
     {
-        "category_id": 8,
+        "category_id": 2,
         "category_name": "Haircare",
         "category_img": "https://i.ibb.co/8PcwSmk/Aromine-Hairoil1.jpg"
       },
       {
-        "category_id": 9,
+        "category_id": 3,
         "category_name": "Skincare",
         "category_img": "https://i.ibb.co/Wc56Cj7/aqualogica-Sunscreen.jpg"
       },
       {
-        "category_id": 10,
+        "category_id": 4,
         "category_name": "Makeup",
         "category_img": "https://i.ibb.co/BZkkzK5/Nyx-Concealer2.jpg"
       },
       {
-        "category_id": 11,
+        "category_id": 5,
         "category_name": "Fragrance",
         "category_img": "https://i.ibb.co/J7c552x/Perfume1.jpg"
       }

@@ -35,13 +35,6 @@ app.get('/',(req,res) => {
     res.send('Hello I am Express Js And you are gonna like me alot...Hiii From express!')
 })
 
-// get all categories
-app.get('/categories',async (req,res)=>{
-    let query = {};
-    let collection = "categories"
-    let output = await getData(collection,query)
-    res.send(output)
-})
 
 //just to check something
 app.get('/try',async (req,res)=>{
@@ -71,6 +64,25 @@ app.get('/faishontype',async (req,res)=>{
         query={}
     }
     let collection = "faishontype"
+    let output = await getData(collection,query)
+    res.send(output)
+})
+// get all categories
+app.get('/categories',async (req,res)=>{
+    let query = {};
+    let collection = "categories"
+    let output = await getData(collection,query)
+    res.send(output)
+})
+
+app.get('/allProducts',async (req,res)=>{
+    let query = {};
+    if(req.query.categoryId){
+        query = {category_id: Number(req.query.categoryId)}
+    }else{
+        query={}
+    }
+    let collection = "allProducts"
     let output = await getData(collection,query)
     res.send(output)
 })
@@ -189,15 +201,6 @@ app.get('/makeup',async (req,res)=>{
 app.get('/fragrance',async (req,res)=>{
     let query = {"category_id":5};
     let collection = "fragrance"
-    let output = await getData(collection,query)
-    res.send(output)
-})
-
-
-
-app.get('/allProducts',async (req,res)=>{
-    let query = {};
-    let collection = "allProducts"
     let output = await getData(collection,query)
     res.send(output)
 })
