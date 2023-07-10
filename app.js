@@ -98,8 +98,8 @@ app.get('/details/:id',async(req,res)=>{
 app.get('/products',async (req,res)=>{
 
     let query = {};
-    if(req.query.prodId){
-        query = {product_id: Number(req.query.prodId)}
+    if(req.query.productId){
+        query = {product_id: Number(req.query.productId)}
     }else{
         query={}
     }
