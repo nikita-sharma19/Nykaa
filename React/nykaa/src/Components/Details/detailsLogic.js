@@ -23,7 +23,7 @@ const DetailDisplay = ()=>{
            return(
             <>
              <div className="detail-img-div">
-                <img src={productDetails.product_img} alt=''/>
+                <img src={productDetails.product_img} alt={productDetails.product_name}/>
             </div>
             <div className="details">
 

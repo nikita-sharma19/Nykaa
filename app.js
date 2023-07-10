@@ -89,7 +89,7 @@ app.get('/allProducts',async (req,res)=>{
 
 app.get('/details/:id',async(req,res)=>{
     let id = Number(req.params.id);
-    let query = {_id:id}
+    let query = {product_id:id}
     let collection = "products"
     let output = await getData(collection,query)
     res.send(output);
@@ -99,7 +99,7 @@ app.get('/products',async (req,res)=>{
 
     let query = {};
     if(req.query.prodId){
-        query = {_id: Number(req.query.prodId)}
+        query = {product_id: Number(req.query.prodId)}
     }else{
         query={}
     }
