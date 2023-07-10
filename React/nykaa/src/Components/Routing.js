@@ -6,6 +6,7 @@ import Footer from './Footer';
 import Home from './Home/Home';
 import Main from './Main';
 import Listing from './Listing/listingLogic';
+import CategoryList from "./Listing/categoryLogic";
 import DetailDisplay from "./Details/detailsLogic";
 
 const Routing = ()=>{
@@ -19,8 +20,9 @@ const Routing = ()=>{
                     <Route index element ={<Home/>}/>
                     <Route path='home' element={<Home/>}/>
                     <Route path='listing/:faishontypeId' element={<Listing/>}/>
-                    <Route path='listing/:categoryId' element={<Listing/>}/>
-                    <Route path='/details/:id' element={<DetailDisplay/>}/>
+                    <Route path='categories/:categoryId' element={<CategoryList/>}/>
+                    {/* <Route path='listing/:categoryId' element={<Listing/>}/> */}
+                    <Route path='/details' element={<DetailDisplay/>}/>
                 </Route>
             </Routes>
             <Footer/>

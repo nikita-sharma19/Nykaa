@@ -27,6 +27,7 @@ const Listing =()=>{
                 </div>
             </div> */}
             <ListingDisplay listData={faishonList}/>
+            
         </div>
        
         </>
