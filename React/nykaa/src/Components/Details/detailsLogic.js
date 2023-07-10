@@ -9,9 +9,9 @@ const DetailDisplay = ()=>{
 
    let [searchParams] = useSearchParams();
    let [productDetails, setProductDetails] = useState()
-   let productid = searchParams.get('productId')
+   let productId = searchParams.getAll('productId')
     const productDetail = async()=>{
-        const prodata = await axios.get(`${base_url}/details/${productid}`)
+        const prodata = await axios.get(`${base_url}/details/${productId}`)
         setProductDetails(prodata.data)
     }
     useEffect(()=>{

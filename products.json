@@ -1,6 +1,5 @@
 [ 
             {
-                "faishon_id":1,
                 "faishontype_id":1,
                 "product_img":"https://i.ibb.co/fSFDh3W/Saree1.jpg",
                 "product_name":"Purple with stone work",
@@ -8,136 +7,118 @@
                 "cost":"1000"
             },
             {
-                "faishon_id":2,
-                "faishontype_id":1,
+                "faishontype_id":2,
                 "product_img":"https://i.ibb.co/q780s4r/saree2.jpg",
                 "product_name":"kanjivaram pure silk saree",
                 "content":"",
                 "cost":"1500"
             },
             {
-                "faishon_id":3,
-                "faishontype_id":1,
+                "faishontype_id":3,
                 "product_img":"https://i.ibb.co/cLddWV6/saree3.jpg",
                 "product_name":"Ambroidered in yellow",
                 "content":"",
                 "cost":"900"
             },
-            {
-                "faishon_id":4,
-                "faishontype_id":1,
+            {            
+                "faishontype_id":4,
                 "product_img":"https://i.ibb.co/rpMszqq/lehanga1.jpg",
                 "product_name":"Pink Ambroidered Lehanga",
                 "content":"",
                 "cost":"1500"
             },
-            {
-                "faishon_id":5,
-                "faishontype_id":1,
+            {              
+                "faishontype_id":5,
                 "product_img":"https://i.ibb.co/ZVB8nQD/lehanga2.jpg",
                 "product_name":"Grey & pink with Rajasthani print",
                 "content":"",
                 "cost":"3000"
             },
-            {
-                "faishon_id":6,
-                "faishontype_id":1,
+            {       
+              "faishontype_id":6,
                 "product_img":"https://i.ibb.co/gW5zxdP/kurti1.jpg",
                 "product_name":"Frock kurti",
                 "content":"",
                 "cost":"300"
             } ,
-            {
-              "faishontype_id":1,
-               "faishon_id":7,
+            {     
+               "faishontype_id":7,
                 "product_name":"Yellow long kurti",
                 "product_img":"https://i.ibb.co/MP2tkNh/kurti2.jpg",
                 "cost": 550
               },
-            {
-                "faishon_id":8,
-                "faishontype_id":1,
+            {         
+               "faishontype_id":8,
                 "product_name":"Printed Gorgeous kurti",
                 "product_img":"https://i.ibb.co/f0rtX46/kurti3.jpg",
                 "cost": 500
               },
-              {
-                "faishon_id":9,
-                "faishontype_id":1,
+              {      
+                "faishontype_id":9,
                 "product_name":"Ambroidered A-cut kurti",
                 "product_img":"https://i.ibb.co/xFw15dD/kurti4.jpg", 
                 "cost": 600
               },
-            {
-                "faishon_id":11,
-                "faishontype_id":2,
+            {      
+                "faishontype_id":10,
                 "product_img":"https://i.ibb.co/n0y3Jr7/dress1.jpg",
                 "product_name":"Floral knee length dress",
                 "cost":500
             },
-            {
-                "faishon_id":12,
-                "faishontype_id":2,
+            {      
+                "faishontype_id":11,
                 "product_img":"https://i.ibb.co/Rcg7760/dress2.jpg",
                 "product_name":"White Basic",
                 "cost":550
             },
-            {
-                "faishon_id":13,
-                "faishontype_id":2,
+            {       
+                "faishontype_id":12,
                 "product_img":"https://i.ibb.co/qFkZjmX/dress3.jpg",
                 "product_name":"black and white ambroidered",
                 "cost":700
             },
-            {
-                "faishon_id":14,
-                "faishontype_id":2,
+            {           
+                "faishontype_id":13,
                 "product_img":"https://i.ibb.co/hgjPcLc/dress4.jpg",
                 "product_name":"Plane georgette",
                 "cost":700
             },
             {
-                "faishon_id":15,
-                "faishontype_id":2,
+                "faishontype_id":14,
                 "product_img":"https://i.ibb.co/RzZng92/top1.jpg",
                 "product_name":"Tops & Tees",
                 "content":"",
                 "cost":800
             },
             {
-                "faishon_id":16,
-                "faishontype_id":2,
+                "faishontype_id":15,
                 "product_img":"https://i.ibb.co/RS5DX6m/top2.jpg",
                 "product_name":"Long Basic",
                 "content":"",
                 "cost":500
             },
             {
-                "faishon_id":17,
-                "faishontype_id":2,
+                "faishontype_id":16,
                 "product_img":"https://i.ibb.co/1XR3S1K/jeans1.jpg",
                 "product_name":"Damaged faishonable Jeans",
                 "content":"",
                 "cost":1000
             },
             {
-               "faishon_id":18,
-                "faishontype_id":2,
+                "faishontype_id":17,
                 "product_img":"https://i.ibb.co/4Ssybkm/jeans2.jpg",
                 "product_name":"Plain Jeans",
                 "content":"",
                 "cost":1000
             },
             {
-                "faishon_id":19,
-                "faishontype_id":2,
+                "faishontype_id":18,
                 "product_name":"Straight A-Cut Jeans",
                 "product_img":"https://i.ibb.co/688zZvS/jeans3.jpg",
                  "cost": 2000 
               },
             {
-                "faishon_id":20,
-                "faishontype_id":3,
+                "faishontype_id":19,
                 "product_img":"https://i.ibb.co/LJHdPDx/heel2.jpg",
                 "product_name":"High Heels",
                 "content":"",

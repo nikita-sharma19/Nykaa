@@ -89,7 +89,7 @@ app.get('/allProducts',async (req,res)=>{
 
 app.get('/details/:id',async(req,res)=>{
     let id = Number(req.params.id);
-    let query = {faishon_id:id}
+    let query = {faishontype_id:id}
     let collection = "products"
     let output = await getData(collection,query)
     res.send(output);
@@ -99,7 +99,7 @@ app.get('/products',async (req,res)=>{
 
     let query = {};
     if(req.query.productId){
-        query = {faishon_id: Number(req.query.productId)}
+        query = {faishontype_id: Number(req.query.productId)}
     }else{
         query={}
     }
@@ -112,7 +112,7 @@ app.get('/products',async (req,res)=>{
 app.get('/details',async(req,res)=>{
     let query = {};
     if(req.query.productId){
-        query = {faishon_id: Number(req.query.productId)}
+        query = {faishontype_id: Number(req.query.productId)}
     }else{
         query={}
     }
