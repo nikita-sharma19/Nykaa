@@ -1,288 +1,267 @@
 [ 
             {
-                "faishontype_id":1,
+                "product_id":1,
                 "product_img":"https://i.ibb.co/fSFDh3W/Saree1.jpg",
                 "product_name":"Purple with stone work",
                 "content":"",
                 "cost":"1000"
             },
             {
-                "faishontype_id":2,
+                "product_id":2,
                 "product_img":"https://i.ibb.co/q780s4r/saree2.jpg",
                 "product_name":"kanjivaram pure silk saree",
                 "content":"",
                 "cost":"1500"
             },
             {
-                "faishontype_id":3,
+                "product_id":3,
                 "product_img":"https://i.ibb.co/cLddWV6/saree3.jpg",
                 "product_name":"Ambroidered in yellow",
                 "content":"",
                 "cost":"900"
             },
             {            
-                "faishontype_id":4,
+                "product_id":4,
                 "product_img":"https://i.ibb.co/rpMszqq/lehanga1.jpg",
                 "product_name":"Pink Ambroidered Lehanga",
                 "content":"",
                 "cost":"1500"
             },
             {              
-                "faishontype_id":5,
+                "product_id":5,
                 "product_img":"https://i.ibb.co/ZVB8nQD/lehanga2.jpg",
                 "product_name":"Grey & pink with Rajasthani print",
                 "content":"",
                 "cost":"3000"
             },
             {       
-              "faishontype_id":6,
+                "product_id":6,
                 "product_img":"https://i.ibb.co/gW5zxdP/kurti1.jpg",
                 "product_name":"Frock kurti",
                 "content":"",
                 "cost":"300"
             } ,
             {     
-               "faishontype_id":7,
+               "product_id":7,
                 "product_name":"Yellow long kurti",
                 "product_img":"https://i.ibb.co/MP2tkNh/kurti2.jpg",
                 "cost": 550
               },
             {         
-               "faishontype_id":8,
+               "product_id":8,
                 "product_name":"Printed Gorgeous kurti",
                 "product_img":"https://i.ibb.co/f0rtX46/kurti3.jpg",
                 "cost": 500
               },
               {      
-                "faishontype_id":9,
+                "product_id":9,
                 "product_name":"Ambroidered A-cut kurti",
                 "product_img":"https://i.ibb.co/xFw15dD/kurti4.jpg", 
                 "cost": 600
               },
             {      
-                "faishontype_id":10,
+                "product_id":10,
                 "product_img":"https://i.ibb.co/n0y3Jr7/dress1.jpg",
                 "product_name":"Floral knee length dress",
                 "cost":500
             },
             {      
-                "faishontype_id":11,
+                "product_id":11,
                 "product_img":"https://i.ibb.co/Rcg7760/dress2.jpg",
                 "product_name":"White Basic",
                 "cost":550
             },
             {       
-                "faishontype_id":12,
+                "product_id":12,
                 "product_img":"https://i.ibb.co/qFkZjmX/dress3.jpg",
                 "product_name":"black and white ambroidered",
                 "cost":700
             },
             {           
-                "faishontype_id":13,
+                "product_id":13,
                 "product_img":"https://i.ibb.co/hgjPcLc/dress4.jpg",
                 "product_name":"Plane georgette",
                 "cost":700
             },
             {
-                "faishontype_id":14,
+                "product_id":14,
                 "product_img":"https://i.ibb.co/RzZng92/top1.jpg",
                 "product_name":"Tops & Tees",
                 "content":"",
                 "cost":800
             },
             {
-                "faishontype_id":15,
+                "product_id":15,
                 "product_img":"https://i.ibb.co/RS5DX6m/top2.jpg",
                 "product_name":"Long Basic",
                 "content":"",
                 "cost":500
             },
             {
-                "faishontype_id":16,
+                "product_id":16,
                 "product_img":"https://i.ibb.co/1XR3S1K/jeans1.jpg",
                 "product_name":"Damaged faishonable Jeans",
                 "content":"",
                 "cost":1000
             },
             {
-                "faishontype_id":17,
+                "product_id":17,
                 "product_img":"https://i.ibb.co/4Ssybkm/jeans2.jpg",
                 "product_name":"Plain Jeans",
                 "content":"",
                 "cost":1000
             },
             {
-                "faishontype_id":18,
+                "product_id":18,
                 "product_name":"Straight A-Cut Jeans",
                 "product_img":"https://i.ibb.co/688zZvS/jeans3.jpg",
                  "cost": 2000 
               },
             {
-                "faishontype_id":19,
+                "product_id":19,
                 "product_img":"https://i.ibb.co/LJHdPDx/heel2.jpg",
                 "product_name":"High Heels",
                 "content":"",
                 "cost":1000
             },
             {
-                "faishon_id":21,
-                "faishontype_id":3,
+                "product_id":21,
                 "product_img":"https://i.ibb.co/JkR18sx/heel3.jpg",
                 "product_name":"Sharp High Heels",
                 "content":"",
                 "cost":1500
             },
             {
-                "faishon_id":22,
-                "faishontype_id":3,
+                "product_id":22,
                 "product_img":"https://i.ibb.co/G96TGGy/flat1.jpg",
                 "product_name":"Platform Comfy",
                 "content":"",
                 "cost":550
             },
             {
-                "faishon_id":23,
-                "faishontype_id":3,
+                "product_id":23,
                 "product_img":"https://i.ibb.co/1JQ3kWp/flat2.jpg",
                 "product_name":"Valley in black",
                 "content":"",
                 "cost":557
             },
             {
-                "faishon_id":24,
-                "faishontype_id":3,
+                "product_id":24,
                 "product_name":"White & Pink casuals",
                 "product_img":"https://i.ibb.co/X8c6ht6/shoe1.jpg",
                  "cost": 700  
               },
               {
-                "faishon_id":25,
-                "faishontype_id":3,
+                "product_id":25,
                 "product_name":"Bold Pink shoes",
                 "product_img":"https://i.ibb.co/sQwsZ72/shoe2.jpg",
                 "cost": 750  
               },
 
             {
-                "faishon_id":26,
-                "faishontype_id":4,
+                "product_id":26,
                 "product_img":"https://i.ibb.co/88RJC31/earring1.jpg",
                 "product_name":"Gold shine Earring",
                 "content":"",
                 "cost":500
             },
             {
-                "faishon_id":27,
-                "faishontype_id":4,
+                "product_id":27,
                 "product_img":"https://i.ibb.co/Wy86bRb/earring2.jpg",
                 "product_name":"Unique shine Pearl Earring",
                 "content":"",
                 "cost":400
             },
             {
-                "faishon_id":28,
-                "faishontype_id":4,
+                "product_id":28,
                 "product_img":"https://i.ibb.co/VLdg2ZS/earring3.jpg",
                 "product_name":"Pearly shine Earring",
                 "content":"",
                 "cost":300
             },
             {
-               "faishon_id":29,
-                "faishontype_id":4,
+               "product_id":29,
                 "product_img":"https://i.ibb.co/wKP1x30/earring4.jpg",
                 "product_name":"Blue Butterfly Earring",
                 "content":"",
                 "cost":500
             },
             {
-                "faishon_id":30,
-                "faishontype_id":4,
+                "product_id":30,
                 "product_img":"https://i.ibb.co/0mmMWY8/necklace1.jpg",
                 "product_name":"Hearshaped Necklace",
                 "content":"",
                 "cost":2000
             },
             {
-                "faishon_id":31,
-                "faishontype_id":4,
+                "product_id":31,
                 "product_img":"https://i.ibb.co/GT30XX7/necklace2.jpg",
                 "product_name":"Pearl White Shine Necklace",
                 "content":"",
                 "cost":2500
             },
             {
-                "faishon_id":32,
-                "faishontype_id":4,
+                "product_id":32,
                 "product_img":"https://i.ibb.co/xJWytzd/ring1.jpg",
                 "product_name":"Blue Sharp Cut Ring",
                 "content":"",
                 "cost":3000
             },
             {
-                "faishon_id":33,
-                "faishontype_id":4,
+                "product_id":33,
                 "product_img":"https://i.ibb.co/844WmqV/ring2.jpg",
                 "product_name":"White Huge Stone Ring",
                 "content":"",
                 "cost":4000
             },
             {
-                "faishon_id":34,
-                "faishontype_id":4,
+                "product_id":34,
                 "product_img":"https://i.ibb.co/6gT6hNb/bracelet1.jpg",
                 "product_name":"Infinity Symbol Bracelet",
                 "content":"",
                 "cost":5000
             },
             {
-                "faishon_id":35,
-                "faishontype_id":4,
+                "product_id":35,
                 "product_img":"https://i.ibb.co/VTdxpkP/bracelet2.jpg",
                 "product_name":"Beautiful Light Heart Bracelet",
                 "content":"",
                 "cost":7000
             },
             {
-                "faishon_id":36,
-                "faishontype_id":5,
+                "product_id":36,
                 "product_name":"Plane T-shirt",
                 "product_img":"https://i.ibb.co/9pLTH9X/Tshirt1.jpg",
                 "cost": 330
                 },
             {
-                "faishon_id":37,
-                "faishontype_id":5,
+                "product_id":37,
                 "product_img":"https://i.ibb.co/DbzqSx2/Tshirt2.jpg",
                 "product_name":"T-shirt stripped",
                 "content":"",
                 "cost":400
             },
             {
-                "faishon_id":38,
-                "faishontype_id":5,
+                "product_id":38,
                 "product_img":"https://i.ibb.co/CWQ5q0R/Tshirt3.jpg",
                 "product_name":"sweatshirt long sleeve",
                 "content":"",
                 "cost":480
             },
             {
-                "faishon_id":39,
-                "faishontype_id":6,
+                "product_id":39,
                 "product_name":"shirt in grey",
                 "product_img": "https://i.ibb.co/Sr5tZQk/shirt2.jpg",
                 "cost": 500
             },
             {
-                "faishon_id":40,
-                "faishontype_id":6,
+                "product_id":40,
                 "product_name":"shirt in Red check",
                 "product_img": "https://i.ibb.co/MDTSB8L/shirt3.jpg",
                 "cost": 600
             },
             {
-                "faishon_id":41,
-                "faishontype_id":6,
+                "product_id":41,
                 "product_name":"Shirt with black strips",
                 "product_img":"https://i.ibb.co/RQVQ9jC/shirt4.jpg",
                 "cost": 780
@@ -290,112 +269,98 @@
 
 
             {
-                "faishon_id":42,
-                "faishontype_id":6,
+                "product_id":42,
                 "product_img":"https://i.ibb.co/nkz6Xn0/kurta1.jpg",
                 "product_name":"Shine brown",
                 "content":"",
                 "cost":1200
             },
             {
-                "faishon_id":43,
-                "faishontype_id":6,
+                "product_id":43,
                 "product_img":"https://i.ibb.co/TgT3CQt/kurta2.jpg",
                 "product_name":"Blinky Pink",
                 "content":"",
                 "cost":1500
             },
             {
-                "faishon_id":44,
-                "faishontype_id":6,
+                "product_id":44,
                 "product_img":"https://i.ibb.co/7WXq696/kurta3.jpg",
                 "product_name":"Royal Blue Silk Kurta",
                 "content":"",
                 "cost":1700
             },
             {
-                "faishon_id":45,
-                "faishontype_id":6,
+                "product_id":45,
                 "product_img":"https://i.ibb.co/3Whvpvq/nehrujacket1.jpg",
                 "product_name":"Printed Floral Nehru Jacket",
                 "content":"",
                 "cost":2000
             },
             {
-                "faishon_id":46,
-                "faishontype_id":6,
+                "product_id":46,
                 "product_img":"https://i.ibb.co/HF8L8wS/nehrujacket2.jpg",
                 "product_name":"Peach Plane Silk Nehru Jacket",
                 "content":"",
                 "cost":2300
             },
             {
-                "faishon_id":47,
-                "faishontype_id":6,
+                "product_id":47,
                 "product_img":"https://i.ibb.co/pfyJ9HK/nehrujacket3.jpg",
                 "product_name":"Brown Silk shine Nehru Jacket",
                 "content":"",
                 "cost":2500
             },
             {
-                "faishon_id":48,
-                "faishontype_id":6,
+                "product_id":48,
                 "product_img":"https://i.ibb.co/ZG3FHKr/sherwani1.jpg",
                 "product_name":"Floral print sherwani in brown",
                 "content":"",
                 "cost":5000
             },
             {
-                "faishon_id":49,
-                "faishontype_id":6,
+                "product_id":49,
                 "product_img":"https://i.ibb.co/f8jfPsL/sherwani2.jpg",
                 "product_name":"Embroidered Royal Sherwani",
                 "content":"",
                 "cost":5500
             },
             {
-                "faishon_id":50,
-                "faishontype_id":6,
+                "product_id":50,
                 "product_img":"https://i.ibb.co/FwjXXSB/sherwani3.jpg",
                 "product_name":"Plane Sherwani With green dupatta",
                 "content":"",
                 "cost":700
             },
             {
-                "faishon_id":51,
-                "faishontype_id":7,
+                "product_id":51,
                 "product_img":"https://i.ibb.co/w7XTd35/casual1.jpg",
                 "product_name":"Casuals",
                 "content":"",
                 "cost":890
             },
             {
-                "faishon_id":52,
-                "faishontype_id":7,
+                "product_id":52,
                 "product_img":"https://i.ibb.co/NStS1Sv/casual2.jpg",
                 "product_name":"Casuals",
                 "content":"",
                 "cost":880
             },
             {
-                "faishon_id":53,
-                "faishontype_id":7,
+                "product_id":53,
                 "product_img":"https://i.ibb.co/WzyWPNt/formals1.jpg",
                 "product_name":"Formals",
                 "content":"",
                 "cost":1500
             },
             {
-                "faishon_id":54,
-                "faishontype_id":7,
+                "product_id":54,
                 "product_img":"https://i.ibb.co/K6hp00S/formals2.jpg",
                 "product_name":"Formals",
                 "content":"",
                 "cost":1800
             },
             {
-                "faishon_id":55,
-                "faishontype_id":7,
+                "product_id":55,
                 "product_img":"https://i.ibb.co/qyg4x4K/formals3.jpg",
                 "product_name":"Formals",
                 "content":"",
