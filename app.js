@@ -135,17 +135,17 @@ app.get('/products/:id',async(req,res)=>{
 })
 
 
-// app.get('/details',async(req,res)=>{
-//     let query = {};
-//     if(req.query.productId){
-//         query = {product_id: Number(req.query.productId)}
-//     }else{
-//         query={}
-//     }
-//     let collection = "products"
-//     let output = await getData(collection,query)
-//     res.send(output);
-// })
+app.get('/details',async(req,res)=>{
+    let query = {};
+    if(req.query.productId){
+        query = {product_id: Number(req.query.productId)}
+    }else{
+        query={}
+    }
+    let collection = "products"
+    let output = await getData(collection,query)
+    res.send(output);
+})
 
 app.get('/filter/:faishontypeId',async(req,res)=>{
     let faishontypeId = Number(req.params.faishontypeId)

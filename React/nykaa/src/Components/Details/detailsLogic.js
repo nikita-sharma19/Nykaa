@@ -10,7 +10,7 @@ const Details = ()=>{
     let [productDetails,setProductDetails] = useState()
     let productId = searchParams.getAll('productId')
 
-    const renderDetail = ()=>{
+    const renderDetails = ()=>{
         if(productDetails){
             return(
                 <>
@@ -37,7 +37,7 @@ const Details = ()=>{
     return(
         <>
         <div className="details-div">
-            {renderDetail()}
+            {renderDetails()}
         </div>
         </>
     )
