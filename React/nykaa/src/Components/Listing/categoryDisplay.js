@@ -11,7 +11,7 @@ const CategoryDisplay = (props)=>{
                         return(
                             <div class="filter-container">
                                 <div class="card" key={item._id}> 
-                                <Link to={`/details/${item.product_id}`}>                     
+                                <Link to={`/details/${item.category_id}`}>                     
                                      <div class="imageDiv">
                                          <img src={item.product_img} alt={item.product_name}/>
                                     </div>

@@ -87,6 +87,13 @@ app.get('/allProducts',async (req,res)=>{
     res.send(output)
 })
 
+app.get('/details',async (req,res)=>{
+    let query = {};
+    let collection = "details"
+    let output = await getData(collection,query)
+    res.send(output)
+})
+
 app.get('/details/:id',async(req,res)=>{
     let id = Number(req.params.id);
     let query = {product_id:id}
@@ -94,13 +101,24 @@ app.get('/details/:id',async(req,res)=>{
     let output = await getData(collection,query)
     res.send(output);
 })
+// let id = new Mongo.ObjectId(req.params.id)
+    // let query = {_id:id}
 
 app.get('/products',async (req,res)=>{
-
     let query = {};
+    // if(req.query.faishontypeId && req.query.productId){
+    //     query = {faishontype_id: Number(req.query.faishontypeId), product_id: Number(req.query.productId)}
+    // }
     if(req.query.productId){
         query = {product_id: Number(req.query.productId)}
-    }else{
+    }
+    else if(req.query.faishontypeId){
+        query = {faishontype_id: Number(req.query.faishontypeId)}
+    }
+    else if(req.query.categoryId){
+        query = {category_id: Number(req.query.categoryId)}
+    }
+    else{
         query={}
     }
     let collection = "products"
@@ -108,11 +126,36 @@ app.get('/products',async (req,res)=>{
     res.send(output)
 })
 
+app.get('/products/:id',async(req,res)=>{
+    let id = Number(req.params.id);
+    let query = {product_id:id}
+    let collection = "products"
+    let output = await getData(collection,query)
+    res.send(output);
+})
 
-app.get('/details',async(req,res)=>{
-    let query = {};
-    if(req.query.productId){
-        query = {product_id: Number(req.query.productId)}
+
+// app.get('/details',async(req,res)=>{
+//     let query = {};
+//     if(req.query.productId){
+//         query = {product_id: Number(req.query.productId)}
+//     }else{
+//         query={}
+//     }
+//     let collection = "products"
+//     let output = await getData(collection,query)
+//     res.send(output);
+// })
+
+app.get('/filter/:faishontypeId',async(req,res)=>{
+    let faishontypeId = Number(req.params.faishontypeId)
+    let lcost = Number(req.query.lcost)
+    let hcost = Number(req.query.hcost)
+    if(lcost && hcost){
+        query={
+            "faishontype_id":faishontypeId,
+            $and:[{cost:{$gt:lcost,$lt:hcost}}]
+        }
     }else{
         query={}
     }
@@ -120,6 +163,65 @@ app.get('/details',async(req,res)=>{
     let output = await getData(collection,query)
     res.send(output);
 })
+
+app.get('/orders',async(req,res) => {
+    let query = {};
+    if(req.query.email){
+        query={email:req.query.email}
+    }else{
+        query = {}
+    }
+    let collection = "orders";
+    let output = await getData(collection,query);
+    res.send(output)
+})
+
+app.post('/placeOrder',async(req,res) => {
+    let data = req.body;
+    let collection = "orders";
+    // console.log(">>>",data)
+    let response = await postData(collection,data)
+    res.send(response)
+})
+
+//get selected product details on basis of product_id
+app.post('/productDetails',async(req,res) => {
+    if(Array.isArray(req.body.id)){
+        let query = {product_id:{$in:req.body.id}};
+        let collection = 'products';
+        let output = await getData(collection,query);
+        res.send(output)
+    }else{
+        res.send('Your data is not in the form of array!')
+    }
+})
+
+//update order
+app.put('/updateOrder',async(req,res) => {
+    let collection = 'orders';
+    let condition = {"_id":new Mongo.ObjectId(req.body._id)}
+    let data = {
+        $set:{
+            "status":req.body.status
+        }
+    }
+    let output = await updateOrder(collection,condition,data)
+    res.send(output)
+})
+
+//delete order
+app.delete('/deleteOrder',async(req,res) => {
+    let collection = 'orders';
+    let condition = {"_id":new Mongo.ObjectId(req.body._id)}
+    let output = await deleteOrder(collection,condition)
+    res.send(output)
+})
+
+
+
+
+
+
 
 
 
@@ -205,12 +307,7 @@ app.get('/fragrance',async (req,res)=>{
     res.send(output)
 })
 
-app.get('/details',async (req,res)=>{
-    let query = {};
-    let collection = "details"
-    let output = await getData(collection,query)
-    res.send(output)
-})
+
 
 // app.get('/details/:id', async(req,res) => {
 //     let id = new Mongo.ObjectId(req.params.id)
@@ -232,17 +329,7 @@ app.get('/details',async (req,res)=>{
 //     res.send(output)
 // })
 
-app.get('/orders',async(req,res) => {
-    let query = {};
-    if(req.query.email){
-        query={email:req.query.email}
-    }else{
-        query = {}
-    }
-    let collection = "orders";
-    let output = await getData(collection,query);
-    res.send(output)
-})
+
 
 //place order
 // app.post('/placeOrder',async(req,res)=>{
@@ -251,13 +338,7 @@ app.get('/orders',async(req,res) => {
 //     let response = await postData(collection , data)
 //     res.send(response)
 // })
-app.post('/placeOrder',async(req,res) => {
-    let data = req.body;
-    let collection = "orders";
-    // console.log(">>>",data)
-    let response = await postData(collection,data)
-    res.send(response)
-})
+
 // app.get('/details/:id',async(req,res)=>{
 //     let id = Number(req.params.id);
 //     let query = {faishontype_id:id}
@@ -268,59 +349,30 @@ app.post('/placeOrder',async(req,res) => {
 
 
 
-//get selected product details on basis of faishontype_id
-app.post('/productDetails',async(req,res) => {
-    if(Array.isArray(req.body.id)){
-        let query = {faishontype_id:{$in:req.body.id}};
-        let collection = 'products';
-        let output = await getData(collection,query);
-        res.send(output)
-    }else{
-        res.send('Your data is not in the form of array!')
-    }
-})
-//get selected product details on basis of category_id
-app.post('/productDetails',async(req,res) => {
-    if(Array.isArray(req.body.id)){
-        let query = {category_id:{$in:req.body.id}};
-        let collection = 'products';
-        let output = await getData(collection,query);
-        res.send(output)
-    }else{
-        res.send('Your data is not in the form of array!')
-    }
-})
-//get selected items details
-app.post('/productDetails',async(req,res) => {
-    if(Array.isArray(req.body.id)){
-        let query = {prod_id:{$in:req.body.id}};
-        let collection = 'allProducts';
-        let output = await getData(collection,query);
-        res.send(output)
-    }else{
-        res.send('Your data is not in the form of array!')
-    }
-})
-//update order
-app.put('/updateOrder',async(req,res) => {
-    let collection = 'orders';
-    let condition = {"_id":new Mongo.ObjectId(req.body._id)}
-    let data = {
-        $set:{
-            "status":req.body.status
-        }
-    }
-    let output = await updateOrder(collection,condition,data)
-    res.send(output)
-})
 
-//delete order
-app.delete('/deleteOrder',async(req,res) => {
-    let collection = 'orders';
-    let condition = {"_id":new Mongo.ObjectId(req.body._id)}
-    let output = await deleteOrder(collection,condition)
-    res.send(output)
-})
+//get selected product details on basis of category_id
+// app.post('/productDetails',async(req,res) => {
+//     if(Array.isArray(req.body.id)){
+//         let query = {category_id:{$in:req.body.id}};
+//         let collection = 'products';
+//         let output = await getData(collection,query);
+//         res.send(output)
+//     }else{
+//         res.send('Your data is not in the form of array!')
+//     }
+// })
+//get selected items details
+// app.post('/productDetails',async(req,res) => {
+//     if(Array.isArray(req.body.id)){
+//         let query = {prod_id:{$in:req.body.id}};
+//         let collection = 'allProducts';
+//         let output = await getData(collection,query);
+//         res.send(output)
+//     }else{
+//         res.send('Your data is not in the form of array!')
+//     }
+// })
+
 
 app.listen(port,(err) => {
     dbConnect()

@@ -1,46 +1,46 @@
-import React,{useState, useEffect}from "react";
+import React,{useState,useEffect} from "react";
+import axios from 'axios'
 import './details.css';
-import axios from 'axios';
 import { useSearchParams } from "react-router-dom";
 
 const base_url ="https://nykaa-api-jfl3.onrender.com"
 
-const DetailDisplay = ()=>{
+const Details = ()=>{
+    let [searchParams] = useSearchParams()
+    let [productDetails,setProductDetails] = useState()
+    let productId = searchParams.getAll('productId')
 
-   let [searchParams] = useSearchParams();
-   let [productDetails, setProductDetails] = useState()
-   let productId = searchParams.getAll('productId')
-    const productDetail = async()=>{
-        const prodata = await axios.get(`${base_url}/details/${productId}`)
-        setProductDetails(prodata.data)
+    const renderDetail = ()=>{
+        if(productDetails){
+            return(
+                <>
+                <div className="detail-img-div">
+                    <div className="detail-image">
+                        <img src={productDetails.product_img} alt={productDetails.product_name}/>
+                    </div>
+                </div>
+                </>
+            )
+        }
     }
+
+    const productDetail = async()=>{
+        const prodData = await axios.get(`${base_url}/details/${productId}`)
+        setProductDetails(prodData.data)
+
+    }
+
     useEffect(()=>{
         productDetail()
     },[])
 
-    const renderDetails = ()=>{
-        if(productDetails){
-           return(
-            <>
-             <div className="detail-img-div">
-                <img src={productDetails.product_img} alt={productDetails.product_name}/>
-            </div>
-            <div className="details">
-
-            </div>
-            </>
-           )
-
-        }
-    }
-
     return(
         <>
-        <div className="main-detail-div">
-            {renderDetails()}
+        <div className="details-div">
+            {renderDetail()}
         </div>
-        
         </>
     )
 }
-export default DetailDisplay;
+
+export default Details

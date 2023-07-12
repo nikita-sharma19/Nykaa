@@ -7,7 +7,10 @@ import Home from './Home/Home';
 import Main from './Main';
 import Listing from './Listing/listingLogic';
 import CategoryList from "./Listing/categoryLogic";
-import DetailDisplay from "./Details/detailsLogic";
+import Details from "./Details/detailsLogic";
+import PlaceOrder from "./Orders/PlaceOrder";
+import ViewOrder from "./Orders/ViewOrder";
+import Product from "./Listing/products";
 
 const Routing = ()=>{
     return(
@@ -21,8 +24,12 @@ const Routing = ()=>{
                     <Route path='home' element={<Home/>}/>
                     <Route path='listing/:faishontypeId' element={<Listing/>}/>
                     <Route path='categories/:categoryId' element={<CategoryList/>}/>
+                    <Route path='/products/:productId' element={<Product/>}/>
+                    <Route path='/details' element={<Details/>}/>
+                    <Route path='placeOrder/:productId' element={<PlaceOrder/>}/>
+                    <Route path='viewOrder' element={<ViewOrder/>}/> 
+                    
                     {/* <Route path='listing/:categoryId' element={<Listing/>}/> */}
-                    <Route path='/details' element={<DetailDisplay/>}/>
                 </Route>
             </Routes>
             <Footer/>

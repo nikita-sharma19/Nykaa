@@ -7,12 +7,16 @@ import axios from 'axios';
 const base_url ="https://nykaa-api-jfl3.onrender.com"
 
 const Listing =()=>{
+
+    // let [faishontypeId] = useState(sessionStorage.getItem('faishonid'))
+
     let params = useParams();
     const [faishonList,setFaishonList] = useState();
 
     useEffect(()=>{
+        // sessionStorage.setItem('faishontypeId',faishonid)
         let faishonid = params.faishontypeId;
-        axios.get(`${base_url}/faishontype?faishontypeId=${faishonid}`)
+        axios.get(`${base_url}/products?faishontypeId=${faishonid}`)
         .then((res)=>{
         setFaishonList(res.data)
         })
