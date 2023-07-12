@@ -1,14 +1,14 @@
 import React,{useState,useEffect} from "react";
 import axios from 'axios'
 import './details.css';
-import { useSearchParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 const base_url ="https://nykaa-api-jfl3.onrender.com"
 
 const Details = ()=>{
-    let [searchParams] = useSearchParams()
+    let param = useParams()
     let [productDetails,setProductDetails] = useState()
-    let productId = searchParams.getAll('productId')
+    let productId = param.get('productId')
 
     const renderDetails = ()=>{
         if(productDetails){
@@ -25,7 +25,7 @@ const Details = ()=>{
     }
 
     const productDetail = async()=>{
-        const prodData = await axios.get(`${base_url}/details/${productId}`)
+        const prodData = await axios.get(`${base_url}/products?productId=${productId}`)
         setProductDetails(prodData.data)
 
     }

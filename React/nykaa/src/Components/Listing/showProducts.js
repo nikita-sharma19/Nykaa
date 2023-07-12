@@ -1,5 +1,4 @@
 import React from 'react'
-
 const ShowProduct = (props)=>{
 
     const renderProd=({list})=>{
@@ -10,7 +9,7 @@ const ShowProduct = (props)=>{
                         return(
                             <>
                               <div class="filter-container">
-                                <div class="card" key={item._id}>                   
+                                <div class="card" key={item._id}>                 
                                      <div class="imageDiv">
                                          <img src={item.product_img} alt={item.product_name}/>
                                     </div>

@@ -37,12 +37,12 @@ app.get('/',(req,res) => {
 
 
 //just to check something
-app.get('/try',async (req,res)=>{
-    let query = {};
-    let collection = "try"
-    let output = await getData(collection,query)
-    res.send(output)
-})
+// app.get('/try',async (req,res)=>{
+//     let query = {};
+//     let collection = "try"
+//     let output = await getData(collection,query)
+//     res.send(output)
+// })
 
 app.get('/nykaaFaishon',async (req,res)=>{
     let query = {};
@@ -95,8 +95,8 @@ app.get('/details',async (req,res)=>{
 })
 
 app.get('/details/:id',async(req,res)=>{
-    let id = Number(req.params.id);
-    let query = {product_id:id}
+    let productId = Number(req.params.id);
+    let query = {product_id:productId}
     let collection = "products"
     let output = await getData(collection,query)
     res.send(output);

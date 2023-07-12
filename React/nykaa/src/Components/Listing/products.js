@@ -3,7 +3,6 @@ import ShowProduct from './showProducts'
 import './listing.css';
 import {useParams} from 'react-router-dom';
 import axios from 'axios';
-import {Link} from 'react-router-dom'
 
 
 const base_url ="https://nykaa-api-jfl3.onrender.com"
@@ -17,7 +16,7 @@ const Product = ()=>{
     useEffect(()=>{
         // sessionStorage.setItem('faishontypeId',faishonid)
         let id = params.productId;
-        axios.get(`${base_url}/details?productId=${id}`)
+        axios.get(`${base_url}/products?productId=${id}`)
         .then((res)=>{
         setList(res.data)
         })
