@@ -14,8 +14,8 @@ const Listing =()=>{
     const [faishonList,setFaishonList] = useState();
 
     useEffect(()=>{
-        // sessionStorage.setItem('faishontypeId',faishonid)
         let faishonid = params.faishontypeId;
+        sessionStorage.setItem('faishontypeId',faishonid)
         axios.get(`${base_url}/products?faishontypeId=${faishonid}`)
         .then((res)=>{
         setFaishonList(res.data)

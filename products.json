@@ -3,8 +3,10 @@
                 "product_id":1,
                 "faishontype_id":1,
                 "product_img":"https://i.ibb.co/fSFDh3W/Saree1.jpg",
-                "product_name":"Purple with stone work",
-                "content":"",
+                "product_name":"Purple Saree With Stone Work",
+                "content":"Beautiful Georgette Party Wear Saree ",
+                "rating":4.5,
+                "color":"Purple",
                 "cost":"1000"
             },
             {
@@ -12,7 +14,9 @@
                 "faishontype_id":1,
                 "product_img":"https://i.ibb.co/q780s4r/saree2.jpg",
                 "product_name":"kanjivaram pure silk saree",
-                "content":"",
+                "content":"kanjivaram pure silk saree",
+                "rating":4.5,
+                "color":"Green",
                 "cost":"1500"
             },
             {
@@ -20,7 +24,9 @@
                 "faishontype_id":1,
                 "product_img":"https://i.ibb.co/cLddWV6/saree3.jpg",
                 "product_name":"Ambroidered in yellow",
-                "content":"",
+                "content":"Saree With Beautiful White Ambroidery on it",
+                "rating":5,
+                "color":"Yellow",
                 "cost":"900"
             },
             {            
@@ -417,6 +423,295 @@
                 "product_name":"Formals",
                 "content":"",
                 "cost":2000
-            }
+            },
+            {
+                "category_id":2,
+                "product_id":55,     
+                "product_name":"Mama Earth Onion shampoo",
+                "product_img": "https://i.ibb.co/7WgZhFW/Onion-Shampoo1.jpg",
+                "average_rating": 4.2,
+                "cost": 300
+              },
+              {     
+                "category_id":2,
+                "product_id":56,      
+                "product_name":"Panteen Pro-V",
+                "product_img": "https://i.ibb.co/p0sfbXm/Panteen-Shampoo3.jpg",
+                "average_rating": 4.2,
+                "cost": 200
+              },
+              {        
+                "category_id":2, 
+                "product_id":57,   
+                "product_name":"Tresseme",
+                "product_img": "https://i.ibb.co/P5xSGZT/Tresseme-Shampoo2.jpg",
+                "average_rating": 4.2,
+                "cost": 300
+              },
+              {        
+                "category_id":2,
+                "product_id":58,    
+                "product_name":"Mama Earth onion Hairoil",
+                "product_img": "https://i.ibb.co/8PcwSmk/Aromine-Hairoil1.jpg",
+                "average_rating": 4.2,
+                "cost": 200
+              },
+              {        
+                "category_id":2,  
+                "product_id":59,   
+                "product_name":"Amla",
+                "product_img": "https://i.ibb.co/c881VTv/Amla-Hairoil2.jpg",
+                "average_rating": 4.2,
+                "cost": 150
+              },
+              {
+                "category_id":2, 
+                "product_id":60,
+               "product_name":"Maybeau",
+                "product_img": "https://i.ibb.co/qDstGBx/serum1.jpg",
+                "average_rating": 4.2,
+                "cost": 300
+              },
+              {   
+                "category_id":2, 
+                "product_id":61,
+                "product_name":"hair Perfect",
+                "product_img": "https://i.ibb.co/yPt6SYy/serum2.jpg",
+                "average_rating": 4.2,
+                "cost": 300
+              },
+              {
+                "category_id":3,
+                "product_id":62,            
+                "product_name":" Watermelon Sunscreen",
+                "brand":"Aqualogica",
+                "product_img": "https://i.ibb.co/Wc56Cj7/aqualogica-Sunscreen.jpg",
+                "average_rating": 4.2,
+                "cost": 400
+              },
+              {
+                "category_id":3,
+                "product_id":63,
+                "product_name":"Cucumber Sunscreen",
+                "brand":"Aqualogica",
+                "product_img": "https://i.ibb.co/CwsxKfD/aqualogica-Sunscreen2.jpg",
+                "average_rating": 4.2,
+                "cost": 400
+              },
+              {
+                "category_id":3,
+                "product_id":64,
+                "product_name":"Sunscreen",
+                "brand":"Mamaearth",
+                "product_img": "https://i.ibb.co/xgrTbLs/Mamaearth-Sunscreen.jpg",
+                "average_rating": 4.2,
+                "cost": 250
+              },
+              {
+                "category_id":3,
+                "product_id":65,
+                "product_name":"Toner",
+                "brand":"Biotique",
+                "product_img": "https://i.ibb.co/fnKt28v/Biotique-Toner1.jpg",
+                "average_rating": 4.2,
+                "cost": 200
+              },
+              {
+                "category_id":3,
+                "product_id":66,
+                "product_name":"Toner",
+                "brand":"Goodvibes",
+                "product_img": "https://i.ibb.co/XkgG0kW/Goodvibes-Toner2.jpg",
+                "average_rating": 4.2,
+                "cost": 260
+              },
+              {
+                "category_id":3,
+                "product_id":67,
+                "product_name":"Moisturizer",
+                "brand":"Dot & Key",
+                "product_img": "https://i.ibb.co/HXCQK64/Dot-key-Moisturizer.jpg",
+                "average_rating": 4.2,
+                "cost": 350
+              },
+              {
+                  "category_id":3,
+                  "product_id":68,
+                  "product_name":"Moisturizer",
+                  "brand":"Ponds Age Miracle",
+                  "product_img": "https://i.ibb.co/pRth3C6/Ponds-Cream.jpg",
+                  "average_rating": 4.2,
+                  "cost": 300
+                },
+                {
+                  "category_id":3,
+                  "product_id":69,
+                  "product_name":"vitamin c serum",
+                  "brand":"Lakme",
+                  "product_img": "https://i.ibb.co/w4TKNyn/Lakme-Serum1.jpg",
+                  "average_rating": 4.2,
+                  "cost": 499
+                },
+                {
+                  "category_id":3,
+                  "product_id":70,
+                  "product_name":"Lip Balm",
+                  "brand":"Nevia",
+                  "product_img": "https://i.ibb.co/3vdH7Hb/Nevia-Lipbalm.jpg",
+                  "average_rating": 4.2,
+                  "cost": 150
+                },
+                {
+                  "category_id":4,
+                  "product_id":71,
+                  "product_name":"Foundation shade Light",
+                  "brand":"Maybellene",
+                  "product_img": "https://i.ibb.co/0rd6r8k/Fitme-Foundation1.jpg",
+                  "average_rating": 4.2,
+                  "cost": 300
+                },
+                {
+                  "category_id":4,
+                  "product_id":72,
+                  "product_name":"Foundation shade Dark",
+                  "brand":"Maybellene",
+                  "product_img": "https://i.ibb.co/Gvmn4M4/Fitme-Foundation2.jpg",
+                  "average_rating": 4.2,
+                  "cost": 300
+                },
+                {
+                  "category_id":4,
+                  "product_id":73,
+                  "product_name":"Mascarra",
+                  "brand":"Lakme",
+                  "product_img": "https://i.ibb.co/WcYbqVW/Lakme-Eyeconic-Mascarra2.jpg",
+                  "average_rating": 4.2,
+                  "cost": 270
+                },
+                {
+                  "category_id":4,
+                  "product_id":74,
+                  "product_name":"Eyeliner",
+                  "brand":"Lakme",
+                  "product_img": "https://i.ibb.co/jgN9NC0/Lakme-Eyeliner1.jpg",
+                  "average_rating": 4.2,
+                  "cost": 250
+                },
+                {
+                  "category_id":4,
+                  "product_id":75,
+                  "product_name":"Concieler",
+                  "brand":"NYX",
+                  "product_img": "https://i.ibb.co/BZkkzK5/Nyx-Concealer2.jpg",
+                  "average_rating": 4.2,
+                  "cost": 300
+                },
+                {
+                  "category_id":4,
+                  "product_id":76,
+                  "product_name":"Concieler",
+                  "brand":"Maybellene",
+                  "product_img": "https://i.ibb.co/s3W1v0B/Maybellene-Concealer1.jpg",
+                  "average_rating": 4.2,
+                  "cost": 350
+                },
+                {
+                  "category_id":4,
+                  "product_id":77,
+                  "product_name":"Compact",
+                  "brand":"NYX",
+                  "product_img": "https://i.ibb.co/5K8HP4H/Nyx-Compact1.jpg",
+                  "average_rating": 4.2,
+                  "cost": 300
+                },
+                {
+                  "category_id":4,
+                  "product_id":78,
+                  "product_name":"Concieler",
+                  "brand":"NYX",
+                  "product_img": "https://i.ibb.co/hZZtWRq/Nyx-Compact2.jpg",
+                  "average_rating": 4.2,
+                  "cost": 300
+                },
+                {
+                  "category_id":4,
+                  "product_id":79,
+                  "product_name":"Lipstick Matte",
+                  "brand":"Maybellene",
+                  "color":"Light chocolate",
+                  "product_img": "https://i.ibb.co/GsCczpk/Maybellene-Lipstick1.jpg",
+                  "average_rating": 4.2,
+                  "cost": 400
+                },
+                {
+                    "category_id":4,
+                    "product_id":80,
+                    "product_name":"Lipstick Matte",
+                    "brand":"Lakme",
+                    "color":"Rose red",
+                    "product_img": "https://i.ibb.co/KKSpL0D/Lakme-Lipstick2.jpg",
+                    "average_rating": 4.2,
+                    "cost": 445
+                  },
+                  {
+                    "category_id":5,
+                    "product_id":81,
+                    "product_name":"Perfume",
+                    "brand":"La'France",
+                    "product_img": "https://i.ibb.co/J7c552x/Perfume1.jpg",
+                    "average_rating": 4.2,
+                    "cost": 250
+                  },
+                  {
+                    "category_id":5,
+                    "product_id":82,
+                    "product_name":"Perfume",
+                    "brand":"Lavender flora",
+                    "product_img": "https://i.ibb.co/W3CbzqY/Perfume2.jpg",
+                    "average_rating": 4.2,
+                    "cost": 260
+                  },
+                  {
+                    "category_id":5,
+                    "product_id":83,
+                    "product_name":"Perfume",
+                    "brand":"Watta girl",
+                    "product_img": "https://i.ibb.co/9NC4Nqp/perfume4.jpg",
+                    "average_rating": 4.2,
+                    "cost": 250
+                  },
+                  {
+                    "category_id":5,
+                    "product_id":84,
+                    "product_name":"Roll on",
+                    "brand":"Nivea",
+                    "product_img": "https://i.ibb.co/vzqSdq9/Rollon1.jpg",
+                    "average_rating": 4.2,
+                    "cost": 220
+                  },
+                  {
+                    "category_id":5,
+                    "product_id":85,
+                    "product_name":"Deo",
+                    "brand":"Dove",
+                    "product_img": "https://i.ibb.co/HHC58rS/Deo1.jpg",
+                    "cost": 200
+                  },
+                  {
+                    "category_id":5,
+                    "product_id":86,
+                    "product_name":"Deo",
+                    "brand":"Park Evenue",
+                    "product_img": "https://i.ibb.co/ftvBgzG/Deo2.jpg",
+                    "cost": 220
+                  },
+                  {
+                    "category_id":5,
+                    "product_id":87,
+                    "product_name":"Deo",
+                    "brand":"Wildstone",
+                    "product_img": "https://i.ibb.co/SrjL1pR/Deo3.jpg",
+                    "cost": 230
+                  }   
             
         ]

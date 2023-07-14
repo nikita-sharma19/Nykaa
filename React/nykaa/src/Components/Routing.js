@@ -7,7 +7,7 @@ import Home from './Home/Home';
 import Main from './Main';
 import Listing from './Listing/listingLogic';
 import CategoryList from "./Listing/categoryLogic";
-import Details from "./Details/detailsLogic";
+import DetailDisplay from "./Details/detailsLogic";
 import PlaceOrder from "./Orders/PlaceOrder";
 import ViewOrder from "./Orders/ViewOrder";
 import Product from "./Listing/products";
@@ -25,8 +25,8 @@ const Routing = ()=>{
                     <Route path='listing/:faishontypeId' element={<Listing/>}/>
                     <Route path='categories/:categoryId' element={<CategoryList/>}/>
                     <Route path='/products/:productId' element={<Product/>}/>
-                    <Route path='/details' element={<Details/>}/>
-                    <Route path='placeOrder/:productId' element={<PlaceOrder/>}/>
+                    <Route path='/details' element={<DetailDisplay/>}/>
+                    <Route path='placeOrder/:productName' element={<PlaceOrder/>}/>
                     <Route path='viewOrder' element={<ViewOrder/>}/> 
                     
                     {/* <Route path='listing/:categoryId' element={<Listing/>}/> */}

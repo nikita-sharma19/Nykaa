@@ -13,7 +13,8 @@ const CategoryList = ()=>{
 
     useEffect(()=>{
         let categoryid = params.categoryId;
-        axios.get(`${base_url}/allProducts?categoryId=${categoryid}`)
+        // axios.get(`${base_url}/allProducts?categoryId=${categoryid}`)
+        axios.get(`${base_url}/products?categoryId=${categoryid}`)
         .then((res)=>{
             setCategoryList(res.data)
         })

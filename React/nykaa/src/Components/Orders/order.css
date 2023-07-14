@@ -1,6 +1,23 @@
 .container{
-    background-color: aquamarine;
-    border: 2px solid red;
-    height:300px;
+    background-color: rgba(111, 121, 129, 0.12);
+    height:400px;
     width:100%
-;}
+}
+/* .panel panel-primary{
+    background-color: #fc2779;
+} */
+/* panel panel-primary */
+.panel-heading form-head{
+    background-color: #fc2779;
+}
+.submit{
+    border-style: none;
+    margin-left:20px;
+    background-color: #fc2779;
+    padding: 3px;
+    border-radius: 5px;
+    color:white;
+    font-size: 10px;
+    width: 5%;
+    height:30px;
+}

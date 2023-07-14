@@ -104,6 +104,18 @@ app.get('/details/:id',async(req,res)=>{
 // let id = new Mongo.ObjectId(req.params.id)
     // let query = {_id:id}
 
+app.get('/details',async(req,res)=>{
+    let query = {};
+    if(req.query.productId){
+        query = {product_id: Number(req.query.productId)}
+    }else{
+        query={}
+    }
+    let collection = "products"
+    let output = await getData(collection,query)
+    res.send(output);
+})
+
 app.get('/products',async (req,res)=>{
     let query = {};
     // if(req.query.faishontypeId && req.query.productId){
@@ -135,17 +147,7 @@ app.get('/products/:id',async(req,res)=>{
 })
 
 
-app.get('/details',async(req,res)=>{
-    let query = {};
-    if(req.query.productId){
-        query = {product_id: Number(req.query.productId)}
-    }else{
-        query={}
-    }
-    let collection = "products"
-    let output = await getData(collection,query)
-    res.send(output);
-})
+
 
 app.get('/filter/:faishontypeId',async(req,res)=>{
     let faishontypeId = Number(req.params.faishontypeId)
@@ -202,7 +204,7 @@ app.put('/updateOrder',async(req,res) => {
     let condition = {"_id":new Mongo.ObjectId(req.body._id)}
     let data = {
         $set:{
-            "status":req.body.status
+            "order status":req.body.status
         }
     }
     let output = await updateOrder(collection,condition,data)
@@ -217,7 +219,11 @@ app.delete('/deleteOrder',async(req,res) => {
     res.send(output)
 })
 
-
+app.listen(port,(err) => {
+    dbConnect()
+    if(err) throw err;
+    console.log(`Server is running on port ${port}`)
+})
 
 
 
@@ -227,11 +233,6 @@ app.delete('/deleteOrder',async(req,res) => {
 
 app.get('/indianwear',async (req,res)=>{
     let query = {};
-    // if(req.query.productId){
-    //     query = {"products.sarees":Number(req.query.productId)}
-    // }else{
-    //     query={}
-    // }
     let collection = "indianwear"
     let output = await getData(collection,query)
     res.send(output)
@@ -374,8 +375,3 @@ app.get('/fragrance',async (req,res)=>{
 // })
 
 
-app.listen(port,(err) => {
-    dbConnect()
-    if(err) throw err;
-    console.log(`Server is running on port ${port}`)
-})
