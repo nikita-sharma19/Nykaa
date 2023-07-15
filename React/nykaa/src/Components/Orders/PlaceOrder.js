@@ -2,8 +2,7 @@ import React,{useState} from 'react';
 import './order.css';
 import {useParams ,useNavigate} from 'react-router-dom';
 
-// const base_url ="https://nykaa-api-jfl3.onrender.com"
-const url = "https://nykaa-api-jfl3.onrender.com/orders"
+const url = "https://nykaa-api-jfl3.onrender.com/placeOrder"
 
 const PlaceOrder =()=>{
 
@@ -15,7 +14,8 @@ const PlaceOrder =()=>{
         product_name: params.productName,
         name: "Nikita",
         email: "nikita@111",
-        cost: Math.floor(Math.random()*1000),
+        cost: "",
+        // cost: Math.floor(Math.random()*1000),
         phone: "123456",
         address: "Hno. 12 Sec-1"
     };
@@ -32,7 +32,7 @@ const PlaceOrder =()=>{
     const checkout = () =>{
         console.log(values);
         fetch(url,{
-            method: 'POST',
+            method:'POST',
             headers:{
                 'accept':'application/json',
                 'ContentType':'application/json'

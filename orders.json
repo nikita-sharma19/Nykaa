@@ -1,3 +1,39 @@
-{
-  "orders":[]
-}
+[
+  {
+    "_id": "64897a8a6836f4eda73be383",
+    "name": "Ananya",
+    "email": "ananya@gmail.com",
+    "address": "Hno 23,Sector 4",
+    "phone": 76876800,
+    "cost": 900,
+    "faishontype_id": [
+      1,
+      2
+    ],
+    "status": "Order Delivered"
+  },
+  {
+    "_id": "6489816028a40ca37f94209e",
+    "name": "Ananya",
+    "email": "ananya@gmail.com",
+    "address": "Hno 23,Sector 4",
+    "phone": 76876800,
+    "cost": 900,
+    "faishontype_id": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Nikita",
+    "email": "nikita@gmail.com",
+    "address": "Hno 27,Sector 1",
+    "phone": 7687656,
+    "cost": 600,
+    "faishontype_id": [
+      2,
+      1
+    ],
+    "status": "Order shipped"
+  }
+]

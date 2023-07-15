@@ -70,6 +70,8 @@ async function getData(colName,query){
 //     }
 //     return output;
 // }
+
+//Function to Post data
 async function postData(colName,data){
     let output;
     try{
