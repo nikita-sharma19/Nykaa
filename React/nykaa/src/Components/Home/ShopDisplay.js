@@ -11,7 +11,7 @@ const ShopDisplay = (props)=>{
                         <h2 class="faishon-heading">{item.faishontype_name}</h2>
                         <div class="faishontype">                     
                             <img src={item.faishontype_img} alt={item.faishontype_name}/>
-                            <a>shop now</a>
+                            {/* <a>shop now</a> */}
                         </div>                          
                     </Link>                  
                 )

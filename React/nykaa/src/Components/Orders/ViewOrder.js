@@ -15,7 +15,7 @@ const ViewOrder =()=>{
 
     return(
         <>
-        <h1>View Order</h1>
+        {/* <h1>View Order</h1> */}
         <DisplayOrder orderData={orders}/>
       </>
         

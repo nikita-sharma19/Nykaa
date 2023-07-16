@@ -1,7 +1,7 @@
 .filter{
     width:15%;
     height:500px;
-    border:2px solid black;
+    /* border:2px solid black; */
     margin-left: 2%;
 }
 .heading{
@@ -28,7 +28,7 @@
 .listingDiv{
     display:flex;
     margin-top: 2%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .filter-container{

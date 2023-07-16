@@ -14,8 +14,8 @@ const PlaceOrder =()=>{
         product_name: params.productName,
         name: "Nikita",
         email: "nikita@111",
-        cost: "",
-        // cost: Math.floor(Math.random()*1000),
+        // cost: "",
+        cost: Math.floor(Math.random()*1000),
         phone: "123456",
         address: "Hno. 12 Sec-1"
     };
@@ -30,14 +30,14 @@ const PlaceOrder =()=>{
     };
 
     const checkout = () =>{
-        console.log(values);
+        // console.log(values);
         fetch(url,{
             method:'POST',
             headers:{
                 'accept':'application/json',
                 'ContentType':'application/json'
             },
-            body: JSON.stringify(values)
+            body:JSON.stringify(values)
         })
         .then(navigate(`/viewOrder`))
     }

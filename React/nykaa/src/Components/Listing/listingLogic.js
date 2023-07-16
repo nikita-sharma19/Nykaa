@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from 'react';
-import './listing.css';
+// import './listing.css';
 import ListingDisplay from './listingDisplay';
 import {useParams} from 'react-router-dom';
 import axios from 'axios';
@@ -25,11 +25,11 @@ const Listing =()=>{
     return(
         <>
         <div class="listingDiv">
-            {/* <div class="filter">
+            <div class="filter">
                 <div class="cuisines">
                     <div></div>
                 </div>
-            </div> */}
+            </div>
             <ListingDisplay listData={faishonList}/>
             
         </div>

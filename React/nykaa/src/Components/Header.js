@@ -61,17 +61,17 @@ const Header =()=>{
                 </div>
             </div>
         </div>
-        <div id="navbar">
+        {/* <div id="navbar">
             <div className="nav">
                 <ul>                 
                     <li><a target="_blank" href="/">Nykaa Fashion</a></li>
-                    <li><a target="_blank" href="/">Haircare</a></li>
+                    <Link to=''>Haircare</Link>
                     <li><a target="_blank" href="/">Skincare</a></li>
                     <li><a target="_blank" href="/">Makeup</a></li>
                     <li><a target="_blank" href="/">Fragrance</a></li>
                 </ul>
             </div>
-        </div>
+        </div> */}
     </header>
         </>
     )

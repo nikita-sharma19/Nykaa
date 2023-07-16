@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import ShowProduct from './showProducts'
-import './listing.css';
+// import './listing.css';
 import {useParams} from 'react-router-dom';
 import axios from 'axios';
 
